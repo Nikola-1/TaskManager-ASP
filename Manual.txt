@@ -1,0 +1,11 @@
+Znaci 
+Postoji Task Component koji spaja TaskMenu,TaskDisplay i u TaskDisplay je Task komponenta 
+Task Display sadrzi TextEditor 
+Aplikacija vadi podatke iz supabase-a 
+Kad se budem vratio na ovaj projekat radim sledece:
+Pravim get,set,delete,update za grupe
+Sredjujem interface za grupe 
+koristi UseEffect,useRef(koristi se uz ref=peraRef u elementu),useMemo,
+ne zaboravi da await uvek ide uz async inace se data i error podaci nece pojaviti nakon izvrsenja koda 
+useEffect ne moze u if else da ide 
+

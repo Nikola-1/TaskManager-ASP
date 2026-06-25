@@ -18,9 +18,10 @@ import { useScope } from "@/app/context/ScopeContext";
 const Micro = Micro_5({weight:"400",subsets:['latin'],});
 export default function Nav(){
         const [active,setActive] = useState(false);
-       
+      
     return(
-        <div className={ +  active ? "nav float-left md:w-36   bg-blue-300 h-screen z-10 transition-transform " : "nav float-left md:w-36   bg-blue-300 h-fit md:h-screen z-10 transition-transform"}>
+        
+        <div  className={ +  active ? "nav float-left md:w-36   bg-blue-300 h-screen z-10 transition-transform " : "nav float-left md:w-36   bg-blue-300 h-fit md:h-screen z-10 transition-transform"}>
 
              <div className="wrapper m-auto  md:w-24  ">
                 <div className="flex flex-row md:block justify-between align-middle items-center m-auto w-11/12">
@@ -37,6 +38,7 @@ export default function Nav(){
                     <li className="m-3 flex justify-center align-middle"><Link href="/pages/Habits"><Image src={sync} alt="sync image"  width={40} height={40} /></Link></li>
                      <li className="m-3 flex justify-center align-middle"><Link href="/pages/Groups"><Image src={Groups} alt="sync image"  width={40} height={40} /></Link></li>
                     <li className="m-3 flex justify-center align-middle"><Link href="/pages/Pomodoro"><Image src={clock} alt="clock image"  width={40} height={40} /></Link></li>
+                    
                     <hr className="text-blue-900 border-blue-900 "></hr>
                 </ul>
                 

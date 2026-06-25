@@ -1,8 +1,8 @@
 'use client'
 import { useAuth } from '@/app/context/AuthContext'
 import React, { useState } from 'react'
-import AccountOptionsComponent from './AccountOptionsComponent/AccountOptionsComponent';
-import AccountDisplayComponent from './AccountDisplayComponent/AccountDisplayComponent';
+import AccountOptionsComponent from './AccountOptions';
+import AccountDisplayComponent from './AccountDisplay';
 
 export default function AccountComponent(){
     const {user,logout} = useAuth();

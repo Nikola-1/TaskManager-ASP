@@ -3,43 +3,45 @@ import { useParams } from 'next/navigation';
 
 import React, { Children, useEffect } from 'react'
 import { createContext } from 'react'
-
+import { getGroupById } from '../api/api';
+import { GroupType } from '../Types/GroupType';
 
 interface ScopeContextType { //definisem oblike podatka u contextu
   
-    groupId: number | null;
-    setGroupId: (groupId: number | null) => void; 
-   
+    group: GroupType|null;
+    setGroup:  React.Dispatch<React.SetStateAction<GroupType | null>>;
+   groupId: number | null;
 }
 
 const ScopeContext = createContext<ScopeContextType | undefined>(undefined); // inicijalizujem context
-export const ScopeProvider = ({ children }: { children: React.ReactNode }) => { // pravim provider komponentu koja ce obaviti context
-          const params = useParams<{ group?: string }>();
+export const ScopeProvider = ({ children }: { children: React.ReactNode }) => {
+  const params = useParams<{ group?: string }>();
 
-   
-    
-    const [groupId,setGroupId] = React.useState<number | null>(null); // inicijalizujem state koji cu da delim kroz context opet
-    
-    useEffect(()=>{
-    
-       const g = params?.group;
-         if(g){
-         
-                setGroupId(parseInt(g));
-            }else{
-                
-                setGroupId(null);
-            }
-            console.log(params?.group);
-            
-    },[params?.group])
-   
+  const [group, setGroup] = React.useState<GroupType | null>(null);
+
+  const groupId = params?.group ? Number(params.group) : null;
+
+  useEffect(() => {
+    async function loadGroup() {
+      if (!params?.group) {
+        setGroup(null);
+        return;
+      }
+
+      const data = await getGroupById(Number(params.group));
+
+      setGroup(data[0]);
+    }
+
+    loadGroup();
+  }, [params?.group]);
+
   return (
-    <ScopeContext.Provider value={{groupId,setGroupId}}> {/* prosledjujem state kroz context */}
-    {children}
+    <ScopeContext.Provider value={{ group, setGroup, groupId }}>
+      {children}
     </ScopeContext.Provider>
-  )
-}
+  );
+};
 export function useScope(){
     const context = React.useContext(ScopeContext);
     if(!context) throw new Error("useScope mora biti koriscen unutar ScopeProvider-a");

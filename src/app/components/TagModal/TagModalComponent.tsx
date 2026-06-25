@@ -1,13 +1,16 @@
+import { editTag, getTags, postTag } from '@/app/api/api';
 import { supabase } from '@/app/connection/supabaseclient';
 import { useAuth } from '@/app/context/AuthContext';
 import { useScope } from '@/app/context/ScopeContext';
 import { BackgroundColor } from '@tiptap/extension-text-style';
+import { group } from 'console';
 import React, { act, useEffect, useRef, useState } from 'react'
+import toast from 'react-hot-toast';
 interface TagModalProps{
     isActive:boolean;
     setActive:React.Dispatch<React.SetStateAction<boolean>>;
     Mode:string | undefined;
-      onUpdate: React.Dispatch<React.SetStateAction<void>>;
+      onUpdate: ()=>void;
     selectedTag:object | null;
     setSelectedTag:React.Dispatch<React.SetStateAction<object | null>>;
 }
@@ -42,51 +45,30 @@ const TagModalComponent = ({isActive,setActive,onUpdate,Mode,selectedTag,setSele
             }
     }
     const AddTag = async () =>{
+        console.log(user);
+       
         let data,error;
-        if(groupId != null){
-            ({data, error} = await supabase.from("Tags").insert({name:name,color:color,parent_id:parentTag,User_id:user?.id,group_id:groupId}));
-        }
-        else{
-            ({data, error} = await supabase.from("Tags").insert({name:name,color:color,parent_id:parentTag,User_id:user?.id}));
-        }
+        
+        const{message,postedTag} =  await postTag(color,name,user?.user.id,parentTag,groupId);
+        
         
 
-        if(error){
-            console.log(error)
-        }
-        else{
-            GetTags();
+            toast.success(message);
+        
             setActive(false);
             onUpdate();
-        }
+        
     }
     const UpdateTag = async () =>{
-        const {data,error} = await supabase.from("Tags").update({name:name,color:color,parent_id:parentTag,User_id:user?.id}).eq("User_id",user?.id).eq("id",selectedTag?.id);
-
-        if(error){
-            console.log(error)
-        }
-        else{
-            
-            GetTags();
+        
+      const {message}=  await editTag(selectedTag?.id,name,color,parentTag);
+            toast.success(message);
+          
             setActive(false);
             onUpdate();
-        }
+        
     }
-    const GetTags= async() =>{
-        const {data,error} = await supabase.from("Tags").select("*").eq("User_id",user?.id).order("id",{ascending:true});
-
-        if(error){
-            console.log(error);
-        }
-        else{
-            
-            setTags(data || []);
-            console.log(data);
-            
-        }
-
-    }
+    
     const NoChild = async () =>{
         const {data,error } = await supabase.from("Tags").select("*").eq("parent_id",selectedTag?.id);
 
@@ -126,9 +108,17 @@ const TagModalComponent = ({isActive,setActive,onUpdate,Mode,selectedTag,setSele
     }
 
    useEffect(()=>{
-        GetTags();
-       
-       
+    const getTagsForParent = async()=>{
+            try{
+                     const {data}= await getTags(user?.user.id,groupId);
+       setTags(data)
+       console.log(tags);
+            }
+            catch(err){
+                console.log(err);
+            }
+    }
+    getTagsForParent();
    },[isActive])
    useEffect(()=>{
    

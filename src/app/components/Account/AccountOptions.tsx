@@ -1,14 +1,14 @@
 import React from 'react'
-import { useAuth } from '@/app/context/AuthContext'
-import { UserType } from '../../TaskComponent/Types/UserType';
 
-interface AccountOptionsComponentProps {
+import { UserType } from '../../Types/UserType';
+
+interface AccountOptionsProps {
     user: UserType | null;
     logout: () => void;
     visibleOptions?:boolean;
     setvisibleOptions:React.Dispatch<React.SetStateAction<boolean>>;
 }
-const AccountOptionsComponent = ({user,logout,visibleOptions,setvisibleOptions}: AccountOptionsComponentProps) => {
+const AccountOptions = ({logout,visibleOptions,setvisibleOptions}: AccountOptionsProps) => {
     
     
 
@@ -24,5 +24,5 @@ const AccountOptionsComponent = ({user,logout,visibleOptions,setvisibleOptions}:
   )
 }
 
-export default AccountOptionsComponent
+export default AccountOptions
 

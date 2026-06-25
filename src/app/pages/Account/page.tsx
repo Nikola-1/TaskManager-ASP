@@ -1,4 +1,4 @@
-import AccountComponent from '@/app/components/AccountComponent/AccountComponent'
+import AccountComponent from '@/app/components/Account/AccountComponent'
 import React from 'react'
 
 export default function page(){

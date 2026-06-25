@@ -6,6 +6,7 @@ import "./globals.css";
 import {AuthProvider} from "./context/AuthContext";
 import ClientLayout from "./ClientLayout";
 import { ScopeProvider } from "./context/ScopeContext";
+import ToastProvider from "./components/ToastProvider/ToastProvider";
 
 
 
@@ -46,7 +47,7 @@ export default function RootLayout({
          
          <AuthProvider>
          <ScopeProvider >
-          
+           <ToastProvider />
           <ClientLayout>{children}</ClientLayout>
           </ScopeProvider>
           </AuthProvider>

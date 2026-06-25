@@ -4,6 +4,7 @@ import Image from "next/image";
 import icon from "../../../assets/img/3d-briefcase.png"
 import { supabase } from "@/app/connection/supabaseclient";
 import { useEffect, useState } from "react";
+import { getStickers } from "@/app/api/api";
 interface ModalProps{
     setActive:React.Dispatch<React.SetStateAction<boolean>>;
     isActive:boolean
@@ -14,19 +15,17 @@ export default function SmileModal({isActive,setActive,setActiveStickerProp,Acti
     const [stickers,setStickers] = useState<object[]>();
    
     const [name,setName] = useState<string>();
-    async function getStickers(){
-        const {data,error} = await supabase.from('Stickers').select('*');
+    async function Stickers(){
+        const stickers = await getStickers();
 
-        if(!error){
-            setStickers(data);
-        }
-        else{
-            console.log(error.message);
-        }
+       
+            console.log(stickers);
+            setStickers(stickers);
+       
 
     }
     useEffect(()=>{
-        getStickers();
+        Stickers();
     },[])
     useEffect(()=>{
         console.log(ActiveStickerProp);

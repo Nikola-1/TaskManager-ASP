@@ -1,20 +1,22 @@
-import { supabase } from "@/app/connection/supabaseclient";
+import { getSticker, getStickerById } from "@/app/api/api";
 import { useEffect, useState } from "react";
 
 
 
 interface TaskCategoryImageProps{
                
-                id:number
+                id:number | undefined
                 refreshFlag:boolean
 }
 export default function TaskCategoryImage({id,refreshFlag}:TaskCategoryImageProps){
            const [imageUrl,setImageUrl] = useState<string | null>(null);
+          
             useEffect(()=>{
+                
                 async function  getImage(){
-                   
-                const {data,error} = await supabase.from("Categories").select("Stickers(sticker_path)").eq('id',id).single();
-
+                    console.log(id);
+                const {data,error} = await getStickerById(id);
+                console.log(data);
                 if(!error && data){
                     setImageUrl(data.Stickers.sticker_path)
                 }

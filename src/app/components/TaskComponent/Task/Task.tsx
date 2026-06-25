@@ -4,12 +4,15 @@ import { Editor } from '@tiptap/core';
 import TaskCategoryImage from '../TaskDisplay/TaskCategoryImage';
 import { faCheckSquare, faClose, faDotCircle, faDownload, faEllipsis, faFile, faFileAlt, faFlag, faNoteSticky, faSquareCheck, faTag, faTrashAlt } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { TaskType } from '../Types/TaskType';
-import useOptionsMenu from '../hooks/useOptionsMenu';
+import { TaskType } from '../../../Types/TaskType';
+import useOptionsMenu from '../../../hooks/useOptionsMenu';
 import { OptionsMenu } from '../../OptionsMenu/OptionsMenu';
 import {  useEffect, useRef, useState } from 'react';
 import { useAuth } from '@/app/context/AuthContext';
 import { useScope } from '@/app/context/ScopeContext';
+import { CreateTagTaskConnection, deleteOneDeleted, deleteTagTaskConnection, deleteTask, getTags, getTasks, updateStatus } from '@/app/api/api';
+import Image from 'next/image';
+import toast from 'react-hot-toast';
 export interface TaskProps {
   task: TaskType;
   selectedTask: TaskType | null;
@@ -22,14 +25,9 @@ export interface TaskProps {
 }
 export default function Task({ task, filter, setSelectedTask, selectedTask, refreshTasks,refreshFlag }: TaskProps) {
 
-  const { groupId} = useScope();
+  const { group} = useScope();
 
-  const updateStatus = async (id: number) => {
-    const { error } = await supabase.from("tasks").update({ Completed: !task.Completed }).eq("id", id);
-    if (!error) refreshTasks();
-
-    
-  };
+ 
   const Download = async () => {
       const {data,error} = await supabase.storage.from("FileBucket").download(`${task.folder_name}/${task.file_name}`);
 
@@ -52,14 +50,14 @@ export default function Task({ task, filter, setSelectedTask, selectedTask, refr
   const { open, toggleMenu,setOpen, options } = useOptionsMenu("", {
      
       complete:{
-                label:"Mark as complete",
+                label:task.completed ? "Remove completed" : "Mark as complete",
                 icon:faCheckSquare,
-                action:()=>{console.log("mark")}
+                action:async ()=>{await updateStatus(task.id);await refreshTasks()}
             },
              Tag:{
                 label:"Add tag",
                 icon:faTag,
-                action:async()=>{setOpenMenuTag2(true); const {data:dataTagsMenu,error:errorTagsMenu} = await supabase.from("Tags").select("*").eq("User_id",user?.id); 
+                action:async()=>{setOpenMenuTag2(true); const dataTagsMenu = await getTags(user?.user.id)
                 if(dataTagsMenu) setTags(dataTagsMenu);
                 console.log(tags);
                }
@@ -79,7 +77,7 @@ export default function Task({ task, filter, setSelectedTask, selectedTask, refr
                     
       const file = e.target.files[0];
       if (!file) {
-        console.log("User zatvorio File Explorer bez izbora fajla");
+        console.log("Korisnik zatvorio File Explorer bez izbora fajla");
         return;
       }
       
@@ -110,27 +108,27 @@ export default function Task({ task, filter, setSelectedTask, selectedTask, refr
     const {open:openMenu2,toggleMenu:toggleMenuTag2,setOpen:setOpenMenuTag2,options:optionsTag2,id:idTag2,setId:setIdTag2} = useOptionsMenu("tag",{
       ...(tags.map((tag:any) => ({
         [`tag-${tag.id}`]:{
-          label:task.tags_tasks?.some((t:any) => t.id_tag === tag.id) ? `✔  ${tag.name}` : `${tag.name}`,
+          label:task.tags?.some((t:any) => t.id === tag.id) ? `✔  ${tag.name}` : `${tag.name}`,
           icon:faTag,
           action:async()=>{
             console.log(`Adding tag ${tag.name} to task ${task.id}`);
-            if(task.tags_tasks?.some((t:any) => t.id_tag === tag.id)){
-              const {data,error} = await supabase.from("tags_tasks").delete().eq("id_tag",tag.id).eq("id_task",task.id).eq("user_id",user?.id);
+            if(task.tags?.some((t:any) => t.id === tag.id)){
+              await deleteTagTaskConnection(tag.id,task.id);
               
-              if(!error){
+             
                 console.log("Tag removed from task");
                 refreshTasks();
                 ClosemenuTag2();
-              }
+              
               return;
             }
             else{
-              const {data,error} = await supabase.from("tags_tasks").insert({id_tag:tag.id,id_task:task.id,user_id:user?.id});
-              if(!error){
+               await  CreateTagTaskConnection(task.id,tag.id)
+              
                 console.log("Tag added to task");
-                refreshTasks();
+                 refreshTasks();
                 ClosemenuTag2();
-              }
+              
 
             }
           }
@@ -147,11 +145,7 @@ export default function Task({ task, filter, setSelectedTask, selectedTask, refr
   }
   const [X,setX] = useState<number>(0);
     const [Y,setY] = useState<number>(0);
-  const deleteOneDeleted = async(id:number)=>{
-          await supabase.from("tasks").delete().eq("id",id);
-          setSelectedTask(null);
-           refreshTasks();
-      }
+  
  const DeleteData = async (id:number)=>{
         
         const { error } = await supabase.from("tasks").update({Deleted:"TRUE"}).eq("id", id);
@@ -174,8 +168,9 @@ export default function Task({ task, filter, setSelectedTask, selectedTask, refr
 
            useEffect(()=>{
             console.log(task);
-            console.log("GroupId in Task component:", groupId);
-           },[])
+            console.log(group)
+            console.log("GroupId in Task component:", group?.id);
+           },[group?.id])
   return (
     <div
       
@@ -187,17 +182,18 @@ export default function Task({ task, filter, setSelectedTask, selectedTask, refr
         
       }} className={` flex justify-between w-full items-center text-blue-900 transition-all p-3 cursor-pointer ${
         selectedTask === task ? "bg-blue-400 rounded-md" : "hover:bg-blue-300 rounded-md"
-      } ${task.Completed == true ? `opacity-50 bg-blue-300` : ``}`}>
+      } ${task.completed == true ? `opacity-50 bg-blue-300` : ``}`}>
       <div className={`flex items-center align-top ${user?.display == false ? "" : "p-5 "}`}>
         {/*filter == "Completed" ?  <input checked={task.Completed}  type="checkbox" className="m-1" onChange={() => updateStatus(task.id)} /> :  <input  type="checkbox" className="m-1" onChange={() => updateStatus(task.id)} />*/}
         
         <div className='flex flex-col'>
           <div className='flex'>
             <div className='flex'>
-            <input checked={task.Completed}  type="checkbox" className="m-1" onChange={() => updateStatus(task.id)} />
+            <input checked={task.completed}  type="checkbox" className="m-1" onChange={async() => {await updateStatus(task.id); await refreshTasks()}} />
         <p>{task.name}</p>
         </div>
-         {task.category_id && <TaskCategoryImage id={task.category_id} refreshFlag={refreshFlag} />}
+        
+         {task.category_id ? <img src={`/img/${task.sticker_path}.png`} width={20} height={20}></img> : null}
          </div>
          {task.file_name != null ?
          <div className='flex'>
@@ -206,7 +202,9 @@ export default function Task({ task, filter, setSelectedTask, selectedTask, refr
            <p className='bg-blue-800 text-white text-xs rounded-md p-1 mx-1'><button onClick={Download}><FontAwesomeIcon  icon={faDownload}/></button></p> 
         </div>
          : ""} 
-        {task.tags_tasks?.map((tag: any) => <p className={`m-1  text-white p-1 text-sm rounded-md w-fit`} style={tag.Tags.color ? { backgroundColor:tag.Tags.color} : { backgroundColor:"#4463BD"}} key={tag.id}>{tag.Tags.name}</p>)}
+         <div className='flex items-start justify-start'>
+        {task.tags?.map((tag: any) => <p className={`m-1  text-white p-1 text-sm rounded-md w-fit`} style={tag.color ? { backgroundColor:tag.color} : { backgroundColor:"#4463BD"}} key={tag.id}>{tag.name}</p>)}
+        </div>
         </div>
        
        
@@ -217,10 +215,32 @@ export default function Task({ task, filter, setSelectedTask, selectedTask, refr
         <p className={`mx-2 ${task.date < new Date().toISOString().split("T")[0] ? "text-red-700" : ""}`}>{task.date ? DateExpression(task.date) : "no date"}</p>
         <FontAwesomeIcon
           icon={filter !== "Deleted" ? faClose : faTrashAlt}
-          onClick={async() => 
+          onClick={filter !== "Deleted" ? async() => {
+            try{
+             const {message}= await deleteTask(task.id);
+             toast.success(message);
+              refreshTasks();
+            }
+            catch(err){
+                  toast.error((err as Error).message);
+            }
+              
+          }
+          :
+          async() =>
+          {
+              try{
+             const {message}= await deleteOneDeleted(task.id);
+             toast.success(message);
+              refreshTasks();
+            }
+            catch(err){
+                  toast.error((err as Error).message);
+            }
+          }
             
-            filter !== "Deleted" ? DeleteData(task.id)
-              : deleteOneDeleted(task.id)
+            
+             
               
           }
           className="cursor-pointer mx-2"

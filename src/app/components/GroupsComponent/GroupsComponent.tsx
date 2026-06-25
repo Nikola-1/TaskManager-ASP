@@ -1,35 +1,107 @@
 'use client'
+import { deleteGroup, getAllGroups } from '@/app/api/api';
 import { supabase } from '@/app/connection/supabaseclient';
 import { useAuth } from '@/app/context/AuthContext';
+import useGroupState from '@/app/hooks/useGroupState';
+import { GroupType } from '@/app/Types/GroupType';
+import { isActive } from '@tiptap/core';
 import { useRouter } from 'next/navigation';
-import { setgroups } from 'process';
+import { getgroups, setgroups } from 'process';
 import React, { useEffect } from 'react'
-
-const GroupsComponent = () => {
+import toast from 'react-hot-toast';
+interface GroupStateProps{
+                EditOn:boolean,
+                setEditOn:React.Dispatch<React.SetStateAction<boolean>>;
+                Group:GroupType,
+                setGroup:React.Dispatch<React.SetStateAction<GroupType>>;
+                AddUserOn:boolean,
+                setAddUserOn:React.Dispatch<React.SetStateAction<boolean>>;
+                DeleteOn:boolean,
+                setDeleteOn:React.Dispatch<React.SetStateAction<boolean>>;
+}
+interface GroupsModalProps{
+    setActive:React.Dispatch<React.SetStateAction<boolean>>;
+    isActive:boolean
+    onUpdate: ()=>void;
+    setTaskFilter:React.Dispatch<React.SetStateAction<string>>;
+    setFilterImage:React.Dispatch<React.SetStateAction<string>>;
+    editListItem:object | null;
+    setEditListItem:React.Dispatch<React.SetStateAction<object | null>>;
+    Mode:string | undefined;
+    nameCategory:string | undefined;
+    setnameCategory:React.Dispatch<React.SetStateAction<string | undefined>>;
+     isActiveUser:boolean,
+    setActiveUser:React.Dispatch<React.SetStateAction<boolean>>;
+    refreshFlagGroups:()=>void
+}
+type GroupsModalAllProps = GroupsModalProps & GroupStateProps;
+const GroupsComponent = ({Group,Mode,DeleteOn,setGroup,EditOn,setActive,setEditOn,setAddUserOn,refreshFlagGroups,AddUserOn,setActiveUser}:GroupsModalAllProps) => {
     const [groups,setGroups] =React.useState<object[]>([]);
     const router = useRouter()
     const {user} =useAuth();
     const getGroups = async () => {
-            const {data,error} = await supabase.from('Groups').select('*,Users_Groups(*)').eq('Admin',user?.id);
-            if(error){
-                console.log("Error fetching groups:",error);
-            }else{
-                console.log("Fetched groups:",data);
-                setGroups(data || []);
-            }
+            const groupsData = await getAllGroups();
+            
+             
+            console.log(groupsData);
+             setGroups(groupsData);
+            
 
     }
     
     useEffect(()=>{
         getGroups();
-    },[])
+        
+    },[refreshFlagGroups])
+     
+   
+     
+     useEffect(()=>{
+        console.log(EditOn);
+    },[EditOn])
   return (
+
+   
     <div>
         {groups.map((group:any)=>(
-            <div onClick={()=>router.push(`/pages/Task/${group.id}`)} key={group.id} className='border p-4 m-4 rounded'>
-                <h2 className='text-xl font-bold mb-2'>{group.Name}</h2>
-                <p className='text-gray-600'>{group.Description}</p>
-                <p>{group.Users_Groups?.length || 0} members</p>
+            <div onClick={async()=>{
+                if(!EditOn && !AddUserOn && !DeleteOn){
+                         router.push(`/pages/Task/${group.id}`); 
+                }
+                else{
+                        
+                          if(EditOn){
+                            setGroup(group);
+                                 setActive(true);
+                                 setAddUserOn(false);
+                          }
+                         if(AddUserOn){
+                            setGroup(group);
+                                setActiveUser(true);
+                                   setEditOn(false);
+                         }
+                         if(DeleteOn){
+                            console.log(Group);
+                                await deleteGroup(group?.id);
+                                refreshFlagGroups();
+                                toast.success(`Successfully removed Group ${group?.name}`)
+                         }
+                         
+                         
+                }
+                
+               
+                
+                }} key={group.id} className={'border p-4 m-4 rounded  cursor-pointer relative ' }>
+                <div className='w-full h-4'></div>
+                {EditOn && <p className='absolute top-0 right-0  w-fit px-2 bg-blue-600 text-white text-center'>Edit</p>}
+                {AddUserOn && Mode == "Insert" && <p className='absolute top-0 right-0  w-fit px-2 bg-blue-600 text-white text-center'>Add User</p>}
+                   {AddUserOn && Mode == "Delete" && <p className='absolute top-0 right-0  w-fit px-2 bg-blue-600 text-white text-center'>Remove User</p>}
+                    {DeleteOn && Mode == "Delete" && <p className='absolute top-0 right-0  w-fit px-2 bg-red-600 text-white text-center'>Delete</p>}
+                <h2 className='text-xl font-bold mb-2'>{group.name}</h2>
+                
+                <p>{group.memberCount || 0} members</p>
+                <p className=' top-0 right-0  w-fit px-2 bg-green-600 text-white text-center'>New message</p>
             </div>
         ))}
    
