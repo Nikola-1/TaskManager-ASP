@@ -182,13 +182,21 @@ function toggleUserId(userId: number) {
   if (UsersIdArray.length === 0) return;
 
   if (Mode === "Insert") {
-    await addUsersToGroup(Group.id, UsersIdArray);
-      toast.success(`Successfully added Users to ${Group?.name}`);
+     try {
+  const data = await addUsersToGroup(Group.id, UsersIdArray);
+  toast.success(data.message);
+} catch (err) {
+  toast.error((err as Error).message);
+}
   }
 
   if (Mode === "Delete") {
-    await deleteUsersFromGroup(Group.id, UsersIdArray);
-      toast.success(`Successfully removed Users from ${Group?.name}`);
+    try {
+  const data = await deleteUsersFromGroup(Group.id, UsersIdArray);
+  toast.success(data.message);
+} catch (err) {
+  toast.error((err as Error).message);
+}
   }
   
   setActiveUser(false);

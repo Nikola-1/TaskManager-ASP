@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "BLra0Uwe6gmsXwBs8sTIMVi/FYzqc4Q6FhMcEc1nrEfk8Dw+jNhgyAU3X7LJHYgeOFmHe+ma6k6o5B/LFFAZ5g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\Modules\\Modules.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Nikola\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\Nikola\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
+    "C:\\Users\\Nikola\\.nuget\\packages\\bouncycastle.cryptography\\2.6.2\\bouncycastle.cryptography.2.6.2.nupkg.sha512",
+    "C:\\Users\\Nikola\\.nuget\\packages\\mailkit\\4.17.0\\mailkit.4.17.0.nupkg.sha512",
+    "C:\\Users\\Nikola\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\Nikola\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Nikola\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\Nikola\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\Nikola\\.nuget\\packages\\mimekit\\4.17.0\\mimekit.4.17.0.nupkg.sha512",
+    "C:\\Users\\Nikola\\.nuget\\packages\\system.formats.asn1\\8.0.1\\system.formats.asn1.8.0.1.nupkg.sha512",
+    "C:\\Users\\Nikola\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\Nikola\\.nuget\\packages\\system.security.cryptography.pkcs\\8.0.1\\system.security.cryptography.pkcs.8.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

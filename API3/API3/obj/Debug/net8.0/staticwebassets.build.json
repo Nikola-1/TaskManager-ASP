@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "EjzdZhZFhE7Sx3qAMGK6w5+WG7g2TvgfNR7tO16XT0M=",
+  "Source": "API3",
+  "BasePath": "_content/API3",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "API3\\wwwroot",
+      "Source": "API3",
+      "ContentRoot": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\API3\\wwwroot\\",
+      "BasePath": "_content/API3",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\API3\\wwwroot\\uploads\\2cccd878-57c6-4191-91a2-75cd4f25577c_Screenshot 2024-12-02 164818.png",
+      "SourceId": "API3",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\API3\\wwwroot\\",
+      "BasePath": "_content/API3",
+      "RelativePath": "uploads/2cccd878-57c6-4191-91a2-75cd4f25577c_Screenshot 2024-12-02 164818.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\2cccd878-57c6-4191-91a2-75cd4f25577c_Screenshot 2024-12-02 164818.png"
+    }
+  ]
+}

@@ -623,11 +623,13 @@ export async function addUsersToGroup(groupId: number, userIds: number[]) {
     })
   });
 
-  if (!res.ok) {
-    throw new Error("Failed to add users to group");
-  }
+ const data = await res.json();
 
-  return await res.json();
+if (!res.ok) {
+  throw new Error(data.message);
+}
+
+return data;
 }
 
 
@@ -712,9 +714,11 @@ export async function deleteUsersFromGroup(
     }),
   });
 
-  if (!res.ok) {
-    throw new Error("Failed to remove users from group");
-  }
+  const data = await res.json();
 
-  return await res.json();
+if (!res.ok) {
+  throw new Error(data.message);
+}
+
+return data;
 }

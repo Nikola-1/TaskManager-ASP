@@ -56,7 +56,7 @@ const OptionsGroupsComponent = ({setActiveGroup,isActiveGroup,EditOn,setEditOn,D
                           <li className="m-3 flex justify-center align-middle"><button onClick={()=>{setDeleteOn(!DeleteOn);setMode("Delete")}} ><Image src={"/img/deleteGroup.png"} alt="Calendar image"  width={40} height={40} /></button></li>
                           <li className="m-3 flex justify-center align-middle"><button   onClick={()=>{setAddUserOn(!AddUserOn);setMode("Insert");setDeleteOn(false)}}><Image src={"/img/AddUser.png"} alt="sync image"  width={60} height={60} /></button></li>
                            <li className="m-3 flex justify-center align-middle"><button  onClick={()=>{setAddUserOn(!AddUserOn);setMode("Delete");setDeleteOn(false)}}><Image src={"/img/RemoveUser.png"} alt="sync image"  width={60} height={60} /></button></li>
-                          <li className="m-3 flex justify-center align-middle"><button ><Image src={"/img/clock.png"} alt="clock image"  width={40} height={40} /></button></li>
+                         
                           <hr className="text-blue-900 border-blue-900 "></hr>
                       </ul>
                       

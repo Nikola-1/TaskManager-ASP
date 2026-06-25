@@ -1,0 +1,15 @@
+C:\Users\Nikola\Downloads\API3\API3\Modules\bin\Debug\net8.0\Modules.deps.json
+C:\Users\Nikola\Downloads\API3\API3\Modules\bin\Debug\net8.0\Modules.dll
+C:\Users\Nikola\Downloads\API3\API3\Modules\bin\Debug\net8.0\Modules.pdb
+C:\Users\Nikola\Downloads\API3\API3\Modules\obj\Debug\net8.0\Modules.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nikola\Downloads\API3\API3\Modules\obj\Debug\net8.0\Modules.AssemblyInfoInputs.cache
+C:\Users\Nikola\Downloads\API3\API3\Modules\obj\Debug\net8.0\Modules.AssemblyInfo.cs
+C:\Users\Nikola\Downloads\API3\API3\Modules\obj\Debug\net8.0\Modules.csproj.CoreCompileInputs.cache
+C:\Users\Nikola\Downloads\API3\API3\Modules\obj\Debug\net8.0\Modules.dll
+C:\Users\Nikola\Downloads\API3\API3\Modules\obj\Debug\net8.0\refint\Modules.dll
+C:\Users\Nikola\Downloads\API3\API3\Modules\obj\Debug\net8.0\Modules.pdb
+C:\Users\Nikola\Downloads\API3\API3\Modules\obj\Debug\net8.0\ref\Modules.dll
+C:\Users\Nikola\Downloads\API3\API3\Modules\obj\Debug\net8.0\Modules.csproj.AssemblyReference.cache
+C:\Users\Nikola\Downloads\API3\API3\Modules\bin\Debug\net8.0\Domains.dll
+C:\Users\Nikola\Downloads\API3\API3\Modules\bin\Debug\net8.0\Domains.pdb
+C:\Users\Nikola\Downloads\API3\API3\Modules\obj\Debug\net8.0\Modules.csproj.Up2Date
