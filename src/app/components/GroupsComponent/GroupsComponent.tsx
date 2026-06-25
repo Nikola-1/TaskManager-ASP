@@ -1,12 +1,12 @@
 'use client'
 import { deleteGroup, getAllGroups } from '@/app/api/api';
-import { supabase } from '@/app/connection/supabaseclient';
+
 import { useAuth } from '@/app/context/AuthContext';
-import useGroupState from '@/app/hooks/useGroupState';
+
 import { GroupType } from '@/app/Types/GroupType';
-import { isActive } from '@tiptap/core';
+
 import { useRouter } from 'next/navigation';
-import { getgroups, setgroups } from 'process';
+
 import React, { useEffect } from 'react'
 import toast from 'react-hot-toast';
 interface GroupStateProps{
@@ -20,8 +20,8 @@ interface GroupStateProps{
                 setDeleteOn:React.Dispatch<React.SetStateAction<boolean>>;
 }
 interface GroupsModalProps{
-    setActive:React.Dispatch<React.SetStateAction<boolean>>;
-    isActive:boolean
+    setActiveGroup:React.Dispatch<React.SetStateAction<boolean>>;
+    isActiveGroup:boolean
     onUpdate: ()=>void;
     setTaskFilter:React.Dispatch<React.SetStateAction<string>>;
     setFilterImage:React.Dispatch<React.SetStateAction<string>>;
@@ -35,7 +35,7 @@ interface GroupsModalProps{
     refreshFlagGroups:()=>void
 }
 type GroupsModalAllProps = GroupsModalProps & GroupStateProps;
-const GroupsComponent = ({Group,Mode,DeleteOn,setGroup,EditOn,setActive,setEditOn,setAddUserOn,refreshFlagGroups,AddUserOn,setActiveUser}:GroupsModalAllProps) => {
+const GroupsComponent = ({Group,Mode,DeleteOn,setGroup,EditOn,setActiveGroup,setEditOn,setAddUserOn,refreshFlagGroups,AddUserOn,setActiveUser}:GroupsModalAllProps) => {
     const [groups,setGroups] =React.useState<object[]>([]);
     const router = useRouter()
     const {user} =useAuth();
@@ -72,7 +72,7 @@ const GroupsComponent = ({Group,Mode,DeleteOn,setGroup,EditOn,setActive,setEditO
                         
                           if(EditOn){
                             setGroup(group);
-                                 setActive(true);
+                                 setActiveGroup(true);
                                  setAddUserOn(false);
                           }
                          if(AddUserOn){

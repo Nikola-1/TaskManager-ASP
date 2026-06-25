@@ -75,11 +75,13 @@ export default function TaskMenu({refreshFlag,onUpdateTag, ToggleModal,setToggle
         icon:faEdit,
         action:async () => {setToggleModal(true); closeMenu();
             
-            const {message,EditedCategorie} = await findCategorie(id);
+            const EditedCategorie = await findCategorie(id);
             
            
-                toast.success(message);
+                
                  setMode("Update");
+                 console.log(id);
+                 console.log(EditedCategorie);
                 setNameCategory(EditedCategorie.name);
                 setEditListItem(EditedCategorie);
                 console.log(EditedCategorie);
