@@ -7,6 +7,7 @@ import { faEdit } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import AccountField from "./AccountField";
 import { updateUserProfile } from "@/app/services/userService";
+import toast from "react-hot-toast";
 
 interface AccountDisplayComponentProps {
   visible?: boolean;
@@ -57,7 +58,7 @@ const AccountDisplay = ({ visible }: AccountDisplayComponentProps) => {
       method: "POST",
       body: JSON.stringify({
         to: email,
-        subject: "Dobrodošao",
+        subject: "Reset-password code",
         text: `Dear ${user?.Username}, your verification code is: ${code}`,
       }),
     });
@@ -140,7 +141,7 @@ const AccountDisplay = ({ visible }: AccountDisplayComponentProps) => {
           </div>
 
           <Link
-            onClick={() => sendEmailNotification(user?.email ?? "")}
+            onClick={() =>{sendEmailNotification(user?.email ?? "");} }
             href="/pages/VerifyCode"
           >
             <FontAwesomeIcon

@@ -7,6 +7,7 @@ import next from "../../../../public/img/next.png";
 import { useRouter } from 'next/navigation';
 import { ForgotPassword } from '@/app/api/api';
 import { useResetPasswordState } from '@/app/hooks/useResetPassword';
+import toast from 'react-hot-toast';
 
 interface stepCheckerProps{
     step:number, 
@@ -36,7 +37,14 @@ export default function EmailComponent({step,setStep,email,setEmail,}:stepChecke
       <h1 className='font-bebas-neue-regular text-blue-900 font-bold'>Insert your email to Reset password</h1>
       <div className='flex flex-col justify-center items-center h-full'>
       <input type='text' onChange={(e)=>setEmail(e.currentTarget.value)} placeholder='Email' className='border-b-blue-300 text-white placeholder:text-white rounded-md p-2  w-full bg-blue-300 outline-none'></input>
-     <button onClick={()=>{sendEmail(email); setStep(2)}}  className='border-blue-900 w-full hover:text-white hover:bg-blue-900 p-2 m-2 cursor-pointer rounded-md flex justify-center items-center bg-white placeholder:text-white outline-none border-2  w-fit '>Sign up </button>
+     <button onClick={()=>{sendEmail(email); toast("Proveri svoj email.", {
+  icon: "ℹ️",
+  style: {
+    border: "1px solid ",
+    padding: "16px",
+    color: "#2563eb",
+  },
+}); setStep(2)}}  className='border-blue-900 w-full hover:text-white hover:bg-blue-900 p-2 m-2 cursor-pointer rounded-md flex justify-center items-center bg-white placeholder:text-white outline-none border-2  w-fit '>Sign up </button>
 
         </div>
         </div>
