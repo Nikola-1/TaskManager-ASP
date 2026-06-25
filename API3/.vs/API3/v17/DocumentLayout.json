@@ -1,306 +1,299 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\",
+  "WorkspaceRootPath": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DAA42DAB-0C48-49C7-A85B-5E31C58ACA44}|API3\\API3.csproj|C:\\Users\\Nikola\\Downloads\\API3\\API3\\api3\\controllers\\usersgroupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DAA42DAB-0C48-49C7-A85B-5E31C58ACA44}|API3\\API3.csproj|solutionrelative:api3\\controllers\\usersgroupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DAA42DAB-0C48-49C7-A85B-5E31C58ACA44}|API3\\API3.csproj|C:\\Users\\Nikola\\Downloads\\API3\\API3\\api3\\controllers\\tagscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DAA42DAB-0C48-49C7-A85B-5E31C58ACA44}|API3\\API3.csproj|solutionrelative:api3\\controllers\\tagscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DAA42DAB-0C48-49C7-A85B-5E31C58ACA44}|API3\\API3.csproj|C:\\Users\\Nikola\\Downloads\\API3\\API3\\api3\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DAA42DAB-0C48-49C7-A85B-5E31C58ACA44}|API3\\API3.csproj|solutionrelative:api3\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DAA42DAB-0C48-49C7-A85B-5E31C58ACA44}|API3\\API3.csproj|C:\\Users\\Nikola\\Downloads\\API3\\API3\\api3\\controllers\\groupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DAA42DAB-0C48-49C7-A85B-5E31C58ACA44}|API3\\API3.csproj|solutionrelative:api3\\controllers\\groupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DAA42DAB-0C48-49C7-A85B-5E31C58ACA44}|API3\\API3.csproj|C:\\Users\\Nikola\\Downloads\\API3\\API3\\api3\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DAA42DAB-0C48-49C7-A85B-5E31C58ACA44}|API3\\API3.csproj|solutionrelative:api3\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DAA42DAB-0C48-49C7-A85B-5E31C58ACA44}|API3\\API3.csproj|C:\\Users\\Nikola\\Downloads\\API3\\API3\\api3\\controllers\\attachmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DAA42DAB-0C48-49C7-A85B-5E31C58ACA44}|API3\\API3.csproj|c:\\users\\nikola\\desktop\\djura\\react\\task-manager - asp\\api3\\api3\\controllers\\attachmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DAA42DAB-0C48-49C7-A85B-5E31C58ACA44}|API3\\API3.csproj|solutionrelative:api3\\controllers\\attachmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DAA42DAB-0C48-49C7-A85B-5E31C58ACA44}|API3\\API3.csproj|C:\\Users\\Nikola\\Downloads\\API3\\API3\\api3\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DAA42DAB-0C48-49C7-A85B-5E31C58ACA44}|API3\\API3.csproj|solutionrelative:api3\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DAA42DAB-0C48-49C7-A85B-5E31C58ACA44}|API3\\API3.csproj|C:\\Users\\Nikola\\Downloads\\API3\\API3\\api3\\controllers\\tagtaskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DAA42DAB-0C48-49C7-A85B-5E31C58ACA44}|API3\\API3.csproj|solutionrelative:api3\\controllers\\tagtaskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DAA42DAB-0C48-49C7-A85B-5E31C58ACA44}|API3\\API3.csproj|C:\\Users\\Nikola\\Downloads\\API3\\API3\\api3\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DAA42DAB-0C48-49C7-A85B-5E31C58ACA44}|API3\\API3.csproj|solutionrelative:api3\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Nikola\\Downloads\\API3\\API3\\DataAccess\\Migrations\\20260625052553_FixCascade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DataAccess\\Migrations\\20260625052553_FixCascade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{943511F0-8B0D-4879-97EB-8AA6BE681A58}|DataAccess\\DataAccess.csproj|C:\\Users\\Nikola\\Downloads\\API3\\API3\\dataaccess\\database\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{943511F0-8B0D-4879-97EB-8AA6BE681A58}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\database\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Nikola\\Downloads\\API3\\API3\\DataAccess\\Migrations\\20260625052502_FixCascade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DataAccess\\Migrations\\20260625052502_FixCascade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Nikola\\Downloads\\API3\\API3\\DataAccess\\Migrations\\20260625052251_FixCascade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DataAccess\\Migrations\\20260625052251_FixCascade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Nikola\\Downloads\\API3\\API3\\DataAccess\\Migrations\\20260625052039_updateCascade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DataAccess\\Migrations\\20260625052039_updateCascade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C67BB923-707D-41FE-9E75-BDC7A8DC1A67}|Modules\\Modules.csproj|C:\\Users\\Nikola\\Downloads\\API3\\API3\\modules\\dto\\auth\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C67BB923-707D-41FE-9E75-BDC7A8DC1A67}|Modules\\Modules.csproj|solutionrelative:modules\\dto\\auth\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DAA42DAB-0C48-49C7-A85B-5E31C58ACA44}|API3\\API3.csproj|C:\\Users\\Nikola\\Downloads\\API3\\API3\\api3\\controllers\\seedercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DAA42DAB-0C48-49C7-A85B-5E31C58ACA44}|API3\\API3.csproj|solutionrelative:api3\\controllers\\seedercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DAA42DAB-0C48-49C7-A85B-5E31C58ACA44}|API3\\API3.csproj|C:\\Users\\Nikola\\Downloads\\API3\\API3\\api3\\controllers\\stickerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DAA42DAB-0C48-49C7-A85B-5E31C58ACA44}|API3\\API3.csproj|solutionrelative:api3\\controllers\\stickerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DAA42DAB-0C48-49C7-A85B-5E31C58ACA44}|API3\\API3.csproj|C:\\Users\\Nikola\\Downloads\\API3\\API3\\api3\\controllers\\commentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DAA42DAB-0C48-49C7-A85B-5E31C58ACA44}|API3\\API3.csproj|solutionrelative:api3\\controllers\\commentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C67BB923-707D-41FE-9E75-BDC7A8DC1A67}|Modules\\Modules.csproj|c:\\users\\nikola\\downloads\\api3\\api3\\modules\\interfaces\\iauditservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C67BB923-707D-41FE-9E75-BDC7A8DC1A67}|Modules\\Modules.csproj|solutionrelative:modules\\interfaces\\iauditservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{62F7DB72-C548-4036-9031-6A0EF0409D79}|Modules.Implementation\\Modules.Implementation.csproj|C:\\Users\\Nikola\\Downloads\\API3\\API3\\modules.implementation\\services\\auditservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{62F7DB72-C548-4036-9031-6A0EF0409D79}|Modules.Implementation\\Modules.Implementation.csproj|solutionrelative:modules.implementation\\services\\auditservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C67BB923-707D-41FE-9E75-BDC7A8DC1A67}|Modules\\Modules.csproj|C:\\Users\\Nikola\\Downloads\\API3\\API3\\modules\\dto\\groupsusers\\deletegroupsusersdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C67BB923-707D-41FE-9E75-BDC7A8DC1A67}|Modules\\Modules.csproj|solutionrelative:modules\\dto\\groupsusers\\deletegroupsusersdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C67BB923-707D-41FE-9E75-BDC7A8DC1A67}|Modules\\Modules.csproj|C:\\Users\\Nikola\\Downloads\\API3\\API3\\modules\\dto\\groups\\creategroupdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C67BB923-707D-41FE-9E75-BDC7A8DC1A67}|Modules\\Modules.csproj|solutionrelative:modules\\dto\\groups\\creategroupdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C67BB923-707D-41FE-9E75-BDC7A8DC1A67}|Modules\\Modules.csproj|C:\\Users\\Nikola\\Downloads\\API3\\API3\\modules\\dto\\groupsusers\\addgroupsusersdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C67BB923-707D-41FE-9E75-BDC7A8DC1A67}|Modules\\Modules.csproj|solutionrelative:modules\\dto\\groupsusers\\addgroupsusersdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB4D4159-BA09-4947-9BD3-8381D601D51F}|Domains\\Domains.csproj|C:\\Users\\Nikola\\Downloads\\API3\\API3\\domains\\entities\\group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB4D4159-BA09-4947-9BD3-8381D601D51F}|Domains\\Domains.csproj|solutionrelative:domains\\entities\\group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB4D4159-BA09-4947-9BD3-8381D601D51F}|Domains\\Domains.csproj|C:\\Users\\Nikola\\Downloads\\API3\\API3\\domains\\entities\\usersgroups.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB4D4159-BA09-4947-9BD3-8381D601D51F}|Domains\\Domains.csproj|solutionrelative:domains\\entities\\usersgroups.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB4D4159-BA09-4947-9BD3-8381D601D51F}|Domains\\Domains.csproj|C:\\Users\\Nikola\\Downloads\\API3\\API3\\domains\\entities\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB4D4159-BA09-4947-9BD3-8381D601D51F}|Domains\\Domains.csproj|solutionrelative:domains\\entities\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB4D4159-BA09-4947-9BD3-8381D601D51F}|Domains\\Domains.csproj|C:\\Users\\Nikola\\Downloads\\API3\\API3\\domains\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB4D4159-BA09-4947-9BD3-8381D601D51F}|Domains\\Domains.csproj|solutionrelative:domains\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DAA42DAB-0C48-49C7-A85B-5E31C58ACA44}|API3\\API3.csproj|C:\\Users\\Nikola\\Downloads\\API3\\API3\\api3\\extensions\\claimsprincipalextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DAA42DAB-0C48-49C7-A85B-5E31C58ACA44}|API3\\API3.csproj|solutionrelative:api3\\extensions\\claimsprincipalextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C67BB923-707D-41FE-9E75-BDC7A8DC1A67}|Modules\\Modules.csproj|C:\\Users\\Nikola\\Downloads\\API3\\API3\\modules\\dto\\createtaskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C67BB923-707D-41FE-9E75-BDC7A8DC1A67}|Modules\\Modules.csproj|solutionrelative:modules\\dto\\createtaskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C67BB923-707D-41FE-9E75-BDC7A8DC1A67}|Modules\\Modules.csproj|C:\\Users\\Nikola\\Downloads\\API3\\API3\\modules\\dto\\taskresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C67BB923-707D-41FE-9E75-BDC7A8DC1A67}|Modules\\Modules.csproj|solutionrelative:modules\\dto\\taskresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C67BB923-707D-41FE-9E75-BDC7A8DC1A67}|Modules\\Modules.csproj|C:\\Users\\Nikola\\Downloads\\API3\\API3\\modules\\dto\\updatetaskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C67BB923-707D-41FE-9E75-BDC7A8DC1A67}|Modules\\Modules.csproj|solutionrelative:modules\\dto\\updatetaskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C67BB923-707D-41FE-9E75-BDC7A8DC1A67}|Modules\\Modules.csproj|C:\\Users\\Nikola\\Downloads\\API3\\API3\\modules\\dto\\auth\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C67BB923-707D-41FE-9E75-BDC7A8DC1A67}|Modules\\Modules.csproj|solutionrelative:modules\\dto\\auth\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C67BB923-707D-41FE-9E75-BDC7A8DC1A67}|Modules\\Modules.csproj|C:\\Users\\Nikola\\Downloads\\API3\\API3\\modules\\modules.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{C67BB923-707D-41FE-9E75-BDC7A8DC1A67}|Modules\\Modules.csproj|solutionrelative:modules\\modules.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB4D4159-BA09-4947-9BD3-8381D601D51F}|Domains\\Domains.csproj|C:\\Users\\Nikola\\Downloads\\API3\\API3\\domains\\entities\\tagtasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB4D4159-BA09-4947-9BD3-8381D601D51F}|Domains\\Domains.csproj|solutionrelative:domains\\entities\\tagtasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{943511F0-8B0D-4879-97EB-8AA6BE681A58}|DataAccess\\DataAccess.csproj|C:\\Users\\Nikola\\Downloads\\API3\\API3\\dataaccess\\migrations\\20260623073457_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{943511F0-8B0D-4879-97EB-8AA6BE681A58}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\migrations\\20260623073457_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{943511F0-8B0D-4879-97EB-8AA6BE681A58}|DataAccess\\DataAccess.csproj|C:\\Users\\Nikola\\Downloads\\API3\\API3\\dataaccess\\migrations\\20260623084226_updatetag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{943511F0-8B0D-4879-97EB-8AA6BE681A58}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\migrations\\20260623084226_updatetag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB4D4159-BA09-4947-9BD3-8381D601D51F}|Domains\\Domains.csproj|C:\\Users\\Nikola\\Downloads\\API3\\API3\\domains\\entities\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB4D4159-BA09-4947-9BD3-8381D601D51F}|Domains\\Domains.csproj|solutionrelative:domains\\entities\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB4D4159-BA09-4947-9BD3-8381D601D51F}|Domains\\Domains.csproj|C:\\Users\\Nikola\\Downloads\\API3\\API3\\domains\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB4D4159-BA09-4947-9BD3-8381D601D51F}|Domains\\Domains.csproj|solutionrelative:domains\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB4D4159-BA09-4947-9BD3-8381D601D51F}|Domains\\Domains.csproj|C:\\Users\\Nikola\\Downloads\\API3\\API3\\domains\\entities\\sticker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB4D4159-BA09-4947-9BD3-8381D601D51F}|Domains\\Domains.csproj|solutionrelative:domains\\entities\\sticker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB4D4159-BA09-4947-9BD3-8381D601D51F}|Domains\\Domains.csproj|C:\\Users\\Nikola\\Downloads\\API3\\API3\\domains\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB4D4159-BA09-4947-9BD3-8381D601D51F}|Domains\\Domains.csproj|solutionrelative:domains\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Nikola\\Downloads\\API3\\API3\\DataAccess\\Migrations\\20260623072853_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DataAccess\\Migrations\\20260623072853_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Nikola\\Downloads\\API3\\API3\\DataAccess\\Migrations\\20260623072350_UpdateGroupTasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DataAccess\\Migrations\\20260623072350_UpdateGroupTasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{943511F0-8B0D-4879-97EB-8AA6BE681A58}|DataAccess\\DataAccess.csproj|C:\\Users\\Nikola\\Downloads\\API3\\API3\\dataaccess\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{943511F0-8B0D-4879-97EB-8AA6BE681A58}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C67BB923-707D-41FE-9E75-BDC7A8DC1A67}|Modules\\Modules.csproj|C:\\Users\\Nikola\\Downloads\\API3\\API3\\modules\\dto\\categories\\updatecategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C67BB923-707D-41FE-9E75-BDC7A8DC1A67}|Modules\\Modules.csproj|solutionrelative:modules\\dto\\categories\\updatecategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C67BB923-707D-41FE-9E75-BDC7A8DC1A67}|Modules\\Modules.csproj|C:\\Users\\Nikola\\Downloads\\API3\\API3\\modules\\dto\\tags\\createtagdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C67BB923-707D-41FE-9E75-BDC7A8DC1A67}|Modules\\Modules.csproj|solutionrelative:modules\\dto\\tags\\createtagdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C67BB923-707D-41FE-9E75-BDC7A8DC1A67}|Modules\\Modules.csproj|C:\\Users\\Nikola\\Downloads\\API3\\API3\\modules\\dto\\categories\\createcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C67BB923-707D-41FE-9E75-BDC7A8DC1A67}|Modules\\Modules.csproj|solutionrelative:modules\\dto\\categories\\createcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DAA42DAB-0C48-49C7-A85B-5E31C58ACA44}|API3\\API3.csproj|C:\\Users\\Nikola\\Downloads\\API3\\API3\\api3\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{DAA42DAB-0C48-49C7-A85B-5E31C58ACA44}|API3\\API3.csproj|solutionrelative:api3\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DAA42DAB-0C48-49C7-A85B-5E31C58ACA44}|API3\\API3.csproj|C:\\Users\\Nikola\\Downloads\\API3\\API3\\api3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DAA42DAB-0C48-49C7-A85B-5E31C58ACA44}|API3\\API3.csproj|C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\api3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DAA42DAB-0C48-49C7-A85B-5E31C58ACA44}|API3\\API3.csproj|solutionrelative:api3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C67BB923-707D-41FE-9E75-BDC7A8DC1A67}|Modules\\Modules.csproj|C:\\Users\\Nikola\\Downloads\\API3\\API3\\modules\\interfaces\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C67BB923-707D-41FE-9E75-BDC7A8DC1A67}|Modules\\Modules.csproj|solutionrelative:modules\\interfaces\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DAA42DAB-0C48-49C7-A85B-5E31C58ACA44}|API3\\API3.csproj|C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\api3\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAA42DAB-0C48-49C7-A85B-5E31C58ACA44}|API3\\API3.csproj|solutionrelative:api3\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{62F7DB72-C548-4036-9031-6A0EF0409D79}|Modules.Implementation\\Modules.Implementation.csproj|C:\\Users\\Nikola\\Downloads\\API3\\API3\\modules.implementation\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{62F7DB72-C548-4036-9031-6A0EF0409D79}|Modules.Implementation\\Modules.Implementation.csproj|solutionrelative:modules.implementation\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C67BB923-707D-41FE-9E75-BDC7A8DC1A67}|Modules\\Modules.csproj|C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\modules\\dto\\taskresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C67BB923-707D-41FE-9E75-BDC7A8DC1A67}|Modules\\Modules.csproj|solutionrelative:modules\\dto\\taskresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C67BB923-707D-41FE-9E75-BDC7A8DC1A67}|Modules\\Modules.csproj|C:\\Users\\Nikola\\Downloads\\API3\\API3\\modules\\dto\\auth\\forgotpassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C67BB923-707D-41FE-9E75-BDC7A8DC1A67}|Modules\\Modules.csproj|solutionrelative:modules\\dto\\auth\\forgotpassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CB4D4159-BA09-4947-9BD3-8381D601D51F}|Domains\\Domains.csproj|C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\domains\\entities\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB4D4159-BA09-4947-9BD3-8381D601D51F}|Domains\\Domains.csproj|solutionrelative:domains\\entities\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DAA42DAB-0C48-49C7-A85B-5E31C58ACA44}|API3\\API3.csproj|C:\\Users\\Nikola\\Downloads\\API3\\API3\\api3\\api3.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{DAA42DAB-0C48-49C7-A85B-5E31C58ACA44}|API3\\API3.csproj|solutionrelative:api3\\api3.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C67BB923-707D-41FE-9E75-BDC7A8DC1A67}|Modules\\Modules.csproj|C:\\Users\\Nikola\\Downloads\\API3\\API3\\modules\\dto\\auth\\resetpassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C67BB923-707D-41FE-9E75-BDC7A8DC1A67}|Modules\\Modules.csproj|solutionrelative:modules\\dto\\auth\\resetpassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{62F7DB72-C548-4036-9031-6A0EF0409D79}|Modules.Implementation\\Modules.Implementation.csproj|C:\\Users\\Nikola\\Downloads\\API3\\API3\\modules.implementation\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{62F7DB72-C548-4036-9031-6A0EF0409D79}|Modules.Implementation\\Modules.Implementation.csproj|solutionrelative:modules.implementation\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB4D4159-BA09-4947-9BD3-8381D601D51F}|Domains\\Domains.csproj|C:\\Users\\Nikola\\Downloads\\API3\\API3\\domains\\domains.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{CB4D4159-BA09-4947-9BD3-8381D601D51F}|Domains\\Domains.csproj|solutionrelative:domains\\domains.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Nikola\\Downloads\\API3\\API3\\DataAccess\\Migrations\\20260620084714_TagTaskUpdate4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DataAccess\\Migrations\\20260620084714_TagTaskUpdate4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C67BB923-707D-41FE-9E75-BDC7A8DC1A67}|Modules\\Modules.csproj|C:\\Users\\Nikola\\Downloads\\API3\\API3\\modules\\dto\\tags\\createtagstasksdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C67BB923-707D-41FE-9E75-BDC7A8DC1A67}|Modules\\Modules.csproj|solutionrelative:modules\\dto\\tags\\createtagstasksdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C67BB923-707D-41FE-9E75-BDC7A8DC1A67}|Modules\\Modules.csproj|C:\\Users\\Nikola\\Downloads\\API3\\API3\\modules\\dto\\files\\attachmentresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C67BB923-707D-41FE-9E75-BDC7A8DC1A67}|Modules\\Modules.csproj|solutionrelative:modules\\dto\\files\\attachmentresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C67BB923-707D-41FE-9E75-BDC7A8DC1A67}|Modules\\Modules.csproj|C:\\Users\\Nikola\\Downloads\\API3\\API3\\modules\\dto\\stickers\\createstickerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C67BB923-707D-41FE-9E75-BDC7A8DC1A67}|Modules\\Modules.csproj|solutionrelative:modules\\dto\\stickers\\createstickerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C67BB923-707D-41FE-9E75-BDC7A8DC1A67}|Modules\\Modules.csproj|C:\\Users\\Nikola\\Downloads\\API3\\API3\\modules\\dto\\tags\\updatetagdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C67BB923-707D-41FE-9E75-BDC7A8DC1A67}|Modules\\Modules.csproj|solutionrelative:modules\\dto\\tags\\updatetagdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C67BB923-707D-41FE-9E75-BDC7A8DC1A67}|Modules\\Modules.csproj|C:\\Users\\Nikola\\Downloads\\API3\\API3\\modules\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C67BB923-707D-41FE-9E75-BDC7A8DC1A67}|Modules\\Modules.csproj|solutionrelative:modules\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB4D4159-BA09-4947-9BD3-8381D601D51F}|Domains\\Domains.csproj|C:\\Users\\Nikola\\Downloads\\API3\\API3\\domains\\entities\\itemcomment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB4D4159-BA09-4947-9BD3-8381D601D51F}|Domains\\Domains.csproj|solutionrelative:domains\\entities\\itemcomment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB4D4159-BA09-4947-9BD3-8381D601D51F}|Domains\\Domains.csproj|C:\\Users\\Nikola\\Downloads\\API3\\API3\\domains\\entities\\attachment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CB4D4159-BA09-4947-9BD3-8381D601D51F}|Domains\\Domains.csproj|C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\domains\\entities\\attachment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CB4D4159-BA09-4947-9BD3-8381D601D51F}|Domains\\Domains.csproj|solutionrelative:domains\\entities\\attachment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Nikola\\Downloads\\API3\\API3\\DataAccess\\Migrations\\20260615063316_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DataAccess\\Migrations\\20260615063316_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DAA42DAB-0C48-49C7-A85B-5E31C58ACA44}|API3\\API3.csproj|C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\api3\\controllers\\seedercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAA42DAB-0C48-49C7-A85B-5E31C58ACA44}|API3\\API3.csproj|solutionrelative:api3\\controllers\\seedercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CB4D4159-BA09-4947-9BD3-8381D601D51F}|Domains\\Domains.csproj|C:\\Users\\Nikola\\Downloads\\API3\\API3\\domains\\entities\\auditlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DAA42DAB-0C48-49C7-A85B-5E31C58ACA44}|API3\\API3.csproj|C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\api3\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAA42DAB-0C48-49C7-A85B-5E31C58ACA44}|API3\\API3.csproj|solutionrelative:api3\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAA42DAB-0C48-49C7-A85B-5E31C58ACA44}|API3\\API3.csproj|C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\api3\\controllers\\usersgroupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAA42DAB-0C48-49C7-A85B-5E31C58ACA44}|API3\\API3.csproj|solutionrelative:api3\\controllers\\usersgroupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAA42DAB-0C48-49C7-A85B-5E31C58ACA44}|API3\\API3.csproj|C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\api3\\controllers\\tagscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAA42DAB-0C48-49C7-A85B-5E31C58ACA44}|API3\\API3.csproj|solutionrelative:api3\\controllers\\tagscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAA42DAB-0C48-49C7-A85B-5E31C58ACA44}|API3\\API3.csproj|C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\api3\\controllers\\groupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAA42DAB-0C48-49C7-A85B-5E31C58ACA44}|API3\\API3.csproj|solutionrelative:api3\\controllers\\groupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAA42DAB-0C48-49C7-A85B-5E31C58ACA44}|API3\\API3.csproj|C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\api3\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAA42DAB-0C48-49C7-A85B-5E31C58ACA44}|API3\\API3.csproj|solutionrelative:api3\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAA42DAB-0C48-49C7-A85B-5E31C58ACA44}|API3\\API3.csproj|C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\api3\\controllers\\tagtaskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAA42DAB-0C48-49C7-A85B-5E31C58ACA44}|API3\\API3.csproj|solutionrelative:api3\\controllers\\tagtaskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAA42DAB-0C48-49C7-A85B-5E31C58ACA44}|API3\\API3.csproj|C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\api3\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAA42DAB-0C48-49C7-A85B-5E31C58ACA44}|API3\\API3.csproj|solutionrelative:api3\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{943511F0-8B0D-4879-97EB-8AA6BE681A58}|DataAccess\\DataAccess.csproj|C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\dataaccess\\database\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{943511F0-8B0D-4879-97EB-8AA6BE681A58}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\database\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Nikola\\Downloads\\API3\\API3\\DataAccess\\Migrations\\20260625052502_FixCascade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Nikola\\Downloads\\API3\\API3\\DataAccess\\Migrations\\20260625052251_FixCascade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Nikola\\Downloads\\API3\\API3\\DataAccess\\Migrations\\20260625052039_updateCascade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C67BB923-707D-41FE-9E75-BDC7A8DC1A67}|Modules\\Modules.csproj|C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\modules\\dto\\auth\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C67BB923-707D-41FE-9E75-BDC7A8DC1A67}|Modules\\Modules.csproj|solutionrelative:modules\\dto\\auth\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAA42DAB-0C48-49C7-A85B-5E31C58ACA44}|API3\\API3.csproj|C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\api3\\controllers\\stickerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAA42DAB-0C48-49C7-A85B-5E31C58ACA44}|API3\\API3.csproj|solutionrelative:api3\\controllers\\stickerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAA42DAB-0C48-49C7-A85B-5E31C58ACA44}|API3\\API3.csproj|C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\api3\\controllers\\commentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAA42DAB-0C48-49C7-A85B-5E31C58ACA44}|API3\\API3.csproj|solutionrelative:api3\\controllers\\commentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C67BB923-707D-41FE-9E75-BDC7A8DC1A67}|Modules\\Modules.csproj|C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\modules\\interfaces\\iauditservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C67BB923-707D-41FE-9E75-BDC7A8DC1A67}|Modules\\Modules.csproj|solutionrelative:modules\\interfaces\\iauditservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62F7DB72-C548-4036-9031-6A0EF0409D79}|Modules.Implementation\\Modules.Implementation.csproj|C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\modules.implementation\\services\\auditservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62F7DB72-C548-4036-9031-6A0EF0409D79}|Modules.Implementation\\Modules.Implementation.csproj|solutionrelative:modules.implementation\\services\\auditservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C67BB923-707D-41FE-9E75-BDC7A8DC1A67}|Modules\\Modules.csproj|C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\modules\\dto\\groupsusers\\deletegroupsusersdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C67BB923-707D-41FE-9E75-BDC7A8DC1A67}|Modules\\Modules.csproj|solutionrelative:modules\\dto\\groupsusers\\deletegroupsusersdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C67BB923-707D-41FE-9E75-BDC7A8DC1A67}|Modules\\Modules.csproj|C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\modules\\dto\\groups\\creategroupdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C67BB923-707D-41FE-9E75-BDC7A8DC1A67}|Modules\\Modules.csproj|solutionrelative:modules\\dto\\groups\\creategroupdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C67BB923-707D-41FE-9E75-BDC7A8DC1A67}|Modules\\Modules.csproj|C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\modules\\dto\\groupsusers\\addgroupsusersdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C67BB923-707D-41FE-9E75-BDC7A8DC1A67}|Modules\\Modules.csproj|solutionrelative:modules\\dto\\groupsusers\\addgroupsusersdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB4D4159-BA09-4947-9BD3-8381D601D51F}|Domains\\Domains.csproj|C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\domains\\entities\\group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB4D4159-BA09-4947-9BD3-8381D601D51F}|Domains\\Domains.csproj|solutionrelative:domains\\entities\\group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB4D4159-BA09-4947-9BD3-8381D601D51F}|Domains\\Domains.csproj|C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\domains\\entities\\usersgroups.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB4D4159-BA09-4947-9BD3-8381D601D51F}|Domains\\Domains.csproj|solutionrelative:domains\\entities\\usersgroups.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB4D4159-BA09-4947-9BD3-8381D601D51F}|Domains\\Domains.csproj|C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\domains\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB4D4159-BA09-4947-9BD3-8381D601D51F}|Domains\\Domains.csproj|solutionrelative:domains\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAA42DAB-0C48-49C7-A85B-5E31C58ACA44}|API3\\API3.csproj|C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\api3\\extensions\\claimsprincipalextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAA42DAB-0C48-49C7-A85B-5E31C58ACA44}|API3\\API3.csproj|solutionrelative:api3\\extensions\\claimsprincipalextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C67BB923-707D-41FE-9E75-BDC7A8DC1A67}|Modules\\Modules.csproj|C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\modules\\dto\\createtaskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C67BB923-707D-41FE-9E75-BDC7A8DC1A67}|Modules\\Modules.csproj|solutionrelative:modules\\dto\\createtaskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C67BB923-707D-41FE-9E75-BDC7A8DC1A67}|Modules\\Modules.csproj|C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\modules\\dto\\updatetaskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C67BB923-707D-41FE-9E75-BDC7A8DC1A67}|Modules\\Modules.csproj|solutionrelative:modules\\dto\\updatetaskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C67BB923-707D-41FE-9E75-BDC7A8DC1A67}|Modules\\Modules.csproj|C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\modules\\dto\\auth\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C67BB923-707D-41FE-9E75-BDC7A8DC1A67}|Modules\\Modules.csproj|solutionrelative:modules\\dto\\auth\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C67BB923-707D-41FE-9E75-BDC7A8DC1A67}|Modules\\Modules.csproj|C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\modules\\modules.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C67BB923-707D-41FE-9E75-BDC7A8DC1A67}|Modules\\Modules.csproj|solutionrelative:modules\\modules.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB4D4159-BA09-4947-9BD3-8381D601D51F}|Domains\\Domains.csproj|C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\domains\\entities\\tagtasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB4D4159-BA09-4947-9BD3-8381D601D51F}|Domains\\Domains.csproj|solutionrelative:domains\\entities\\tagtasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{943511F0-8B0D-4879-97EB-8AA6BE681A58}|DataAccess\\DataAccess.csproj|C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\dataaccess\\migrations\\20260623073457_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{943511F0-8B0D-4879-97EB-8AA6BE681A58}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\migrations\\20260623073457_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{943511F0-8B0D-4879-97EB-8AA6BE681A58}|DataAccess\\DataAccess.csproj|C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\dataaccess\\migrations\\20260623084226_updatetag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{943511F0-8B0D-4879-97EB-8AA6BE681A58}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\migrations\\20260623084226_updatetag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB4D4159-BA09-4947-9BD3-8381D601D51F}|Domains\\Domains.csproj|C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\domains\\entities\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB4D4159-BA09-4947-9BD3-8381D601D51F}|Domains\\Domains.csproj|solutionrelative:domains\\entities\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB4D4159-BA09-4947-9BD3-8381D601D51F}|Domains\\Domains.csproj|C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\domains\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB4D4159-BA09-4947-9BD3-8381D601D51F}|Domains\\Domains.csproj|solutionrelative:domains\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB4D4159-BA09-4947-9BD3-8381D601D51F}|Domains\\Domains.csproj|C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\domains\\entities\\sticker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB4D4159-BA09-4947-9BD3-8381D601D51F}|Domains\\Domains.csproj|solutionrelative:domains\\entities\\sticker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB4D4159-BA09-4947-9BD3-8381D601D51F}|Domains\\Domains.csproj|C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\domains\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB4D4159-BA09-4947-9BD3-8381D601D51F}|Domains\\Domains.csproj|solutionrelative:domains\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Nikola\\Downloads\\API3\\API3\\DataAccess\\Migrations\\20260623072853_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Nikola\\Downloads\\API3\\API3\\DataAccess\\Migrations\\20260623072350_UpdateGroupTasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{943511F0-8B0D-4879-97EB-8AA6BE681A58}|DataAccess\\DataAccess.csproj|C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\dataaccess\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{943511F0-8B0D-4879-97EB-8AA6BE681A58}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C67BB923-707D-41FE-9E75-BDC7A8DC1A67}|Modules\\Modules.csproj|C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\modules\\dto\\categories\\updatecategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C67BB923-707D-41FE-9E75-BDC7A8DC1A67}|Modules\\Modules.csproj|solutionrelative:modules\\dto\\categories\\updatecategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C67BB923-707D-41FE-9E75-BDC7A8DC1A67}|Modules\\Modules.csproj|C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\modules\\dto\\tags\\createtagdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C67BB923-707D-41FE-9E75-BDC7A8DC1A67}|Modules\\Modules.csproj|solutionrelative:modules\\dto\\tags\\createtagdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C67BB923-707D-41FE-9E75-BDC7A8DC1A67}|Modules\\Modules.csproj|C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\modules\\dto\\categories\\createcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C67BB923-707D-41FE-9E75-BDC7A8DC1A67}|Modules\\Modules.csproj|solutionrelative:modules\\dto\\categories\\createcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAA42DAB-0C48-49C7-A85B-5E31C58ACA44}|API3\\API3.csproj|C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\api3\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DAA42DAB-0C48-49C7-A85B-5E31C58ACA44}|API3\\API3.csproj|solutionrelative:api3\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C67BB923-707D-41FE-9E75-BDC7A8DC1A67}|Modules\\Modules.csproj|C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\modules\\interfaces\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C67BB923-707D-41FE-9E75-BDC7A8DC1A67}|Modules\\Modules.csproj|solutionrelative:modules\\interfaces\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62F7DB72-C548-4036-9031-6A0EF0409D79}|Modules.Implementation\\Modules.Implementation.csproj|C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\modules.implementation\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62F7DB72-C548-4036-9031-6A0EF0409D79}|Modules.Implementation\\Modules.Implementation.csproj|solutionrelative:modules.implementation\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C67BB923-707D-41FE-9E75-BDC7A8DC1A67}|Modules\\Modules.csproj|C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\modules\\dto\\auth\\forgotpassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C67BB923-707D-41FE-9E75-BDC7A8DC1A67}|Modules\\Modules.csproj|solutionrelative:modules\\dto\\auth\\forgotpassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAA42DAB-0C48-49C7-A85B-5E31C58ACA44}|API3\\API3.csproj|C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\api3\\api3.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{DAA42DAB-0C48-49C7-A85B-5E31C58ACA44}|API3\\API3.csproj|solutionrelative:api3\\api3.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C67BB923-707D-41FE-9E75-BDC7A8DC1A67}|Modules\\Modules.csproj|C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\modules\\dto\\auth\\resetpassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C67BB923-707D-41FE-9E75-BDC7A8DC1A67}|Modules\\Modules.csproj|solutionrelative:modules\\dto\\auth\\resetpassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62F7DB72-C548-4036-9031-6A0EF0409D79}|Modules.Implementation\\Modules.Implementation.csproj|C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\modules.implementation\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62F7DB72-C548-4036-9031-6A0EF0409D79}|Modules.Implementation\\Modules.Implementation.csproj|solutionrelative:modules.implementation\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB4D4159-BA09-4947-9BD3-8381D601D51F}|Domains\\Domains.csproj|C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\domains\\domains.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{CB4D4159-BA09-4947-9BD3-8381D601D51F}|Domains\\Domains.csproj|solutionrelative:domains\\domains.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Nikola\\Downloads\\API3\\API3\\DataAccess\\Migrations\\20260620084714_TagTaskUpdate4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C67BB923-707D-41FE-9E75-BDC7A8DC1A67}|Modules\\Modules.csproj|C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\modules\\dto\\tags\\createtagstasksdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C67BB923-707D-41FE-9E75-BDC7A8DC1A67}|Modules\\Modules.csproj|solutionrelative:modules\\dto\\tags\\createtagstasksdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C67BB923-707D-41FE-9E75-BDC7A8DC1A67}|Modules\\Modules.csproj|C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\modules\\dto\\files\\attachmentresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C67BB923-707D-41FE-9E75-BDC7A8DC1A67}|Modules\\Modules.csproj|solutionrelative:modules\\dto\\files\\attachmentresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C67BB923-707D-41FE-9E75-BDC7A8DC1A67}|Modules\\Modules.csproj|C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\modules\\dto\\stickers\\createstickerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C67BB923-707D-41FE-9E75-BDC7A8DC1A67}|Modules\\Modules.csproj|solutionrelative:modules\\dto\\stickers\\createstickerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C67BB923-707D-41FE-9E75-BDC7A8DC1A67}|Modules\\Modules.csproj|C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\modules\\dto\\tags\\updatetagdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C67BB923-707D-41FE-9E75-BDC7A8DC1A67}|Modules\\Modules.csproj|solutionrelative:modules\\dto\\tags\\updatetagdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C67BB923-707D-41FE-9E75-BDC7A8DC1A67}|Modules\\Modules.csproj|C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\modules\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C67BB923-707D-41FE-9E75-BDC7A8DC1A67}|Modules\\Modules.csproj|solutionrelative:modules\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB4D4159-BA09-4947-9BD3-8381D601D51F}|Domains\\Domains.csproj|C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\domains\\entities\\itemcomment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB4D4159-BA09-4947-9BD3-8381D601D51F}|Domains\\Domains.csproj|solutionrelative:domains\\entities\\itemcomment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Nikola\\Downloads\\API3\\API3\\DataAccess\\Migrations\\20260615063316_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB4D4159-BA09-4947-9BD3-8381D601D51F}|Domains\\Domains.csproj|C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\domains\\entities\\auditlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CB4D4159-BA09-4947-9BD3-8381D601D51F}|Domains\\Domains.csproj|solutionrelative:domains\\entities\\auditlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C67BB923-707D-41FE-9E75-BDC7A8DC1A67}|Modules\\Modules.csproj|C:\\Users\\Nikola\\Downloads\\API3\\API3\\modules\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C67BB923-707D-41FE-9E75-BDC7A8DC1A67}|Modules\\Modules.csproj|C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\modules\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C67BB923-707D-41FE-9E75-BDC7A8DC1A67}|Modules\\Modules.csproj|solutionrelative:modules\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{943511F0-8B0D-4879-97EB-8AA6BE681A58}|DataAccess\\DataAccess.csproj|C:\\Users\\Nikola\\Downloads\\API3\\API3\\dataaccess\\dataaccess.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{943511F0-8B0D-4879-97EB-8AA6BE681A58}|DataAccess\\DataAccess.csproj|C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\dataaccess\\dataaccess.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{943511F0-8B0D-4879-97EB-8AA6BE681A58}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\dataaccess.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CB4D4159-BA09-4947-9BD3-8381D601D51F}|Domains\\Domains.csproj|C:\\Users\\Nikola\\Downloads\\API3\\API3\\domains\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CB4D4159-BA09-4947-9BD3-8381D601D51F}|Domains\\Domains.csproj|C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\domains\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CB4D4159-BA09-4947-9BD3-8381D601D51F}|Domains\\Domains.csproj|solutionrelative:domains\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DAA42DAB-0C48-49C7-A85B-5E31C58ACA44}|API3\\API3.csproj|C:\\Users\\Nikola\\Downloads\\API3\\API3\\api3\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DAA42DAB-0C48-49C7-A85B-5E31C58ACA44}|API3\\API3.csproj|C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\api3\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DAA42DAB-0C48-49C7-A85B-5E31C58ACA44}|API3\\API3.csproj|solutionrelative:api3\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C67BB923-707D-41FE-9E75-BDC7A8DC1A67}|Modules\\Modules.csproj|C:\\Users\\Nikola\\Downloads\\API3\\API3\\modules\\dto\\comments\\commentresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C67BB923-707D-41FE-9E75-BDC7A8DC1A67}|Modules\\Modules.csproj|C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\modules\\dto\\comments\\commentresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C67BB923-707D-41FE-9E75-BDC7A8DC1A67}|Modules\\Modules.csproj|solutionrelative:modules\\dto\\comments\\commentresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DAA42DAB-0C48-49C7-A85B-5E31C58ACA44}|API3\\API3.csproj|C:\\Users\\Nikola\\Downloads\\API3\\API3\\api3\\middleware\\globalexceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DAA42DAB-0C48-49C7-A85B-5E31C58ACA44}|API3\\API3.csproj|C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\api3\\middleware\\globalexceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DAA42DAB-0C48-49C7-A85B-5E31C58ACA44}|API3\\API3.csproj|solutionrelative:api3\\middleware\\globalexceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DAA42DAB-0C48-49C7-A85B-5E31C58ACA44}|API3\\API3.csproj|C:\\Users\\Nikola\\Downloads\\API3\\API3\\api3\\api3.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "AbsoluteMoniker": "D:0:0:{DAA42DAB-0C48-49C7-A85B-5E31C58ACA44}|API3\\API3.csproj|C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\api3\\api3.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
       "RelativeMoniker": "D:0:0:{DAA42DAB-0C48-49C7-A85B-5E31C58ACA44}|API3\\API3.csproj|solutionrelative:api3\\api3.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DAA42DAB-0C48-49C7-A85B-5E31C58ACA44}|API3\\API3.csproj|C:\\Users\\Nikola\\Downloads\\API3\\API3\\api3\\wwwroot\\uploads\\2cccd878-57c6-4191-91a2-75cd4f25577c_screenshot 2024-12-02 164818.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "AbsoluteMoniker": "D:0:0:{DAA42DAB-0C48-49C7-A85B-5E31C58ACA44}|API3\\API3.csproj|C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\api3\\wwwroot\\uploads\\2cccd878-57c6-4191-91a2-75cd4f25577c_screenshot 2024-12-02 164818.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
       "RelativeMoniker": "D:0:0:{DAA42DAB-0C48-49C7-A85B-5E31C58ACA44}|API3\\API3.csproj|solutionrelative:api3\\wwwroot\\uploads\\2cccd878-57c6-4191-91a2-75cd4f25577c_screenshot 2024-12-02 164818.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DAA42DAB-0C48-49C7-A85B-5E31C58ACA44}|API3\\API3.csproj|C:\\Users\\Nikola\\Downloads\\API3\\API3\\api3\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{DAA42DAB-0C48-49C7-A85B-5E31C58ACA44}|API3\\API3.csproj|C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\api3\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{DAA42DAB-0C48-49C7-A85B-5E31C58ACA44}|API3\\API3.csproj|solutionrelative:api3\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{943511F0-8B0D-4879-97EB-8AA6BE681A58}|DataAccess\\DataAccess.csproj|C:\\Users\\Nikola\\Downloads\\API3\\API3\\DataAccess\\Migrations\\20260624142318_UpdateGroupUsers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{943511F0-8B0D-4879-97EB-8AA6BE681A58}|DataAccess\\DataAccess.csproj|C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\DataAccess\\Migrations\\20260624142318_UpdateGroupUsers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{943511F0-8B0D-4879-97EB-8AA6BE681A58}|DataAccess\\DataAccess.csproj|solutionrelative:DataAccess\\Migrations\\20260624142318_UpdateGroupUsers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{943511F0-8B0D-4879-97EB-8AA6BE681A58}|DataAccess\\DataAccess.csproj|C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\DataAccess\\Migrations\\20260625052553_FixCascade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{943511F0-8B0D-4879-97EB-8AA6BE681A58}|DataAccess\\DataAccess.csproj|solutionrelative:DataAccess\\Migrations\\20260625052553_FixCascade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -310,7 +303,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -318,91 +311,25 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UsersGroupController.cs",
-              "DocumentMoniker": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\API3\\Controllers\\UsersGroupController.cs",
-              "RelativeDocumentMoniker": "API3\\Controllers\\UsersGroupController.cs",
-              "ToolTip": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\API3\\Controllers\\UsersGroupController.cs",
-              "RelativeToolTip": "API3\\Controllers\\UsersGroupController.cs",
-              "ViewState": "AQIAAEQAAAAAAAAAAAAUwFEAAABUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-24T09:54:36.47Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "20260625052039_updateCascade.cs",
-              "DocumentMoniker": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\DataAccess\\Migrations\\20260625052039_updateCascade.cs",
-              "RelativeDocumentMoniker": "DataAccess\\Migrations\\20260625052039_updateCascade.cs",
-              "ToolTip": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\DataAccess\\Migrations\\20260625052039_updateCascade.cs",
-              "RelativeToolTip": "DataAccess\\Migrations\\20260625052039_updateCascade.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-25T05:20:39.885Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TagsController.cs",
-              "DocumentMoniker": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\API3\\Controllers\\TagsController.cs",
-              "RelativeDocumentMoniker": "API3\\Controllers\\TagsController.cs",
-              "ToolTip": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\API3\\Controllers\\TagsController.cs",
-              "RelativeToolTip": "API3\\Controllers\\TagsController.cs",
-              "ViewState": "AQIAAGIAAAAAAAAAAAAmwH0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-19T08:22:10.196Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GroupController.cs",
-              "DocumentMoniker": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\API3\\Controllers\\GroupController.cs",
-              "RelativeDocumentMoniker": "API3\\Controllers\\GroupController.cs",
-              "ToolTip": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\API3\\Controllers\\GroupController.cs",
-              "RelativeToolTip": "API3\\Controllers\\GroupController.cs",
-              "ViewState": "AQIAAFEAAAAAAAAAAAAiwFoAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-23T09:22:01.912Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CategoriesController.cs",
-              "DocumentMoniker": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\API3\\Controllers\\CategoriesController.cs",
-              "RelativeDocumentMoniker": "API3\\Controllers\\CategoriesController.cs",
-              "ToolTip": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\API3\\Controllers\\CategoriesController.cs",
-              "RelativeToolTip": "API3\\Controllers\\CategoriesController.cs",
-              "ViewState": "AQIAAF4AAAAAAAAAAAAqwGUAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-17T09:29:18.883Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 11,
               "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\API3\\Controllers\\AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\API3\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "API3\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\API3\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\API3\\Controllers\\AuthController.cs",
               "RelativeToolTip": "API3\\Controllers\\AuthController.cs",
               "ViewState": "AQIAAIIAAAAAAAAAAAAcwB4AAAA9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-22T14:34:17.88Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-22T14:34:17.88Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "AttachmentController.cs",
-              "DocumentMoniker": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\API3\\Controllers\\AttachmentController.cs",
+              "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\API3\\Controllers\\AttachmentController.cs",
               "RelativeDocumentMoniker": "API3\\Controllers\\AttachmentController.cs",
-              "ToolTip": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\API3\\Controllers\\AttachmentController.cs",
+              "ToolTip": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\API3\\Controllers\\AttachmentController.cs",
               "RelativeToolTip": "API3\\Controllers\\AttachmentController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAANAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABkAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-24T12:22:59.568Z",
               "EditorCaption": ""
@@ -410,166 +337,262 @@
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "TasksController.cs",
-              "DocumentMoniker": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\API3\\Controllers\\TasksController.cs",
-              "RelativeDocumentMoniker": "API3\\Controllers\\TasksController.cs",
-              "ToolTip": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\API3\\Controllers\\TasksController.cs",
-              "RelativeToolTip": "API3\\Controllers\\TasksController.cs",
-              "ViewState": "AQIAAL4AAAAAAAAAAAAawEAAAAAMAAAA",
+              "Title": "SeederController.cs",
+              "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\API3\\Controllers\\SeederController.cs",
+              "RelativeDocumentMoniker": "API3\\Controllers\\SeederController.cs",
+              "ToolTip": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\API3\\Controllers\\SeederController.cs",
+              "RelativeToolTip": "API3\\Controllers\\SeederController.cs",
+              "ViewState": "AQIAAGMAAAAAAAAAAAAowIAAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-23T17:06:29.525Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-23T08:13:27.142Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TasksController.cs",
+              "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\API3\\Controllers\\TasksController.cs",
+              "RelativeDocumentMoniker": "API3\\Controllers\\TasksController.cs",
+              "ToolTip": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\API3\\Controllers\\TasksController.cs",
+              "RelativeToolTip": "API3\\Controllers\\TasksController.cs",
+              "ViewState": "AQIAAH0AAAAAAAAAAAAIwIgAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-23T17:06:29.525Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TaskResponseDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Modules\\DTO\\TaskResponseDTO.cs",
+              "RelativeDocumentMoniker": "Modules\\DTO\\TaskResponseDTO.cs",
+              "ToolTip": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Modules\\DTO\\TaskResponseDTO.cs",
+              "RelativeToolTip": "Modules\\DTO\\TaskResponseDTO.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAQwBIAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-14T09:46:32.213Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Attachment.cs",
+              "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Domains\\Entities\\Attachment.cs",
+              "RelativeDocumentMoniker": "Domains\\Entities\\Attachment.cs",
+              "ToolTip": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Domains\\Entities\\Attachment.cs",
+              "RelativeToolTip": "Domains\\Entities\\Attachment.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-14T09:53:23.637Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TaskItem.cs",
+              "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Domains\\Entities\\TaskItem.cs",
+              "RelativeDocumentMoniker": "Domains\\Entities\\TaskItem.cs",
+              "ToolTip": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Domains\\Entities\\TaskItem.cs",
+              "RelativeToolTip": "Domains\\Entities\\TaskItem.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAcwAUAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-14T09:53:41.234Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\API3\\Program.cs",
+              "RelativeDocumentMoniker": "API3\\Program.cs",
+              "ToolTip": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\API3\\Program.cs",
+              "RelativeToolTip": "API3\\Program.cs",
+              "ViewState": "AQIAAFIAAAAAAAAAAAAYwGAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T14:34:09.205Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "TagTasksController.cs",
-              "DocumentMoniker": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\API3\\Controllers\\TagTasksController.cs",
-              "RelativeDocumentMoniker": "API3\\Controllers\\TagTasksController.cs",
-              "ToolTip": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\API3\\Controllers\\TagTasksController.cs",
-              "RelativeToolTip": "API3\\Controllers\\TagTasksController.cs",
-              "ViewState": "AQIAAC8AAAAAAAAAAAAwwEUAAAAoAAAA",
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\API3\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "API3\\Controllers\\CategoriesController.cs",
+              "ToolTip": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\API3\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "API3\\Controllers\\CategoriesController.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAQwDwAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-20T06:45:17.697Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "UsersController.cs",
-              "DocumentMoniker": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\API3\\Controllers\\UsersController.cs",
-              "RelativeDocumentMoniker": "API3\\Controllers\\UsersController.cs",
-              "ToolTip": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\API3\\Controllers\\UsersController.cs",
-              "RelativeToolTip": "API3\\Controllers\\UsersController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-24T09:45:53.404Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "StickersController.cs",
-              "DocumentMoniker": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\API3\\Controllers\\StickersController.cs",
-              "RelativeDocumentMoniker": "API3\\Controllers\\StickersController.cs",
-              "ToolTip": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\API3\\Controllers\\StickersController.cs",
-              "RelativeToolTip": "API3\\Controllers\\StickersController.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAUwB8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-18T10:57:47.29Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "20260625052553_FixCascade.cs",
-              "DocumentMoniker": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\DataAccess\\Migrations\\20260625052553_FixCascade.cs",
-              "RelativeDocumentMoniker": "DataAccess\\Migrations\\20260625052553_FixCascade.cs",
-              "ToolTip": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\DataAccess\\Migrations\\20260625052553_FixCascade.cs",
-              "RelativeToolTip": "DataAccess\\Migrations\\20260625052553_FixCascade.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAQwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-25T05:25:53.597Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "20260625052251_FixCascade.cs",
-              "DocumentMoniker": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\DataAccess\\Migrations\\20260625052251_FixCascade.cs",
-              "RelativeDocumentMoniker": "DataAccess\\Migrations\\20260625052251_FixCascade.cs",
-              "ToolTip": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\DataAccess\\Migrations\\20260625052251_FixCascade.cs",
-              "RelativeToolTip": "DataAccess\\Migrations\\20260625052251_FixCascade.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-25T05:22:51.801Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "20260625052502_FixCascade.cs",
-              "DocumentMoniker": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\DataAccess\\Migrations\\20260625052502_FixCascade.cs",
-              "RelativeDocumentMoniker": "DataAccess\\Migrations\\20260625052502_FixCascade.cs",
-              "ToolTip": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\DataAccess\\Migrations\\20260625052502_FixCascade.cs",
-              "RelativeToolTip": "DataAccess\\Migrations\\20260625052502_FixCascade.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAgwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-25T05:25:02.293Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-17T09:29:18.883Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\DataAccess\\Database\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "DataAccess\\Database\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\DataAccess\\Database\\AppDbContext.cs",
-              "RelativeToolTip": "DataAccess\\Database\\AppDbContext.cs",
-              "ViewState": "AQIAAB0AAAAAAAAAAAAowCoAAAAAAAAA",
+              "Title": "GroupController.cs",
+              "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\API3\\Controllers\\GroupController.cs",
+              "RelativeDocumentMoniker": "API3\\Controllers\\GroupController.cs",
+              "ToolTip": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\API3\\Controllers\\GroupController.cs",
+              "RelativeToolTip": "API3\\Controllers\\GroupController.cs",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAiwFoAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-14T09:22:45.394Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-23T09:22:01.912Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "RegisterDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\Modules\\DTO\\Auth\\RegisterDTO.cs",
-              "RelativeDocumentMoniker": "Modules\\DTO\\Auth\\RegisterDTO.cs",
-              "ToolTip": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\Modules\\DTO\\Auth\\RegisterDTO.cs",
-              "RelativeToolTip": "Modules\\DTO\\Auth\\RegisterDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAcAAAA",
+              "DocumentIndex": 9,
+              "Title": "TagsController.cs",
+              "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\API3\\Controllers\\TagsController.cs",
+              "RelativeDocumentMoniker": "API3\\Controllers\\TagsController.cs",
+              "ToolTip": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\API3\\Controllers\\TagsController.cs",
+              "RelativeToolTip": "API3\\Controllers\\TagsController.cs",
+              "ViewState": "AQIAAGIAAAAAAAAAAAAmwH0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-14T09:46:01.453Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-19T08:22:10.196Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 17,
-              "Title": "CommentController.cs",
-              "DocumentMoniker": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\API3\\Controllers\\CommentController.cs",
-              "RelativeDocumentMoniker": "API3\\Controllers\\CommentController.cs",
-              "ToolTip": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\API3\\Controllers\\CommentController.cs",
-              "RelativeToolTip": "API3\\Controllers\\CommentController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAANAAAA",
+              "Title": "20260625052039_updateCascade.cs",
+              "DocumentMoniker": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\DataAccess\\Migrations\\20260625052039_updateCascade.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Downloads\\API3\\API3\\DataAccess\\Migrations\\20260625052039_updateCascade.cs",
+              "ToolTip": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\DataAccess\\Migrations\\20260625052039_updateCascade.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Downloads\\API3\\API3\\DataAccess\\Migrations\\20260625052039_updateCascade.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-24T11:32:22.178Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-25T05:20:39.885Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "SeederController.cs",
-              "DocumentMoniker": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\API3\\Controllers\\SeederController.cs",
-              "RelativeDocumentMoniker": "API3\\Controllers\\SeederController.cs",
-              "ToolTip": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\API3\\Controllers\\SeederController.cs",
-              "RelativeToolTip": "API3\\Controllers\\SeederController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAN8AAAAoAAAA",
+              "DocumentIndex": 8,
+              "Title": "UsersGroupController.cs",
+              "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\API3\\Controllers\\UsersGroupController.cs",
+              "RelativeDocumentMoniker": "API3\\Controllers\\UsersGroupController.cs",
+              "ToolTip": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\API3\\Controllers\\UsersGroupController.cs",
+              "RelativeToolTip": "API3\\Controllers\\UsersGroupController.cs",
+              "ViewState": "AQIAADUAAAAAAAAAAAAUwFEAAABWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-23T08:13:27.142Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-24T09:54:36.47Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "IAuditService.cs",
-              "DocumentMoniker": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\Modules\\Interfaces\\IAuditService.cs",
-              "RelativeDocumentMoniker": "Modules\\Interfaces\\IAuditService.cs",
-              "ToolTip": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\Modules\\Interfaces\\IAuditService.cs",
-              "RelativeToolTip": "Modules\\Interfaces\\IAuditService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAGAAAA",
+              "DocumentIndex": 12,
+              "Title": "TagTasksController.cs",
+              "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\API3\\Controllers\\TagTasksController.cs",
+              "RelativeDocumentMoniker": "API3\\Controllers\\TagTasksController.cs",
+              "ToolTip": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\API3\\Controllers\\TagTasksController.cs",
+              "RelativeToolTip": "API3\\Controllers\\TagTasksController.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAwwEUAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-14T09:43:48.821Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-20T06:45:17.697Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\API3\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "API3\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\API3\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "API3\\Controllers\\UsersController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T09:45:53.404Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 19,
+              "Title": "StickersController.cs",
+              "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\API3\\Controllers\\StickersController.cs",
+              "RelativeDocumentMoniker": "API3\\Controllers\\StickersController.cs",
+              "ToolTip": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\API3\\Controllers\\StickersController.cs",
+              "RelativeToolTip": "API3\\Controllers\\StickersController.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAUwB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-18T10:57:47.29Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "20260625052553_FixCascade.cs",
+              "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\DataAccess\\Migrations\\20260625052553_FixCascade.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Migrations\\20260625052553_FixCascade.cs",
+              "ToolTip": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\DataAccess\\Migrations\\20260625052553_FixCascade.cs",
+              "RelativeToolTip": "DataAccess\\Migrations\\20260625052553_FixCascade.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T05:25:53.597Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "20260625052251_FixCascade.cs",
+              "DocumentMoniker": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\DataAccess\\Migrations\\20260625052251_FixCascade.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Downloads\\API3\\API3\\DataAccess\\Migrations\\20260625052251_FixCascade.cs",
+              "ToolTip": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\DataAccess\\Migrations\\20260625052251_FixCascade.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Downloads\\API3\\API3\\DataAccess\\Migrations\\20260625052251_FixCascade.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T05:22:51.801Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "20260625052502_FixCascade.cs",
+              "DocumentMoniker": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\DataAccess\\Migrations\\20260625052502_FixCascade.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Downloads\\API3\\API3\\DataAccess\\Migrations\\20260625052502_FixCascade.cs",
+              "ToolTip": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\DataAccess\\Migrations\\20260625052502_FixCascade.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Downloads\\API3\\API3\\DataAccess\\Migrations\\20260625052502_FixCascade.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T05:25:02.293Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\DataAccess\\Database\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Database\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\DataAccess\\Database\\AppDbContext.cs",
+              "RelativeToolTip": "DataAccess\\Database\\AppDbContext.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAowCoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-14T09:22:45.394Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "RegisterDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Modules\\DTO\\Auth\\RegisterDTO.cs",
+              "RelativeDocumentMoniker": "Modules\\DTO\\Auth\\RegisterDTO.cs",
+              "ToolTip": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Modules\\DTO\\Auth\\RegisterDTO.cs",
+              "RelativeToolTip": "Modules\\DTO\\Auth\\RegisterDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-14T09:46:01.453Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CommentController.cs",
+              "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\API3\\Controllers\\CommentController.cs",
+              "RelativeDocumentMoniker": "API3\\Controllers\\CommentController.cs",
+              "ToolTip": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\API3\\Controllers\\CommentController.cs",
+              "RelativeToolTip": "API3\\Controllers\\CommentController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-24T11:32:22.178Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IAuditService.cs",
+              "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Modules\\Interfaces\\IAuditService.cs",
+              "RelativeDocumentMoniker": "Modules\\Interfaces\\IAuditService.cs",
+              "ToolTip": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Modules\\Interfaces\\IAuditService.cs",
+              "RelativeToolTip": "Modules\\Interfaces\\IAuditService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-14T09:43:48.821Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
               "Title": "AuditService.cs",
-              "DocumentMoniker": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\Modules.Implementation\\Services\\AuditService.cs",
+              "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Modules.Implementation\\Services\\AuditService.cs",
               "RelativeDocumentMoniker": "Modules.Implementation\\Services\\AuditService.cs",
-              "ToolTip": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\Modules.Implementation\\Services\\AuditService.cs",
+              "ToolTip": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Modules.Implementation\\Services\\AuditService.cs",
               "RelativeToolTip": "Modules.Implementation\\Services\\AuditService.cs",
               "ViewState": "AQIAAAoAAAAAAAAAAAAwwCIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -577,11 +600,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 23,
               "Title": "DeleteGroupsUsersDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\Modules\\DTO\\GroupsUsers\\DeleteGroupsUsersDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Modules\\DTO\\GroupsUsers\\DeleteGroupsUsersDTO.cs",
               "RelativeDocumentMoniker": "Modules\\DTO\\GroupsUsers\\DeleteGroupsUsersDTO.cs",
-              "ToolTip": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\Modules\\DTO\\GroupsUsers\\DeleteGroupsUsersDTO.cs",
+              "ToolTip": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Modules\\DTO\\GroupsUsers\\DeleteGroupsUsersDTO.cs",
               "RelativeToolTip": "Modules\\DTO\\GroupsUsers\\DeleteGroupsUsersDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -589,11 +612,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 26,
               "Title": "Group.cs",
-              "DocumentMoniker": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\Domains\\Entities\\Group.cs",
+              "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Domains\\Entities\\Group.cs",
               "RelativeDocumentMoniker": "Domains\\Entities\\Group.cs",
-              "ToolTip": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\Domains\\Entities\\Group.cs",
+              "ToolTip": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Domains\\Entities\\Group.cs",
               "RelativeToolTip": "Domains\\Entities\\Group.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -601,11 +624,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 24,
               "Title": "CreateGroupDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\Modules\\DTO\\Groups\\CreateGroupDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Modules\\DTO\\Groups\\CreateGroupDTO.cs",
               "RelativeDocumentMoniker": "Modules\\DTO\\Groups\\CreateGroupDTO.cs",
-              "ToolTip": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\Modules\\DTO\\Groups\\CreateGroupDTO.cs",
+              "ToolTip": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Modules\\DTO\\Groups\\CreateGroupDTO.cs",
               "RelativeToolTip": "Modules\\DTO\\Groups\\CreateGroupDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -613,11 +636,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 74,
+              "DocumentIndex": 73,
               "Title": "20260624142318_UpdateGroupUsers.cs",
-              "DocumentMoniker": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\DataAccess\\Migrations\\20260624142318_UpdateGroupUsers.cs",
+              "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\DataAccess\\Migrations\\20260624142318_UpdateGroupUsers.cs",
               "RelativeDocumentMoniker": "DataAccess\\Migrations\\20260624142318_UpdateGroupUsers.cs",
-              "ToolTip": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\DataAccess\\Migrations\\20260624142318_UpdateGroupUsers.cs",
+              "ToolTip": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\DataAccess\\Migrations\\20260624142318_UpdateGroupUsers.cs",
               "RelativeToolTip": "DataAccess\\Migrations\\20260624142318_UpdateGroupUsers.cs",
               "ViewState": "AQIAABAAAAAAAAAAAAAgwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -625,11 +648,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 27,
               "Title": "UsersGroups.cs",
-              "DocumentMoniker": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\Domains\\Entities\\UsersGroups.cs",
+              "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Domains\\Entities\\UsersGroups.cs",
               "RelativeDocumentMoniker": "Domains\\Entities\\UsersGroups.cs",
-              "ToolTip": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\Domains\\Entities\\UsersGroups.cs",
+              "ToolTip": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Domains\\Entities\\UsersGroups.cs",
               "RelativeToolTip": "Domains\\Entities\\UsersGroups.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -637,11 +660,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 25,
               "Title": "AddGroupsUsersDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\Modules\\DTO\\GroupsUsers\\AddGroupsUsersDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Modules\\DTO\\GroupsUsers\\AddGroupsUsersDTO.cs",
               "RelativeDocumentMoniker": "Modules\\DTO\\GroupsUsers\\AddGroupsUsersDTO.cs",
-              "ToolTip": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\Modules\\DTO\\GroupsUsers\\AddGroupsUsersDTO.cs",
+              "ToolTip": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Modules\\DTO\\GroupsUsers\\AddGroupsUsersDTO.cs",
               "RelativeToolTip": "Modules\\DTO\\GroupsUsers\\AddGroupsUsersDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAwAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -649,23 +672,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "TaskItem.cs",
-              "DocumentMoniker": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\Domains\\Entities\\TaskItem.cs",
-              "RelativeDocumentMoniker": "Domains\\Entities\\TaskItem.cs",
-              "ToolTip": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\Domains\\Entities\\TaskItem.cs",
-              "RelativeToolTip": "Domains\\Entities\\TaskItem.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAA8wB4AAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-14T09:53:41.234Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 28,
               "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\Domains\\Entities\\User.cs",
+              "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Domains\\Entities\\User.cs",
               "RelativeDocumentMoniker": "Domains\\Entities\\User.cs",
-              "ToolTip": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\Domains\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Domains\\Entities\\User.cs",
               "RelativeToolTip": "Domains\\Entities\\User.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -673,11 +684,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 30,
               "Title": "CreateTaskDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\Modules\\DTO\\CreateTaskDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Modules\\DTO\\CreateTaskDTO.cs",
               "RelativeDocumentMoniker": "Modules\\DTO\\CreateTaskDTO.cs",
-              "ToolTip": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\Modules\\DTO\\CreateTaskDTO.cs",
+              "ToolTip": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Modules\\DTO\\CreateTaskDTO.cs",
               "RelativeToolTip": "Modules\\DTO\\CreateTaskDTO.cs",
               "ViewState": "AQIAAAwAAAAAAAAAAAA5wAQAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -686,22 +697,10 @@
             {
               "$type": "Document",
               "DocumentIndex": 29,
-              "Title": "TaskResponseDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\Modules\\DTO\\TaskResponseDTO.cs",
-              "RelativeDocumentMoniker": "Modules\\DTO\\TaskResponseDTO.cs",
-              "ToolTip": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\Modules\\DTO\\TaskResponseDTO.cs",
-              "RelativeToolTip": "Modules\\DTO\\TaskResponseDTO.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAA4wA0AAAA1AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-14T09:46:32.213Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
               "Title": "ClaimsPrincipalExtensions.cs",
-              "DocumentMoniker": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\API3\\Extensions\\ClaimsPrincipalExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\API3\\Extensions\\ClaimsPrincipalExtensions.cs",
               "RelativeDocumentMoniker": "API3\\Extensions\\ClaimsPrincipalExtensions.cs",
-              "ToolTip": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\API3\\Extensions\\ClaimsPrincipalExtensions.cs",
+              "ToolTip": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\API3\\Extensions\\ClaimsPrincipalExtensions.cs",
               "RelativeToolTip": "API3\\Extensions\\ClaimsPrincipalExtensions.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAYAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -709,11 +708,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "UpdateTaskDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\Modules\\DTO\\UpdateTaskDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Modules\\DTO\\UpdateTaskDTO.cs",
               "RelativeDocumentMoniker": "Modules\\DTO\\UpdateTaskDTO.cs",
-              "ToolTip": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\Modules\\DTO\\UpdateTaskDTO.cs",
+              "ToolTip": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Modules\\DTO\\UpdateTaskDTO.cs",
               "RelativeToolTip": "Modules\\DTO\\UpdateTaskDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -721,11 +720,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "LoginDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\Modules\\DTO\\Auth\\LoginDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Modules\\DTO\\Auth\\LoginDTO.cs",
               "RelativeDocumentMoniker": "Modules\\DTO\\Auth\\LoginDTO.cs",
-              "ToolTip": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\Modules\\DTO\\Auth\\LoginDTO.cs",
+              "ToolTip": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Modules\\DTO\\Auth\\LoginDTO.cs",
               "RelativeToolTip": "Modules\\DTO\\Auth\\LoginDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAgAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -733,11 +732,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 39,
               "Title": "Sticker.cs",
-              "DocumentMoniker": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\Domains\\Entities\\Sticker.cs",
+              "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Domains\\Entities\\Sticker.cs",
               "RelativeDocumentMoniker": "Domains\\Entities\\Sticker.cs",
-              "ToolTip": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\Domains\\Entities\\Sticker.cs",
+              "ToolTip": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Domains\\Entities\\Sticker.cs",
               "RelativeToolTip": "Domains\\Entities\\Sticker.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -745,11 +744,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 37,
               "Title": "Tag.cs",
-              "DocumentMoniker": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\Domains\\Entities\\Tag.cs",
+              "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Domains\\Entities\\Tag.cs",
               "RelativeDocumentMoniker": "Domains\\Entities\\Tag.cs",
-              "ToolTip": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\Domains\\Entities\\Tag.cs",
+              "ToolTip": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Domains\\Entities\\Tag.cs",
               "RelativeToolTip": "Domains\\Entities\\Tag.cs",
               "ViewState": "AQIAAA4AAAAAAAAAAAAowBsAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -757,11 +756,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "Modules.csproj",
-              "DocumentMoniker": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\Modules\\Modules.csproj",
+              "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Modules\\Modules.csproj",
               "RelativeDocumentMoniker": "Modules\\Modules.csproj",
-              "ToolTip": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\Modules\\Modules.csproj",
+              "ToolTip": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Modules\\Modules.csproj",
               "RelativeToolTip": "Modules\\Modules.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
@@ -769,11 +768,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "TagTasks.cs",
-              "DocumentMoniker": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\Domains\\Entities\\TagTasks.cs",
+              "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Domains\\Entities\\TagTasks.cs",
               "RelativeDocumentMoniker": "Domains\\Entities\\TagTasks.cs",
-              "ToolTip": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\Domains\\Entities\\TagTasks.cs",
+              "ToolTip": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Domains\\Entities\\TagTasks.cs",
               "RelativeToolTip": "Domains\\Entities\\TagTasks.cs",
               "ViewState": "AQIAAAEAAAAAAAAAAAAswAkAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -781,11 +780,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 36,
               "Title": "20260623084226_UpdateTag.cs",
-              "DocumentMoniker": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\DataAccess\\Migrations\\20260623084226_UpdateTag.cs",
+              "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\DataAccess\\Migrations\\20260623084226_UpdateTag.cs",
               "RelativeDocumentMoniker": "DataAccess\\Migrations\\20260623084226_UpdateTag.cs",
-              "ToolTip": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\DataAccess\\Migrations\\20260623084226_UpdateTag.cs",
+              "ToolTip": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\DataAccess\\Migrations\\20260623084226_UpdateTag.cs",
               "RelativeToolTip": "DataAccess\\Migrations\\20260623084226_UpdateTag.cs",
               "ViewState": "AQIAAAgAAAAAAAAAAAAQwAoAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -793,11 +792,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 35,
               "Title": "20260623073457_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\DataAccess\\Migrations\\20260623073457_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\DataAccess\\Migrations\\20260623073457_InitialCreate.cs",
               "RelativeDocumentMoniker": "DataAccess\\Migrations\\20260623073457_InitialCreate.cs",
-              "ToolTip": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\DataAccess\\Migrations\\20260623073457_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\DataAccess\\Migrations\\20260623073457_InitialCreate.cs",
               "RelativeToolTip": "DataAccess\\Migrations\\20260623073457_InitialCreate.cs",
               "ViewState": "AQIAAHYAAAAAAAAAAAAAwIMAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -805,11 +804,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 38,
               "Title": "Category.cs",
-              "DocumentMoniker": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\Domains\\Entities\\Category.cs",
+              "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Domains\\Entities\\Category.cs",
               "RelativeDocumentMoniker": "Domains\\Entities\\Category.cs",
-              "ToolTip": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\Domains\\Entities\\Category.cs",
+              "ToolTip": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Domains\\Entities\\Category.cs",
               "RelativeToolTip": "Domains\\Entities\\Category.cs",
               "ViewState": "AQIAAAwAAAAAAAAAAAA5wAkAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -817,11 +816,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 40,
               "Title": "Role.cs",
-              "DocumentMoniker": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\Domains\\Entities\\Role.cs",
+              "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Domains\\Entities\\Role.cs",
               "RelativeDocumentMoniker": "Domains\\Entities\\Role.cs",
-              "ToolTip": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\Domains\\Entities\\Role.cs",
+              "ToolTip": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Domains\\Entities\\Role.cs",
               "RelativeToolTip": "Domains\\Entities\\Role.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -829,35 +828,35 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 41,
               "Title": "20260623072853_InitialCreate.cs",
               "DocumentMoniker": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\DataAccess\\Migrations\\20260623072853_InitialCreate.cs",
-              "RelativeDocumentMoniker": "DataAccess\\Migrations\\20260623072853_InitialCreate.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Downloads\\API3\\API3\\DataAccess\\Migrations\\20260623072853_InitialCreate.cs",
               "ToolTip": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\DataAccess\\Migrations\\20260623072853_InitialCreate.cs",
-              "RelativeToolTip": "DataAccess\\Migrations\\20260623072853_InitialCreate.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Downloads\\API3\\API3\\DataAccess\\Migrations\\20260623072853_InitialCreate.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-23T07:28:53.974Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 42,
               "Title": "20260623072350_UpdateGroupTasks.cs",
               "DocumentMoniker": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\DataAccess\\Migrations\\20260623072350_UpdateGroupTasks.cs",
-              "RelativeDocumentMoniker": "DataAccess\\Migrations\\20260623072350_UpdateGroupTasks.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Downloads\\API3\\API3\\DataAccess\\Migrations\\20260623072350_UpdateGroupTasks.cs",
               "ToolTip": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\DataAccess\\Migrations\\20260623072350_UpdateGroupTasks.cs",
-              "RelativeToolTip": "DataAccess\\Migrations\\20260623072350_UpdateGroupTasks.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Downloads\\API3\\API3\\DataAccess\\Migrations\\20260623072350_UpdateGroupTasks.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-23T07:23:50.707Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 43,
               "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\DataAccess\\Class1.cs",
+              "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\DataAccess\\Class1.cs",
               "RelativeDocumentMoniker": "DataAccess\\Class1.cs",
-              "ToolTip": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\DataAccess\\Class1.cs",
+              "ToolTip": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\DataAccess\\Class1.cs",
               "RelativeToolTip": "DataAccess\\Class1.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -865,11 +864,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 45,
               "Title": "CreateTagDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\Modules\\DTO\\Tags\\CreateTagDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Modules\\DTO\\Tags\\CreateTagDTO.cs",
               "RelativeDocumentMoniker": "Modules\\DTO\\Tags\\CreateTagDTO.cs",
-              "ToolTip": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\Modules\\DTO\\Tags\\CreateTagDTO.cs",
+              "ToolTip": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Modules\\DTO\\Tags\\CreateTagDTO.cs",
               "RelativeToolTip": "Modules\\DTO\\Tags\\CreateTagDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -877,11 +876,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 46,
               "Title": "CreateCategoryDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\Modules\\DTO\\Categories\\CreateCategoryDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Modules\\DTO\\Categories\\CreateCategoryDTO.cs",
               "RelativeDocumentMoniker": "Modules\\DTO\\Categories\\CreateCategoryDTO.cs",
-              "ToolTip": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\Modules\\DTO\\Categories\\CreateCategoryDTO.cs",
+              "ToolTip": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Modules\\DTO\\Categories\\CreateCategoryDTO.cs",
               "RelativeToolTip": "Modules\\DTO\\Categories\\CreateCategoryDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -889,11 +888,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 44,
               "Title": "UpdateCategoryDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\Modules\\DTO\\Categories\\UpdateCategoryDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Modules\\DTO\\Categories\\UpdateCategoryDTO.cs",
               "RelativeDocumentMoniker": "Modules\\DTO\\Categories\\UpdateCategoryDTO.cs",
-              "ToolTip": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\Modules\\DTO\\Categories\\UpdateCategoryDTO.cs",
+              "ToolTip": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Modules\\DTO\\Categories\\UpdateCategoryDTO.cs",
               "RelativeToolTip": "Modules\\DTO\\Categories\\UpdateCategoryDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -903,9 +902,9 @@
               "$type": "Document",
               "DocumentIndex": 50,
               "Title": "ForgotPasswordDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\Modules\\DTO\\Auth\\ForgotPasswordDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Modules\\DTO\\Auth\\ForgotPasswordDTO.cs",
               "RelativeDocumentMoniker": "Modules\\DTO\\Auth\\ForgotPasswordDTO.cs",
-              "ToolTip": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\Modules\\DTO\\Auth\\ForgotPasswordDTO.cs",
+              "ToolTip": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Modules\\DTO\\Auth\\ForgotPasswordDTO.cs",
               "RelativeToolTip": "Modules\\DTO\\Auth\\ForgotPasswordDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwA0AAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -914,22 +913,10 @@
             {
               "$type": "Document",
               "DocumentIndex": 47,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\API3\\Program.cs",
-              "RelativeDocumentMoniker": "API3\\Program.cs",
-              "ToolTip": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\API3\\Program.cs",
-              "RelativeToolTip": "API3\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T14:34:09.205Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 46,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\API3\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\API3\\appsettings.json",
               "RelativeDocumentMoniker": "API3\\appsettings.json",
-              "ToolTip": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\API3\\appsettings.json",
+              "ToolTip": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\API3\\appsettings.json",
               "RelativeToolTip": "API3\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -939,9 +926,9 @@
               "$type": "Document",
               "DocumentIndex": 51,
               "Title": "API3.csproj",
-              "DocumentMoniker": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\API3\\API3.csproj",
+              "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\API3\\API3.csproj",
               "RelativeDocumentMoniker": "API3\\API3.csproj",
-              "ToolTip": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\API3\\API3.csproj",
+              "ToolTip": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\API3\\API3.csproj",
               "RelativeToolTip": "API3\\API3.csproj",
               "ViewState": "AQIAABsAAAAAAAAAAAAAABIAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
@@ -951,9 +938,9 @@
               "$type": "Document",
               "DocumentIndex": 48,
               "Title": "IEmailService.cs",
-              "DocumentMoniker": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\Modules\\Interfaces\\IEmailService.cs",
+              "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Modules\\Interfaces\\IEmailService.cs",
               "RelativeDocumentMoniker": "Modules\\Interfaces\\IEmailService.cs",
-              "ToolTip": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\Modules\\Interfaces\\IEmailService.cs",
+              "ToolTip": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Modules\\Interfaces\\IEmailService.cs",
               "RelativeToolTip": "Modules\\Interfaces\\IEmailService.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAQwBEAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -963,9 +950,9 @@
               "$type": "Document",
               "DocumentIndex": 49,
               "Title": "EmailService.cs",
-              "DocumentMoniker": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\Modules.Implementation\\Services\\EmailService.cs",
+              "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Modules.Implementation\\Services\\EmailService.cs",
               "RelativeDocumentMoniker": "Modules.Implementation\\Services\\EmailService.cs",
-              "ToolTip": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\Modules.Implementation\\Services\\EmailService.cs",
+              "ToolTip": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Modules.Implementation\\Services\\EmailService.cs",
               "RelativeToolTip": "Modules.Implementation\\Services\\EmailService.cs",
               "ViewState": "AQIAACoAAAAAAAAAAAAcwEMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -975,9 +962,9 @@
               "$type": "Document",
               "DocumentIndex": 53,
               "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\Modules.Implementation\\Class1.cs",
+              "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Modules.Implementation\\Class1.cs",
               "RelativeDocumentMoniker": "Modules.Implementation\\Class1.cs",
-              "ToolTip": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\Modules.Implementation\\Class1.cs",
+              "ToolTip": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Modules.Implementation\\Class1.cs",
               "RelativeToolTip": "Modules.Implementation\\Class1.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -987,9 +974,9 @@
               "$type": "Document",
               "DocumentIndex": 52,
               "Title": "ResetPasswordDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\Modules\\DTO\\Auth\\ResetPasswordDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Modules\\DTO\\Auth\\ResetPasswordDTO.cs",
               "RelativeDocumentMoniker": "Modules\\DTO\\Auth\\ResetPasswordDTO.cs",
-              "ToolTip": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\Modules\\DTO\\Auth\\ResetPasswordDTO.cs",
+              "ToolTip": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Modules\\DTO\\Auth\\ResetPasswordDTO.cs",
               "RelativeToolTip": "Modules\\DTO\\Auth\\ResetPasswordDTO.cs",
               "ViewState": "AQIAAA0AAAAAAAAAAAA1wBQAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -999,9 +986,9 @@
               "$type": "Document",
               "DocumentIndex": 54,
               "Title": "Domains.csproj",
-              "DocumentMoniker": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\Domains\\Domains.csproj",
+              "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Domains\\Domains.csproj",
               "RelativeDocumentMoniker": "Domains\\Domains.csproj",
-              "ToolTip": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\Domains\\Domains.csproj",
+              "ToolTip": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Domains\\Domains.csproj",
               "RelativeToolTip": "Domains\\Domains.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
@@ -1012,9 +999,9 @@
               "DocumentIndex": 55,
               "Title": "20260620084714_TagTaskUpdate4.cs",
               "DocumentMoniker": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\DataAccess\\Migrations\\20260620084714_TagTaskUpdate4.cs",
-              "RelativeDocumentMoniker": "DataAccess\\Migrations\\20260620084714_TagTaskUpdate4.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Downloads\\API3\\API3\\DataAccess\\Migrations\\20260620084714_TagTaskUpdate4.cs",
               "ToolTip": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\DataAccess\\Migrations\\20260620084714_TagTaskUpdate4.cs",
-              "RelativeToolTip": "DataAccess\\Migrations\\20260620084714_TagTaskUpdate4.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Downloads\\API3\\API3\\DataAccess\\Migrations\\20260620084714_TagTaskUpdate4.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-20T08:47:14.804Z"
@@ -1023,9 +1010,9 @@
               "$type": "Document",
               "DocumentIndex": 56,
               "Title": "CreateTagsTasksDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\Modules\\DTO\\Tags\\CreateTagsTasksDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Modules\\DTO\\Tags\\CreateTagsTasksDTO.cs",
               "RelativeDocumentMoniker": "Modules\\DTO\\Tags\\CreateTagsTasksDTO.cs",
-              "ToolTip": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\Modules\\DTO\\Tags\\CreateTagsTasksDTO.cs",
+              "ToolTip": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Modules\\DTO\\Tags\\CreateTagsTasksDTO.cs",
               "RelativeToolTip": "Modules\\DTO\\Tags\\CreateTagsTasksDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1035,9 +1022,9 @@
               "$type": "Document",
               "DocumentIndex": 57,
               "Title": "AttachmentResponseDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\Modules\\DTO\\Files\\AttachmentResponseDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Modules\\DTO\\Files\\AttachmentResponseDTO.cs",
               "RelativeDocumentMoniker": "Modules\\DTO\\Files\\AttachmentResponseDTO.cs",
-              "ToolTip": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\Modules\\DTO\\Files\\AttachmentResponseDTO.cs",
+              "ToolTip": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Modules\\DTO\\Files\\AttachmentResponseDTO.cs",
               "RelativeToolTip": "Modules\\DTO\\Files\\AttachmentResponseDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1047,9 +1034,9 @@
               "$type": "Document",
               "DocumentIndex": 58,
               "Title": "CreateStickerDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\Modules\\DTO\\Stickers\\CreateStickerDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Modules\\DTO\\Stickers\\CreateStickerDTO.cs",
               "RelativeDocumentMoniker": "Modules\\DTO\\Stickers\\CreateStickerDTO.cs",
-              "ToolTip": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\Modules\\DTO\\Stickers\\CreateStickerDTO.cs",
+              "ToolTip": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Modules\\DTO\\Stickers\\CreateStickerDTO.cs",
               "RelativeToolTip": "Modules\\DTO\\Stickers\\CreateStickerDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1059,9 +1046,9 @@
               "$type": "Document",
               "DocumentIndex": 59,
               "Title": "UpdateTagDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\Modules\\DTO\\Tags\\UpdateTagDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Modules\\DTO\\Tags\\UpdateTagDTO.cs",
               "RelativeDocumentMoniker": "Modules\\DTO\\Tags\\UpdateTagDTO.cs",
-              "ToolTip": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\Modules\\DTO\\Tags\\UpdateTagDTO.cs",
+              "ToolTip": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Modules\\DTO\\Tags\\UpdateTagDTO.cs",
               "RelativeToolTip": "Modules\\DTO\\Tags\\UpdateTagDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1071,9 +1058,9 @@
               "$type": "Document",
               "DocumentIndex": 60,
               "Title": "MappingProfile.cs",
-              "DocumentMoniker": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\Modules\\Mapping\\MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Modules\\Mapping\\MappingProfile.cs",
               "RelativeDocumentMoniker": "Modules\\Mapping\\MappingProfile.cs",
-              "ToolTip": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\Modules\\Mapping\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Modules\\Mapping\\MappingProfile.cs",
               "RelativeToolTip": "Modules\\Mapping\\MappingProfile.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1083,9 +1070,9 @@
               "$type": "Document",
               "DocumentIndex": 61,
               "Title": "ItemComment.cs",
-              "DocumentMoniker": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\Domains\\Entities\\ItemComment.cs",
+              "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Domains\\Entities\\ItemComment.cs",
               "RelativeDocumentMoniker": "Domains\\Entities\\ItemComment.cs",
-              "ToolTip": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\Domains\\Entities\\ItemComment.cs",
+              "ToolTip": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Domains\\Entities\\ItemComment.cs",
               "RelativeToolTip": "Domains\\Entities\\ItemComment.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1094,34 +1081,22 @@
             {
               "$type": "Document",
               "DocumentIndex": 62,
-              "Title": "Attachment.cs",
-              "DocumentMoniker": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\Domains\\Entities\\Attachment.cs",
-              "RelativeDocumentMoniker": "Domains\\Entities\\Attachment.cs",
-              "ToolTip": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\Domains\\Entities\\Attachment.cs",
-              "RelativeToolTip": "Domains\\Entities\\Attachment.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-14T09:53:23.637Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 63,
               "Title": "20260615063316_InitialCreate.cs",
               "DocumentMoniker": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\DataAccess\\Migrations\\20260615063316_InitialCreate.cs",
-              "RelativeDocumentMoniker": "DataAccess\\Migrations\\20260615063316_InitialCreate.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Downloads\\API3\\API3\\DataAccess\\Migrations\\20260615063316_InitialCreate.cs",
               "ToolTip": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\DataAccess\\Migrations\\20260615063316_InitialCreate.cs",
-              "RelativeToolTip": "DataAccess\\Migrations\\20260615063316_InitialCreate.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Downloads\\API3\\API3\\DataAccess\\Migrations\\20260615063316_InitialCreate.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-15T06:33:16.646Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 63,
               "Title": "AuditLog.cs",
-              "DocumentMoniker": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\Domains\\Entities\\AuditLog.cs",
+              "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Domains\\Entities\\AuditLog.cs",
               "RelativeDocumentMoniker": "Domains\\Entities\\AuditLog.cs",
-              "ToolTip": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\Domains\\Entities\\AuditLog.cs",
+              "ToolTip": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Domains\\Entities\\AuditLog.cs",
               "RelativeToolTip": "Domains\\Entities\\AuditLog.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1129,11 +1104,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 64,
               "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\Modules\\Class1.cs",
+              "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Modules\\Class1.cs",
               "RelativeDocumentMoniker": "Modules\\Class1.cs",
-              "ToolTip": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\Modules\\Class1.cs",
+              "ToolTip": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Modules\\Class1.cs",
               "RelativeToolTip": "Modules\\Class1.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1141,11 +1116,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 65,
               "Title": "DataAccess.csproj",
-              "DocumentMoniker": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\DataAccess\\DataAccess.csproj",
+              "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\DataAccess\\DataAccess.csproj",
               "RelativeDocumentMoniker": "DataAccess\\DataAccess.csproj",
-              "ToolTip": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\DataAccess\\DataAccess.csproj",
+              "ToolTip": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\DataAccess\\DataAccess.csproj",
               "RelativeToolTip": "DataAccess\\DataAccess.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
@@ -1153,11 +1128,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 66,
               "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\Domains\\Class1.cs",
+              "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Domains\\Class1.cs",
               "RelativeDocumentMoniker": "Domains\\Class1.cs",
-              "ToolTip": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\Domains\\Class1.cs",
+              "ToolTip": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Domains\\Class1.cs",
               "RelativeToolTip": "Domains\\Class1.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1165,11 +1140,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 67,
               "Title": "WeatherForecast.cs",
-              "DocumentMoniker": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\API3\\WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\API3\\WeatherForecast.cs",
               "RelativeDocumentMoniker": "API3\\WeatherForecast.cs",
-              "ToolTip": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\API3\\WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\API3\\WeatherForecast.cs",
               "RelativeToolTip": "API3\\WeatherForecast.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1177,11 +1152,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 69,
+              "DocumentIndex": 68,
               "Title": "CommentResponseDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\Modules\\DTO\\Comments\\CommentResponseDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Modules\\DTO\\Comments\\CommentResponseDTO.cs",
               "RelativeDocumentMoniker": "Modules\\DTO\\Comments\\CommentResponseDTO.cs",
-              "ToolTip": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\Modules\\DTO\\Comments\\CommentResponseDTO.cs",
+              "ToolTip": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Modules\\DTO\\Comments\\CommentResponseDTO.cs",
               "RelativeToolTip": "Modules\\DTO\\Comments\\CommentResponseDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1189,11 +1164,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 70,
+              "DocumentIndex": 69,
               "Title": "GlobalExceptionMiddleware.cs",
-              "DocumentMoniker": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\API3\\Middleware\\GlobalExceptionMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\API3\\Middleware\\GlobalExceptionMiddleware.cs",
               "RelativeDocumentMoniker": "API3\\Middleware\\GlobalExceptionMiddleware.cs",
-              "ToolTip": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\API3\\Middleware\\GlobalExceptionMiddleware.cs",
+              "ToolTip": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\API3\\Middleware\\GlobalExceptionMiddleware.cs",
               "RelativeToolTip": "API3\\Middleware\\GlobalExceptionMiddleware.cs",
               "ViewState": "AQIAAAgAAAAAAAAAAAAQwBgAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1201,11 +1176,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 71,
+              "DocumentIndex": 70,
               "Title": "API3.http",
-              "DocumentMoniker": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\API3\\API3.http",
+              "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\API3\\API3.http",
               "RelativeDocumentMoniker": "API3\\API3.http",
-              "ToolTip": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\API3\\API3.http",
+              "ToolTip": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\API3\\API3.http",
               "RelativeToolTip": "API3\\API3.http",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
@@ -1213,22 +1188,22 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 72,
+              "DocumentIndex": 71,
               "Title": "2cccd878-57c6-4191-91a2-75cd4f25577c_Screenshot 2024-12-02 164818.png",
-              "DocumentMoniker": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\API3\\wwwroot\\uploads\\2cccd878-57c6-4191-91a2-75cd4f25577c_Screenshot 2024-12-02 164818.png",
+              "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\API3\\wwwroot\\uploads\\2cccd878-57c6-4191-91a2-75cd4f25577c_Screenshot 2024-12-02 164818.png",
               "RelativeDocumentMoniker": "API3\\wwwroot\\uploads\\2cccd878-57c6-4191-91a2-75cd4f25577c_Screenshot 2024-12-02 164818.png",
-              "ToolTip": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\API3\\wwwroot\\uploads\\2cccd878-57c6-4191-91a2-75cd4f25577c_Screenshot 2024-12-02 164818.png",
+              "ToolTip": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\API3\\wwwroot\\uploads\\2cccd878-57c6-4191-91a2-75cd4f25577c_Screenshot 2024-12-02 164818.png",
               "RelativeToolTip": "API3\\wwwroot\\uploads\\2cccd878-57c6-4191-91a2-75cd4f25577c_Screenshot 2024-12-02 164818.png",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
               "WhenOpened": "2026-05-25T12:21:26.668Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 73,
+              "DocumentIndex": 72,
               "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\API3\\Properties\\launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\API3\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "API3\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\API3\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\API3\\Properties\\launchSettings.json",
               "RelativeToolTip": "API3\\Properties\\launchSettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",

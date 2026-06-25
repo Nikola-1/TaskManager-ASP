@@ -82,6 +82,7 @@ namespace API3.Controllers
            
             var query = _context.Tasks
                 .Include(x => x.user)
+                .Include(x=>x.Attachments)
                 .Include(x => x.category)
                     .ThenInclude(y => y.Sticker)
                 .AsQueryable();
@@ -133,6 +134,7 @@ namespace API3.Controllers
                     content = x.content,
                     Status = x.Status,
                     user_id = x.user_id,
+                    attachments=x.Attachments,
                     AssignedUsername = x.user != null ? x.user.Username : null,
                     CreatedAt = x.CreatedAt,
                     Deleted = x.Deleted,

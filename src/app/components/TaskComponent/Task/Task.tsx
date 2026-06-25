@@ -10,7 +10,7 @@ import { OptionsMenu } from '../../OptionsMenu/OptionsMenu';
 import {  useEffect, useRef, useState } from 'react';
 import { useAuth } from '@/app/context/AuthContext';
 import { useScope } from '@/app/context/ScopeContext';
-import { CreateTagTaskConnection, deleteOneDeleted, deleteTagTaskConnection, deleteTask, getTags, getTasks, updateStatus } from '@/app/api/api';
+import { AddFile, CreateTagTaskConnection, deleteOneDeleted, deleteTagTaskConnection, deleteTask, downloadAttachment, getTags, getTasks, updateStatus } from '@/app/api/api';
 import Image from 'next/image';
 import toast from 'react-hot-toast';
 export interface TaskProps {
@@ -28,19 +28,7 @@ export default function Task({ task, filter, setSelectedTask, selectedTask, refr
   const { group} = useScope();
 
  
-  const Download = async () => {
-      const {data,error} = await supabase.storage.from("FileBucket").download(`${task.folder_name}/${task.file_name}`);
-
-      if(error){
-        console.log(error);
-      }
-      const url = URL.createObjectURL(data);
-      const a = document.createElement("a");
-      a.href= url;
-      a.download = task.file_name;
-      a.click();
-      URL.revokeObjectURL(url);
-  }
+ 
   
  
 
@@ -85,11 +73,17 @@ export default function Task({ task, filter, setSelectedTask, selectedTask, refr
                     
                   
 
-
-                   const {data,error} = await supabase.storage.from("FileBucket").upload(`user-${user?.id}/${file.name}`,file); 
-                   
-                  const {data2,error2} = await supabase.from("tasks").update({folder_name:`user-${user?.id}`}).eq("id",task.id).eq("user_id",user?.id);
-                  const {data3,error3} = await supabase.from("tasks").update({file_name:file.name}).eq("id",task.id).eq("user_id",user?.id);
+                    try{
+                   const {data,error} = await AddFile(task.id,file);
+                   toast.success("File successfully added");
+                     refreshTasks();
+                   }
+                   catch(err){
+                    console.log(err);
+                   }
+                 
+                  // const {data2,error2} = await supabase.from("tasks").update({folder_name:`user-${user?.id}`}).eq("id",task.id).eq("user_id",user?.id);
+                  // const {data3,error3} = await supabase.from("tasks").update({file_name:file.name}).eq("id",task.id).eq("user_id",user?.id);
     }
     fileInput.current?.click();
                   
@@ -195,13 +189,31 @@ export default function Task({ task, filter, setSelectedTask, selectedTask, refr
         
          {task.category_id ? <img src={`/img/${task.sticker_path}.png`} width={20} height={20}></img> : null}
          </div>
-         {task.file_name != null ?
-         <div className='flex'>
+         <div className='flex max-w-64 overflow-x-scroll scrollbar-hide touch-pan-x'>
+         {task.attachments.length != 0 ? task.attachments.map((x)=>
+         
+            <div key={x.id} className='flex  '>
          <p className='p-2'></p>
-         <p className='bg-teal-900 text-white text-xs rounded-md p-1'>{task.file_name}</p> 
-           <p className='bg-blue-800 text-white text-xs rounded-md p-1 mx-1'><button onClick={Download}><FontAwesomeIcon  icon={faDownload}/></button></p> 
+         <p className='bg-teal-900 text-white text-xs rounded-md p-1'>{x.fileName}</p> 
+           <p className='bg-blue-800 text-white text-xs rounded-md p-1 mx-1'><button onClick={async (e) => {
+    e.stopPropagation();
+
+    const blob = await downloadAttachment(task.id, x.id);
+
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+
+    a.href = url;
+    a.download = x.fileName;
+    a.click();
+
+    URL.revokeObjectURL(url);
+  }}><FontAwesomeIcon  icon={faDownload}/></button></p> 
         </div>
+        )
+         
          : ""} 
+         </div>
          <div className='flex items-start justify-start'>
         {task.tags?.map((tag: any) => <p className={`m-1  text-white p-1 text-sm rounded-md w-fit`} style={tag.color ? { backgroundColor:tag.color} : { backgroundColor:"#4463BD"}} key={tag.id}>{tag.name}</p>)}
         </div>

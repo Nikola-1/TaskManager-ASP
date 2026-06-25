@@ -16,6 +16,7 @@ namespace Modules.DTO
         public bool Completed { get; set; }
         public bool Deleted { get; set; }
         public DateTime CreatedAt { get; set; }
+        public ICollection<Attachment>? attachments { get; set; }
         public List<Tag>? Tags { get; set; }
         public int? group_id { get; set; }
     }

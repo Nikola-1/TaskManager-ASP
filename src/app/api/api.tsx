@@ -722,3 +722,63 @@ if (!res.ok) {
 
 return data;
 }
+
+export async function AddFile(
+  id_task_param: number,
+  file_param: File
+) {
+
+   const formData = new FormData();
+  formData.append("file", file_param);
+  const token = localStorage.getItem("token");
+
+  const res = await fetch(`${API_URL}/api/Tasks/${id_task_param}/attachments`, {
+    method: "POST",
+    headers: {
+      Authorization: `Bearer ${token}`,
+    },
+    body:formData,
+  });
+
+  if (!res.ok) {
+    throw new Error("Failed to add file");
+  }
+
+  return await res.json();
+}
+
+export async function getAttachments(id_task_param:number){
+  const token =localStorage.getItem("token");
+    const res = await fetch(`${API_URL}/api/Tasks/${id_task_param}/attachments`,{
+      method:"GET",
+      headers:{
+        "Content-type":"Application/json",
+        Authorization:`Bearer ${token}`
+      },
+      
+    });
+    if (!res.ok) {
+    throw new Error(await res.text());
+  }
+    return res.json();
+}
+
+export async function downloadAttachment(taskId: number, attachmentId: number) {
+  const token = localStorage.getItem("token");
+
+  const res = await fetch(
+    `${API_URL}/api/tasks/${taskId}/attachments/${attachmentId}/download`,
+    {
+      method: "GET",
+      headers: {
+        Authorization: `Bearer ${token}`,
+      },
+    }
+  );
+
+  if (!res.ok) {
+    throw new Error("Failed to download file");
+  }
+
+  return await res.blob();
+}

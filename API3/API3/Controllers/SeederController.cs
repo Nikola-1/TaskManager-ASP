@@ -98,61 +98,61 @@ namespace API3.Controllers
     {
         Name = "TaskFlow Team",
         OwnerId = 1,
-        Image_path = "/groups/taskflow.png"
+        Image_path = "3d-briefcase"
     },
     new Group
     {
         Name = "Frontend Developers",
         OwnerId = 2,
-        Image_path = "/groups/frontend.png"
+        Image_path = "3d-headphone"
     },
     new Group
     {
         Name = "Backend Developers",
         OwnerId = 3,
-        Image_path = "/groups/backend.png"
+        Image_path = "3d-music"
     },
     new Group
     {
         Name = "QA Team",
         OwnerId = 4,
-        Image_path = "/groups/qa.png"
+        Image_path = "3d-paper-bag"
     },
     new Group
     {
         Name = "Marketing",
         OwnerId = 5,
-        Image_path = "/groups/marketing.png"
+        Image_path = "3d-present"
     },
     new Group
     {
         Name = "Design Studio",
         OwnerId = 6,
-        Image_path = "/groups/design.png"
+        Image_path = "3d-star"
     },
     new Group
     {
         Name = "Fitness Club",
         OwnerId = 7,
-        Image_path = "/groups/fitness.png"
+        Image_path = "3d-tokens"
     },
     new Group
     {
         Name = "Book Readers",
         OwnerId = 8,
-        Image_path = "/groups/books.png"
+        Image_path = "hot-chocolate"
     },
     new Group
     {
         Name = "Gaming Squad",
         OwnerId = 9,
-        Image_path = "/groups/gaming.png"
+        Image_path = "Sunflower"
     },
     new Group
     {
         Name = "Travel Buddies",
         OwnerId = 10,
-        Image_path = "/groups/travel.png"
+        Image_path = "3d-truck"
     }
 };
 

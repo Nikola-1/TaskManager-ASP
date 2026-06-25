@@ -5,6 +5,26 @@
       "PackagePath": "staticwebassets\\uploads\\2cccd878-57c6-4191-91a2-75cd4f25577c_Screenshot 2024-12-02 164818.png"
     },
     {
+      "Id": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\API3\\wwwroot\\uploads\\4089c55b-7ad0-4570-8522-f4e2cef8fe15_ChuckTaylor1.png",
+      "PackagePath": "staticwebassets\\uploads\\4089c55b-7ad0-4570-8522-f4e2cef8fe15_ChuckTaylor1.png"
+    },
+    {
+      "Id": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\API3\\wwwroot\\uploads\\46b397e5-c2a8-4935-9946-875c9d8bde6d_Logo.png",
+      "PackagePath": "staticwebassets\\uploads\\46b397e5-c2a8-4935-9946-875c9d8bde6d_Logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\API3\\wwwroot\\uploads\\741f88bc-0c00-4d15-99ec-2d57702a7be6_pegasus.png",
+      "PackagePath": "staticwebassets\\uploads\\741f88bc-0c00-4d15-99ec-2d57702a7be6_pegasus.png"
+    },
+    {
+      "Id": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\API3\\wwwroot\\uploads\\7dec82ea-52f4-4225-bb0b-1c376112ee4c_ChuckTaylor3.png",
+      "PackagePath": "staticwebassets\\uploads\\7dec82ea-52f4-4225-bb0b-1c376112ee4c_ChuckTaylor3.png"
+    },
+    {
+      "Id": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\API3\\wwwroot\\uploads\\b09d8894-f3fa-48e3-b742-db97880bb820_Shoes1.png",
+      "PackagePath": "staticwebassets\\uploads\\b09d8894-f3fa-48e3-b742-db97880bb820_Shoes1.png"
+    },
+    {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.API3.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },

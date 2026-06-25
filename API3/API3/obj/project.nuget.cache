@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "21sVuDtZf2mcv9sZZGRePRD3biaCIbUbsaYdvb7fW+EMGbL1AkfR0utuI3AXjjgPfd4mL0vqoH0vHB5zCg6PaA==",
+  "dgSpecHash": "XvZw9dQ98LkjuBOomAkyJuJXhlLC9FIVsCuOdWZKGxVakdpZj0bp/fKTPdwuxjEtcbaxqgcl5Mi3XE8KgI8ecg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\API3\\API3.csproj",
+  "projectFilePath": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\API3\\API3.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Nikola\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Nikola\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

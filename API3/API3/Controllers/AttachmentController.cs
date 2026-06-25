@@ -6,6 +6,8 @@ using Modules.DTO.Files;
 using API3;
 using DataAccess.Database;
 using Domains.Entities;
+using API3.Extensions;
+using System.Security.Claims;
 namespace API3.Controllers
 {
     [ApiController]
@@ -21,6 +23,33 @@ namespace API3.Controllers
             _context = context;
             _environment = environment;
         }
+        [HttpGet("{attachmentId}/download")]
+        public async Task<IActionResult> Download(int taskId, int attachmentId)
+        {
+            var userId = int.Parse(User.FindFirst(ClaimTypes.NameIdentifier)!.Value);
+
+            var attachment = await _context.Attachments
+                .Include(x => x.TaskItem)
+                .FirstOrDefaultAsync(x =>
+                    x.Id == attachmentId &&
+                    x.TaskItemId == taskId &&
+                    x.TaskItem.user_id == userId);
+
+            if (attachment == null)
+                return NotFound();
+
+            var fullPath = Path.Combine(
+                _environment.WebRootPath ?? Path.Combine(Directory.GetCurrentDirectory(), "wwwroot"),
+                attachment.FilePath.TrimStart('/')
+            );
+
+            if (!System.IO.File.Exists(fullPath))
+                return NotFound("File not found on server.");
+
+            var bytes = await System.IO.File.ReadAllBytesAsync(fullPath);
+
+            return File(bytes, "application/octet-stream", attachment.FileName);
+        }
         [HttpPost]
         public async Task<IActionResult> Upload( int taskId,IFormFile file)
         {
@@ -32,7 +61,7 @@ namespace API3.Controllers
             {
                 return BadRequest("File is too large.");
             }
-            var userId = int.Parse(User.FindFirst("id")!.Value);
+            var userId = User.GetUserId();
 
 
             var TaskExists = await _context.Tasks.AnyAsync(x => x.Id == taskId && x.user_id == userId);
