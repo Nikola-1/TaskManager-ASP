@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "GY0Khdsrsu4p5hmtQKIby+aYNliB+4+dvmit5v361j8=",
+  "Hash": "vhlCjX8NFUEzNSPdLI2sGyXoMcyN/lhQ1o0IGGoHG9Y=",
   "Source": "API3",
   "BasePath": "_content/API3",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "API3\\wwwroot",
       "Source": "API3",
-      "ContentRoot": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\API3\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\API3\\wwwroot\\",
       "BasePath": "_content/API3",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\API3\\wwwroot\\uploads\\2cccd878-57c6-4191-91a2-75cd4f25577c_Screenshot 2024-12-02 164818.png",
+      "Identity": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\API3\\wwwroot\\uploads\\2cccd878-57c6-4191-91a2-75cd4f25577c_Screenshot 2024-12-02 164818.png",
       "SourceId": "API3",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\API3\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\API3\\wwwroot\\",
       "BasePath": "_content/API3",
       "RelativePath": "uploads/2cccd878-57c6-4191-91a2-75cd4f25577c_Screenshot 2024-12-02 164818.png",
       "AssetKind": "All",
@@ -36,10 +36,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\2cccd878-57c6-4191-91a2-75cd4f25577c_Screenshot 2024-12-02 164818.png"
     },
     {
-      "Identity": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\API3\\wwwroot\\uploads\\4089c55b-7ad0-4570-8522-f4e2cef8fe15_ChuckTaylor1.png",
+      "Identity": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\API3\\wwwroot\\uploads\\4089c55b-7ad0-4570-8522-f4e2cef8fe15_ChuckTaylor1.png",
       "SourceId": "API3",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\API3\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\API3\\wwwroot\\",
       "BasePath": "_content/API3",
       "RelativePath": "uploads/4089c55b-7ad0-4570-8522-f4e2cef8fe15_ChuckTaylor1.png",
       "AssetKind": "All",
@@ -55,10 +55,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\4089c55b-7ad0-4570-8522-f4e2cef8fe15_ChuckTaylor1.png"
     },
     {
-      "Identity": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\API3\\wwwroot\\uploads\\46b397e5-c2a8-4935-9946-875c9d8bde6d_Logo.png",
+      "Identity": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\API3\\wwwroot\\uploads\\46b397e5-c2a8-4935-9946-875c9d8bde6d_Logo.png",
       "SourceId": "API3",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\API3\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\API3\\wwwroot\\",
       "BasePath": "_content/API3",
       "RelativePath": "uploads/46b397e5-c2a8-4935-9946-875c9d8bde6d_Logo.png",
       "AssetKind": "All",
@@ -74,10 +74,29 @@
       "OriginalItemSpec": "wwwroot\\uploads\\46b397e5-c2a8-4935-9946-875c9d8bde6d_Logo.png"
     },
     {
-      "Identity": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\API3\\wwwroot\\uploads\\741f88bc-0c00-4d15-99ec-2d57702a7be6_pegasus.png",
+      "Identity": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\API3\\wwwroot\\uploads\\50a64788-4fa9-4f10-9986-ff9f7c7efe0a_addGroup.png",
       "SourceId": "API3",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\API3\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\API3\\wwwroot\\",
+      "BasePath": "_content/API3",
+      "RelativePath": "uploads/50a64788-4fa9-4f10-9986-ff9f7c7efe0a_addGroup.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\50a64788-4fa9-4f10-9986-ff9f7c7efe0a_addGroup.png"
+    },
+    {
+      "Identity": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\API3\\wwwroot\\uploads\\741f88bc-0c00-4d15-99ec-2d57702a7be6_pegasus.png",
+      "SourceId": "API3",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\API3\\wwwroot\\",
       "BasePath": "_content/API3",
       "RelativePath": "uploads/741f88bc-0c00-4d15-99ec-2d57702a7be6_pegasus.png",
       "AssetKind": "All",
@@ -93,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\741f88bc-0c00-4d15-99ec-2d57702a7be6_pegasus.png"
     },
     {
-      "Identity": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\API3\\wwwroot\\uploads\\7dec82ea-52f4-4225-bb0b-1c376112ee4c_ChuckTaylor3.png",
+      "Identity": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\API3\\wwwroot\\uploads\\7dec82ea-52f4-4225-bb0b-1c376112ee4c_ChuckTaylor3.png",
       "SourceId": "API3",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\API3\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\API3\\wwwroot\\",
       "BasePath": "_content/API3",
       "RelativePath": "uploads/7dec82ea-52f4-4225-bb0b-1c376112ee4c_ChuckTaylor3.png",
       "AssetKind": "All",
@@ -112,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\7dec82ea-52f4-4225-bb0b-1c376112ee4c_ChuckTaylor3.png"
     },
     {
-      "Identity": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\API3\\wwwroot\\uploads\\b09d8894-f3fa-48e3-b742-db97880bb820_Shoes1.png",
+      "Identity": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\API3\\wwwroot\\uploads\\b09d8894-f3fa-48e3-b742-db97880bb820_Shoes1.png",
       "SourceId": "API3",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\API3\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\API3\\wwwroot\\",
       "BasePath": "_content/API3",
       "RelativePath": "uploads/b09d8894-f3fa-48e3-b742-db97880bb820_Shoes1.png",
       "AssetKind": "All",

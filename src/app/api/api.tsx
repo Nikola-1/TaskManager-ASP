@@ -286,10 +286,13 @@ export async function deleteOneDeleted(id:number) {
     return await res.json();
 }
 
-export async function findCategorie(id:number) {
+export async function findCategorie(id_param:number,group_id_param:number|null) {
  
   const token =localStorage.getItem("token");
-   const res = await fetch(`${API_URL}/api/Categories/${id}`,{
+
+   const url = group_id_param? `${API_URL}/api/Categories/${id_param}?groupId=${group_id_param}` :`${API_URL}/api/Categories/${id_param}`
+  
+   const res = await fetch(`${url}`,{
     method:"GET",
     headers:{
       "Content-type":"application/json",
@@ -318,9 +321,13 @@ export async function getCategories(groupId:number|null){
   return data;
 
 }
-export async function postCategorie(name_param:string,user_id_param:number,workspace_id_param:number|null,sticker_id_param:number|null) {
+export async function postCategorie(name_param:string,user_id_param:number,group_id_param:number|null,sticker_id_param:number|null) {
   const token = localStorage.getItem('token');
-  const res = await fetch(`${API_URL}/api/categories`,{
+  const url =
+    group_id_param != null
+      ? `${API_URL}/api/categories?groupId=${group_id_param}`
+      : `${API_URL}/api/categories`;
+  const res = await fetch(`${url}`,{
     method:"POST",
     headers:{
       "Content-type":"Application/json",
@@ -329,7 +336,7 @@ export async function postCategorie(name_param:string,user_id_param:number,works
     body:JSON.stringify({
       name:name_param,
       user_id:user_id_param,
-      workspace_id:workspace_id_param,
+      group_id:group_id_param,
       sticker_id:sticker_id_param
     })
   })
@@ -337,35 +344,44 @@ export async function postCategorie(name_param:string,user_id_param:number,works
   console.log(data);
   return data;
 }
-export async function deleteCategorie(id:number) {
+export async function deleteCategorie(
+  id: number,
+  groupId: number | null
+) {
+  const token = localStorage.getItem("token");
 
- const token =localStorage.getItem("token");
-    const res = await fetch(`${API_URL}/api/Categories/${id}`,{
-      method:"DELETE",
-      headers:{
-       
-        Authorization:`Bearer ${token}`
-      },
-      
-    });
-     if (!res.ok) {
-    throw new Error("Delete failed");
+  const url =
+    groupId != null
+      ? `${API_URL}/api/categories/${id}?groupId=${groupId}`
+      : `${API_URL}/api/categories/${id}`;
+
+  const res = await fetch(url, {
+    method: "DELETE",
+    headers: {
+      Authorization: `Bearer ${token}`
+    }
+  });
+
+  const data = await res.json();
+
+  if (!res.ok) {
+    throw new Error(data.message ?? "Delete failed");
   }
-    
-    return await res.json();
-}
 
+  return data;
+}
 export async function editCategorie(
   id_param:number,
   name_param:string,
   sticker_id_param:number,
+  group_id_param:number,
 )
 {
-  const categorie = await findCategorie(id_param);
-
+  const categorie = await findCategorie(id_param,group_id_param);
+  const url = group_id_param? `${API_URL}/api/Categories/${id_param}?groupId=${group_id_param}` :`${API_URL}/api/Categories/${id_param}`
   
   const token =localStorage.getItem("token");
-    const res = await fetch(`${API_URL}/api/Categories/${id_param}`,{
+    const res = await fetch(`${url}`,{
       method:"PUT",
       headers:{
           "Content-type": "application/json",
@@ -432,11 +448,14 @@ export async function getTags(userId: number, groupId: number | null) {
   return await res.json();
 }
 
-export async function findTag(id:number) {
+export async function findTag(id:number,groupId:number|null) {
  
   const token =localStorage.getItem("token");
-   const res = await fetch(`${API_URL}/api/Tags/${id}`,{
-    method:"GET",
+
+    const url = groupId
+    ? `${API_URL}/api/Tags/${id}?groupId=${groupId}`
+    : `${API_URL}/api/Tags/${id}`;
+   const res = await fetch(`${url}`,{
     headers:{
       "Content-type":"application/json",
       Authorization:`Bearer ${token}`
@@ -447,7 +466,7 @@ export async function findTag(id:number) {
    return res.json()
 }
 
-export async function postTag(color_param:string,name_param:string,user_id_param:number,workspace_id_param:number|null,parent_id_param:number|null) {
+export async function postTag(color_param:string,name_param:string,user_id_param:number,group_id_param:number|null,parent_id_param:number|null) {
  
   const token = localStorage.getItem('token');
   const res = await fetch(`${API_URL}/api/Tags`,{
@@ -460,7 +479,7 @@ export async function postTag(color_param:string,name_param:string,user_id_param
       color:color_param,
       name:name_param,
       user_id:user_id_param,
-      workspace_id:workspace_id_param,
+      group_id:group_id_param,
       parent_id:parent_id_param
     })
   })
@@ -469,10 +488,13 @@ export async function postTag(color_param:string,name_param:string,user_id_param
   return data;
 }
 
-export async function deleteTag(id:number) {
+export async function deleteTag(id:number,group_id_param:number|null) {
 
+   const url = group_id_param != null
+    ? `${API_URL}/api/Tags/${id}?groupId=${group_id_param}`
+    : `${API_URL}/api/Tags/${id}`;
  const token =localStorage.getItem("token");
-    const res = await fetch(`${API_URL}/api/Tags/${id}`,{
+    const res = await fetch(`${url}`,{
       method:"DELETE",
       headers:{
        "Content-type":"Application/json",
@@ -480,9 +502,9 @@ export async function deleteTag(id:number) {
       },
       
     });
-    const data =res.json();
+    const data = await res.json();
      if (!res.ok) {
-    throw new Error("Delete failed");
+    throw new Error(data.message);
   }
     
     return data;
@@ -492,14 +514,17 @@ export async function editTag(
   id_param:number,
   name_param:string,
   color_param:string,
-  parent_id_param:number
+  parent_id_param:number,
+  group_id_param:number
 )
 {
-  const Tag = await findTag(id_param);
+  const Tag = await findTag(id_param,group_id_param);
 
-  
+  const url = group_id_param
+  ? `${API_URL}/api/Tags/${id_param}?groupId=${group_id_param}`
+  : `${API_URL}/api/Tags/${id_param}`;
   const token =localStorage.getItem("token");
-    const res = await fetch(`${API_URL}/api/Tags/${id_param}`,{
+    const res = await fetch(`${url}`,{
       method:"PUT",
       headers:{
           "Content-type": "application/json",

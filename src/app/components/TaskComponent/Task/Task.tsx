@@ -13,6 +13,7 @@ import { useScope } from '@/app/context/ScopeContext';
 import { AddFile, CreateTagTaskConnection, deleteOneDeleted, deleteTagTaskConnection, deleteTask, downloadAttachment, getTags, getTasks, updateStatus } from '@/app/api/api';
 import Image from 'next/image';
 import toast from 'react-hot-toast';
+import useGroupState from '@/app/hooks/useGroupState';
 export interface TaskProps {
   task: TaskType;
   selectedTask: TaskType | null;
@@ -35,6 +36,7 @@ export default function Task({ task, filter, setSelectedTask, selectedTask, refr
   const fileInput = useRef<HTMLInputElement>(null);
    const {user} = useAuth();
    const [tags,setTags] = useState<object[]>([]);
+   
   const { open, toggleMenu,setOpen, options } = useOptionsMenu("", {
      
       complete:{
@@ -45,8 +47,8 @@ export default function Task({ task, filter, setSelectedTask, selectedTask, refr
              Tag:{
                 label:"Add tag",
                 icon:faTag,
-                action:async()=>{setOpenMenuTag2(true); const dataTagsMenu = await getTags(user?.user.id)
-                if(dataTagsMenu) setTags(dataTagsMenu);
+                action:async()=>{setOpenMenuTag2(true);console.log(group);console.log(user?.user.id); const dataTagsMenu = await getTags(user?.user.id,group?.id)
+                if(dataTagsMenu) setTags(dataTagsMenu.data);
                 console.log(tags);
                }
             },

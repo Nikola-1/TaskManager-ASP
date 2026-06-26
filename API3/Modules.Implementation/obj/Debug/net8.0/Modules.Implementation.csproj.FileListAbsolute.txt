@@ -17,3 +17,23 @@ C:\Users\Nikola\Downloads\API3\API3\Modules.Implementation\obj\Debug\net8.0\Modu
 C:\Users\Nikola\Downloads\API3\API3\Modules.Implementation\obj\Debug\net8.0\refint\Modules.Implementation.dll
 C:\Users\Nikola\Downloads\API3\API3\Modules.Implementation\obj\Debug\net8.0\Modules.Implementation.pdb
 C:\Users\Nikola\Downloads\API3\API3\Modules.Implementation\obj\Debug\net8.0\ref\Modules.Implementation.dll
+C:\Users\Nikola\Desktop\Djura\React\Task-Manager - ASP\API3\Modules.Implementation\bin\Debug\net8.0\Modules.Implementation.deps.json
+C:\Users\Nikola\Desktop\Djura\React\Task-Manager - ASP\API3\Modules.Implementation\bin\Debug\net8.0\Modules.Implementation.dll
+C:\Users\Nikola\Desktop\Djura\React\Task-Manager - ASP\API3\Modules.Implementation\bin\Debug\net8.0\Modules.Implementation.pdb
+C:\Users\Nikola\Desktop\Djura\React\Task-Manager - ASP\API3\Modules.Implementation\bin\Debug\net8.0\DataAccess.dll
+C:\Users\Nikola\Desktop\Djura\React\Task-Manager - ASP\API3\Modules.Implementation\bin\Debug\net8.0\Domains.dll
+C:\Users\Nikola\Desktop\Djura\React\Task-Manager - ASP\API3\Modules.Implementation\bin\Debug\net8.0\Modules.dll
+C:\Users\Nikola\Desktop\Djura\React\Task-Manager - ASP\API3\Modules.Implementation\bin\Debug\net8.0\DataAccess.pdb
+C:\Users\Nikola\Desktop\Djura\React\Task-Manager - ASP\API3\Modules.Implementation\bin\Debug\net8.0\Modules.pdb
+C:\Users\Nikola\Desktop\Djura\React\Task-Manager - ASP\API3\Modules.Implementation\bin\Debug\net8.0\Domains.pdb
+C:\Users\Nikola\Desktop\Djura\React\Task-Manager - ASP\API3\Modules.Implementation\obj\Debug\net8.0\Modules.Implementation.csproj.AssemblyReference.cache
+C:\Users\Nikola\Desktop\Djura\React\Task-Manager - ASP\API3\Modules.Implementation\obj\Debug\net8.0\Modules.Implementation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nikola\Desktop\Djura\React\Task-Manager - ASP\API3\Modules.Implementation\obj\Debug\net8.0\Modules.Implementation.AssemblyInfoInputs.cache
+C:\Users\Nikola\Desktop\Djura\React\Task-Manager - ASP\API3\Modules.Implementation\obj\Debug\net8.0\Modules.Implementation.AssemblyInfo.cs
+C:\Users\Nikola\Desktop\Djura\React\Task-Manager - ASP\API3\Modules.Implementation\obj\Debug\net8.0\Modules.Implementation.csproj.CoreCompileInputs.cache
+C:\Users\Nikola\Desktop\Djura\React\Task-Manager - ASP\API3\Modules.Implementation\obj\Debug\net8.0\Modules.Implementation.sourcelink.json
+C:\Users\Nikola\Desktop\Djura\React\Task-Manager - ASP\API3\Modules.Implementation\obj\Debug\net8.0\Modules..EDC91D39.Up2Date
+C:\Users\Nikola\Desktop\Djura\React\Task-Manager - ASP\API3\Modules.Implementation\obj\Debug\net8.0\Modules.Implementation.dll
+C:\Users\Nikola\Desktop\Djura\React\Task-Manager - ASP\API3\Modules.Implementation\obj\Debug\net8.0\refint\Modules.Implementation.dll
+C:\Users\Nikola\Desktop\Djura\React\Task-Manager - ASP\API3\Modules.Implementation\obj\Debug\net8.0\Modules.Implementation.pdb
+C:\Users\Nikola\Desktop\Djura\React\Task-Manager - ASP\API3\Modules.Implementation\obj\Debug\net8.0\ref\Modules.Implementation.dll

@@ -49,7 +49,7 @@ const TagModalComponent = ({isActive,setActive,onUpdate,Mode,selectedTag,setSele
        
         let data,error;
         
-        const{message,postedTag} =  await postTag(color,name,user?.user.id,parentTag,groupId);
+        const{message,postedTag} =  await postTag(color,name,user?.user.id,groupId,parentTag);
         
         
 
@@ -60,10 +60,10 @@ const TagModalComponent = ({isActive,setActive,onUpdate,Mode,selectedTag,setSele
         
     }
     const UpdateTag = async () =>{
-        
-      const {message}=  await editTag(selectedTag?.id,name,color,parentTag);
+        console.log(selectedTag);
+      const {message}=  await editTag(selectedTag?.id,name,color,parentTag,groupId);
             toast.success(message);
-          
+
             setActive(false);
             onUpdate();
         
@@ -171,9 +171,11 @@ const TagModalComponent = ({isActive,setActive,onUpdate,Mode,selectedTag,setSele
                 } } className=" right-1 absolute bottom-1 flex">
                     <p className="hover:bg-blue-300 hover:text-white border-blue-300 hover:cursor-pointer m-2 p-2 border-2 rounded-md " onClick={async()=>{
                        if(Mode == "Update"){
+                          console.log("MODE:", Mode);
                         UpdateTag()
                        }
                        else{
+                          console.log("MODE:", Mode);
                             AddTag();
                        }  
                    

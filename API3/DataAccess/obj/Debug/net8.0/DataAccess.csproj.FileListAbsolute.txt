@@ -17,3 +17,23 @@ C:\Users\Nikola\Downloads\API3\API3\DataAccess\obj\Debug\net8.0\DataAccess.genru
 C:\Users\Nikola\Downloads\API3\API3\DataAccess\obj\Debug\net8.0\ref\DataAccess.dll
 C:\Users\Nikola\Downloads\API3\API3\DataAccess\bin\Debug\net8.0\Domains.dll
 C:\Users\Nikola\Downloads\API3\API3\DataAccess\bin\Debug\net8.0\Domains.pdb
+C:\Users\Nikola\Desktop\Djura\React\Task-Manager - ASP\API3\DataAccess\bin\Debug\net8.0\DataAccess.deps.json
+C:\Users\Nikola\Desktop\Djura\React\Task-Manager - ASP\API3\DataAccess\bin\Debug\net8.0\DataAccess.runtimeconfig.json
+C:\Users\Nikola\Desktop\Djura\React\Task-Manager - ASP\API3\DataAccess\bin\Debug\net8.0\DataAccess.dll
+C:\Users\Nikola\Desktop\Djura\React\Task-Manager - ASP\API3\DataAccess\bin\Debug\net8.0\DataAccess.pdb
+C:\Users\Nikola\Desktop\Djura\React\Task-Manager - ASP\API3\DataAccess\bin\Debug\net8.0\Domains.dll
+C:\Users\Nikola\Desktop\Djura\React\Task-Manager - ASP\API3\DataAccess\bin\Debug\net8.0\Modules.dll
+C:\Users\Nikola\Desktop\Djura\React\Task-Manager - ASP\API3\DataAccess\bin\Debug\net8.0\Domains.pdb
+C:\Users\Nikola\Desktop\Djura\React\Task-Manager - ASP\API3\DataAccess\bin\Debug\net8.0\Modules.pdb
+C:\Users\Nikola\Desktop\Djura\React\Task-Manager - ASP\API3\DataAccess\obj\Debug\net8.0\DataAccess.csproj.AssemblyReference.cache
+C:\Users\Nikola\Desktop\Djura\React\Task-Manager - ASP\API3\DataAccess\obj\Debug\net8.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nikola\Desktop\Djura\React\Task-Manager - ASP\API3\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfoInputs.cache
+C:\Users\Nikola\Desktop\Djura\React\Task-Manager - ASP\API3\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfo.cs
+C:\Users\Nikola\Desktop\Djura\React\Task-Manager - ASP\API3\DataAccess\obj\Debug\net8.0\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Nikola\Desktop\Djura\React\Task-Manager - ASP\API3\DataAccess\obj\Debug\net8.0\DataAccess.sourcelink.json
+C:\Users\Nikola\Desktop\Djura\React\Task-Manager - ASP\API3\DataAccess\obj\Debug\net8.0\DataAccess.csproj.Up2Date
+C:\Users\Nikola\Desktop\Djura\React\Task-Manager - ASP\API3\DataAccess\obj\Debug\net8.0\DataAccess.dll
+C:\Users\Nikola\Desktop\Djura\React\Task-Manager - ASP\API3\DataAccess\obj\Debug\net8.0\refint\DataAccess.dll
+C:\Users\Nikola\Desktop\Djura\React\Task-Manager - ASP\API3\DataAccess\obj\Debug\net8.0\DataAccess.pdb
+C:\Users\Nikola\Desktop\Djura\React\Task-Manager - ASP\API3\DataAccess\obj\Debug\net8.0\DataAccess.genruntimeconfig.cache
+C:\Users\Nikola\Desktop\Djura\React\Task-Manager - ASP\API3\DataAccess\obj\Debug\net8.0\ref\DataAccess.dll

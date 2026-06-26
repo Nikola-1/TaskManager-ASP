@@ -65,17 +65,27 @@ export default function TaskMenu({refreshFlag,onUpdateTag, ToggleModal,setToggle
     const { open, toggleMenu,setOpen, options,id,setId } = useOptionsMenu("task", {
     
     
-    Delete:{
-        label:"Delete",
-        icon:faTrash,
-        action:async ()=> {const {message} =await deleteCategorie(id); onUpdate();closeMenu(); toast.success(message); }, 
-    },
+    Delete: {
+  label: "Delete",
+  icon: faTrash,
+  action: async () => {
+    try {
+      const { message } = await deleteCategorie(id, groupId);
+
+      onUpdate();
+      closeMenu();
+      toast.success(message);
+    } catch (err: any) {
+      toast.error(err.message);
+    }
+  },
+},
     Edit:{
         label:"Edit",
         icon:faEdit,
         action:async () => {setToggleModal(true); closeMenu();
             
-            const EditedCategorie = await findCategorie(id);
+            const EditedCategorie = await findCategorie(id,groupId);
             
            
                 
@@ -99,7 +109,7 @@ export default function TaskMenu({refreshFlag,onUpdateTag, ToggleModal,setToggle
         icon:faEdit,
         action:async () => {setToggleModalTag(true);
             console.log(idTag);
-            const tag= await findTag(idTag);
+            const tag= await findTag(idTag,groupId);
             
             
               
@@ -116,11 +126,19 @@ export default function TaskMenu({refreshFlag,onUpdateTag, ToggleModal,setToggle
         icon:faTrash,
         action:async ()=> {
             console.log(idTag);
-       const { message } = await deleteTag(idTag);
+        try {
+    const { message } = await deleteTag(idTag, groupId);
+
+    onUpdateTag();
+    closeMenuTag();
+    toast.success(message);
+  } catch (err: any) {
+    toast.error(err.message);
+  }
 
 onUpdateTag();
 closeMenuTag();
-toast.success(message);
+
         
         }, 
     }

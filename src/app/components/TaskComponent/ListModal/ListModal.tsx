@@ -49,24 +49,26 @@ export default function ListModal({isActive,setActive,onUpdate,editListItem,setE
         
        
     }
-    async function UpdateListItem(){
-    console.log("EDIT LIST ITEM",editListItem);
-        if(groupId != null){
-              await supabase.from('Categories').update({sticker_id:ActiveSticker?.id,name:nameCategory,group_id:groupId}).eq("id",editListItem?.id);
-        }
-        else{
-             await editCategorie(editListItem?.id,nameCategory,ActiveSticker?.id);
-        }
-        
-      
-     
-            console.log(ActiveSticker);
-            
-            setFilterImage(ActiveSticker?.sticker_path);
-            setTaskFilter(nameCategory);
-            onUpdate();
-        
-    }
+    async function UpdateListItem() {
+  try {
+    const { message } = await editCategorie(
+      editListItem?.id,
+      nameCategory,
+      ActiveSticker?.id,
+      groupId
+    );
+
+    setFilterImage(ActiveSticker?.sticker_path);
+    setTaskFilter(nameCategory);
+    onUpdate();
+
+    toast.success(message);
+    setActive(false);
+    setEditListItem(null);
+  } catch (err: any) {
+    toast.error(err.message);
+  }
+}
     async function GetPicture(){
        const {data,error} = await supabase.from("ModalPictures").select("*");
     
