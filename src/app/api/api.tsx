@@ -807,3 +807,19 @@ export async function downloadAttachment(taskId: number, attachmentId: number) {
 
   return await res.blob();
 }
+
+export async function Search(search:string){
+  const token =localStorage.getItem("token");
+    const res = await fetch(`${API_URL}/api/Users/${search}`,{
+      method:"GET",
+      headers:{
+        "Content-type":"Application/json",
+        Authorization:`Bearer ${token}`
+      },
+      
+    });
+    if (!res.ok) {
+    throw new Error(await res.text());
+  }
+    return res.json();
+}

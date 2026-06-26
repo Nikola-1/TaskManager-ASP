@@ -8,7 +8,7 @@ import { supabase } from "@/app/connection/supabaseclient";
 import { useAuth } from "@/app/context/AuthContext";
 import { randInt } from "three/src/math/MathUtils.js";
 import { useScope } from "@/app/context/ScopeContext";
-import { addUsersToGroup, deleteUsersFromGroup, getUsers, getUsersByGroup } from "@/app/api/api";
+import { addUsersToGroup, deleteUsersFromGroup, getUsers, getUsersByGroup, Search } from "@/app/api/api";
 import { GroupType } from "@/app/Types/GroupType";
 import { UserType } from "@/app/Types/UserType";
 import toast from "react-hot-toast";
@@ -67,6 +67,7 @@ export default function UsersModal({ isActive,
     const [picture,setPicture] = useState<object>();
     const [UsersIdArray,setUsersIdArray] = useState<Array<number>>([]);
     const [Users,setUsers] = useState<Array<UserType>>([]);
+    const [searchUser,setSearchUser] = useState<string>("");
     const {user} = useAuth();
     const {groupId} = useScope();
     
@@ -128,7 +129,21 @@ function toggleUserId(userId: number) {
     useEffect(()=>{
         console.log(UsersIdArray,Group?.id)
     },[UsersIdArray])
-    
+    useEffect(()=>{
+      async function search() {
+        let data=[];
+        try{
+          data  = await Search(searchUser); 
+        }
+          catch(err){
+              toast.error(err.message);
+          }
+          
+          setUsers(data);
+      }
+
+      search();
+    },[searchUser])
     return(
         <div className={isActiveUser == true ? "flex absolute w-8/12 translate-x-1/4  top-2/4 left-0 shadow-md rounded-md bg-white  bottom-2/4 m-auto h-3/4  " : " hidden"} >
         <div className=" inset-0 flex items-center align-middle justify-center w-full">
@@ -156,7 +171,7 @@ function toggleUserId(userId: number) {
             } } className="hover:bg-blue-300  hover:text-white max-h-full hover:cursor-pointer float-right absolute bottom-0 p-2 m-1 border-2 text-blue-300 border-blue-300 rounded-md ">
                 <p className="">Close</p>
             </div>
-            <input className="m-3 border-2 border-blue-300 outline-none" placeholder="search user" type="text"></input>
+            <input onChange={async(e)=>{setSearchUser(e.currentTarget.value);}} className="m-3 border-2 border-blue-300 outline-none" placeholder="search user" type="text"></input>
                 <ul className="flex flex-col justify-start items-start h-2/4 overflow-scroll mt-1 w-full ">
                    {Users.map((x)=>
                             <li key={x.id}

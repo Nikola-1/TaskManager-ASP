@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DAA42DAB-0C48-49C7-A85B-5E31C58ACA44}|API3\\API3.csproj|C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\api3\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DAA42DAB-0C48-49C7-A85B-5E31C58ACA44}|API3\\API3.csproj|C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\api3\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAA42DAB-0C48-49C7-A85B-5E31C58ACA44}|API3\\API3.csproj|solutionrelative:api3\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAA42DAB-0C48-49C7-A85B-5E31C58ACA44}|API3\\API3.csproj|c:\\users\\nikola\\desktop\\djura\\react\\task-manager - asp\\api3\\api3\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DAA42DAB-0C48-49C7-A85B-5E31C58ACA44}|API3\\API3.csproj|solutionrelative:api3\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C67BB923-707D-41FE-9E75-BDC7A8DC1A67}|Modules\\Modules.csproj|c:\\users\\nikola\\desktop\\djura\\react\\task-manager - asp\\api3\\modules\\dto\\users\\searchusersdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C67BB923-707D-41FE-9E75-BDC7A8DC1A67}|Modules\\Modules.csproj|solutionrelative:modules\\dto\\users\\searchusersdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C67BB923-707D-41FE-9E75-BDC7A8DC1A67}|Modules\\Modules.csproj|C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\modules\\dto\\createtaskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C67BB923-707D-41FE-9E75-BDC7A8DC1A67}|Modules\\Modules.csproj|solutionrelative:modules\\dto\\createtaskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DAA42DAB-0C48-49C7-A85B-5E31C58ACA44}|API3\\API3.csproj|C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\api3\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,7 +39,7 @@
       "RelativeMoniker": "D:0:0:{DAA42DAB-0C48-49C7-A85B-5E31C58ACA44}|API3\\API3.csproj|solutionrelative:api3\\controllers\\tagtaskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DAA42DAB-0C48-49C7-A85B-5E31C58ACA44}|API3\\API3.csproj|c:\\users\\nikola\\desktop\\djura\\react\\task-manager - asp\\api3\\api3\\controllers\\attachmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DAA42DAB-0C48-49C7-A85B-5E31C58ACA44}|API3\\API3.csproj|C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\api3\\controllers\\attachmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DAA42DAB-0C48-49C7-A85B-5E31C58ACA44}|API3\\API3.csproj|solutionrelative:api3\\controllers\\attachmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -61,10 +73,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{DAA42DAB-0C48-49C7-A85B-5E31C58ACA44}|API3\\API3.csproj|C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\api3\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DAA42DAB-0C48-49C7-A85B-5E31C58ACA44}|API3\\API3.csproj|solutionrelative:api3\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DAA42DAB-0C48-49C7-A85B-5E31C58ACA44}|API3\\API3.csproj|C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\api3\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DAA42DAB-0C48-49C7-A85B-5E31C58ACA44}|API3\\API3.csproj|solutionrelative:api3\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{943511F0-8B0D-4879-97EB-8AA6BE681A58}|DataAccess\\DataAccess.csproj|C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\dataaccess\\database\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -126,10 +134,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{DAA42DAB-0C48-49C7-A85B-5E31C58ACA44}|API3\\API3.csproj|C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\api3\\extensions\\claimsprincipalextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DAA42DAB-0C48-49C7-A85B-5E31C58ACA44}|API3\\API3.csproj|solutionrelative:api3\\extensions\\claimsprincipalextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C67BB923-707D-41FE-9E75-BDC7A8DC1A67}|Modules\\Modules.csproj|C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\modules\\dto\\createtaskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C67BB923-707D-41FE-9E75-BDC7A8DC1A67}|Modules\\Modules.csproj|solutionrelative:modules\\dto\\createtaskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C67BB923-707D-41FE-9E75-BDC7A8DC1A67}|Modules\\Modules.csproj|C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\modules\\dto\\updatetaskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -303,7 +307,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -311,31 +315,119 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Attachment.cs",
-              "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Domains\\Entities\\Attachment.cs",
-              "RelativeDocumentMoniker": "Domains\\Entities\\Attachment.cs",
-              "ToolTip": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Domains\\Entities\\Attachment.cs",
-              "RelativeToolTip": "Domains\\Entities\\Attachment.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAXAAAA",
+              "DocumentIndex": 2,
+              "Title": "SearchUsersDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Modules\\DTO\\Users\\SearchUsersDTO.cs",
+              "RelativeDocumentMoniker": "Modules\\DTO\\Users\\SearchUsersDTO.cs",
+              "ToolTip": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Modules\\DTO\\Users\\SearchUsersDTO.cs",
+              "RelativeToolTip": "Modules\\DTO\\Users\\SearchUsersDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-14T09:53:23.637Z"
+              "WhenOpened": "2026-06-26T18:40:38.863Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "TaskItem.cs",
-              "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Domains\\Entities\\TaskItem.cs",
-              "RelativeDocumentMoniker": "Domains\\Entities\\TaskItem.cs",
-              "ToolTip": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Domains\\Entities\\TaskItem.cs",
-              "RelativeToolTip": "Domains\\Entities\\TaskItem.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAcwAUAAAAZAAAA",
+              "DocumentIndex": 8,
+              "Title": "TagTasksController.cs",
+              "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\API3\\Controllers\\TagTasksController.cs",
+              "RelativeDocumentMoniker": "API3\\Controllers\\TagTasksController.cs",
+              "ToolTip": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\API3\\Controllers\\TagTasksController.cs",
+              "RelativeToolTip": "API3\\Controllers\\TagTasksController.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAwwEUAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-14T09:53:41.234Z"
+              "WhenOpened": "2026-06-20T06:45:17.697Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TagsController.cs",
+              "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\API3\\Controllers\\TagsController.cs",
+              "RelativeDocumentMoniker": "API3\\Controllers\\TagsController.cs",
+              "ToolTip": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\API3\\Controllers\\TagsController.cs",
+              "RelativeToolTip": "API3\\Controllers\\TagsController.cs",
+              "ViewState": "AQIAAAcBAAAAAAAAAAAowBoBAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-19T08:22:10.196Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\API3\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "API3\\Controllers\\CategoriesController.cs",
+              "ToolTip": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\API3\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "API3\\Controllers\\CategoriesController.cs",
+              "ViewState": "AQIAAP4AAAAAAAAAAAAowBEBAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-17T09:29:18.883Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "Tag.cs",
+              "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Domains\\Entities\\Tag.cs",
+              "RelativeDocumentMoniker": "Domains\\Entities\\Tag.cs",
+              "ToolTip": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Domains\\Entities\\Tag.cs",
+              "RelativeToolTip": "Domains\\Entities\\Tag.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAYwBQAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-17T14:37:19.31Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UpdateTagDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Modules\\DTO\\Tags\\UpdateTagDTO.cs",
+              "RelativeDocumentMoniker": "Modules\\DTO\\Tags\\UpdateTagDTO.cs",
+              "ToolTip": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Modules\\DTO\\Tags\\UpdateTagDTO.cs",
+              "RelativeToolTip": "Modules\\DTO\\Tags\\UpdateTagDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAwAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-19T09:19:04.889Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TasksController.cs",
+              "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\API3\\Controllers\\TasksController.cs",
+              "RelativeDocumentMoniker": "API3\\Controllers\\TasksController.cs",
+              "ToolTip": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\API3\\Controllers\\TasksController.cs",
+              "RelativeToolTip": "API3\\Controllers\\TasksController.cs",
+              "ViewState": "AQIAAJcAAAAAAAAAAAAkwEYAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-23T17:06:29.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\API3\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "API3\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\API3\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "API3\\Controllers\\UsersController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwB8AAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T09:45:53.404Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CreateTaskDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Modules\\DTO\\CreateTaskDTO.cs",
+              "RelativeDocumentMoniker": "Modules\\DTO\\CreateTaskDTO.cs",
+              "ToolTip": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Modules\\DTO\\CreateTaskDTO.cs",
+              "RelativeToolTip": "Modules\\DTO\\CreateTaskDTO.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwAQAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-14T09:46:23.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\API3\\Program.cs",
               "RelativeDocumentMoniker": "API3\\Program.cs",
@@ -347,85 +439,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "TagTasksController.cs",
-              "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\API3\\Controllers\\TagTasksController.cs",
-              "RelativeDocumentMoniker": "API3\\Controllers\\TagTasksController.cs",
-              "ToolTip": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\API3\\Controllers\\TagTasksController.cs",
-              "RelativeToolTip": "API3\\Controllers\\TagTasksController.cs",
-              "ViewState": "AQIAAC8AAAAAAAAAAAAwwEUAAAAoAAAA",
+              "DocumentIndex": 12,
+              "Title": "TaskItem.cs",
+              "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Domains\\Entities\\TaskItem.cs",
+              "RelativeDocumentMoniker": "Domains\\Entities\\TaskItem.cs",
+              "ToolTip": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Domains\\Entities\\TaskItem.cs",
+              "RelativeToolTip": "Domains\\Entities\\TaskItem.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAcwAUAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-20T06:45:17.697Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-14T09:53:41.234Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TagsController.cs",
-              "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\API3\\Controllers\\TagsController.cs",
-              "RelativeDocumentMoniker": "API3\\Controllers\\TagsController.cs",
-              "ToolTip": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\API3\\Controllers\\TagsController.cs",
-              "RelativeToolTip": "API3\\Controllers\\TagsController.cs",
-              "ViewState": "AQIAAAcBAAAAAAAAAAAowBoBAAAJAAAA",
+              "DocumentIndex": 13,
+              "Title": "Attachment.cs",
+              "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Domains\\Entities\\Attachment.cs",
+              "RelativeDocumentMoniker": "Domains\\Entities\\Attachment.cs",
+              "ToolTip": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Domains\\Entities\\Attachment.cs",
+              "RelativeToolTip": "Domains\\Entities\\Attachment.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-19T08:22:10.196Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-14T09:53:23.637Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CategoriesController.cs",
-              "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\API3\\Controllers\\CategoriesController.cs",
-              "RelativeDocumentMoniker": "API3\\Controllers\\CategoriesController.cs",
-              "ToolTip": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\API3\\Controllers\\CategoriesController.cs",
-              "RelativeToolTip": "API3\\Controllers\\CategoriesController.cs",
-              "ViewState": "AQIAAP4AAAAAAAAAAAAowBEBAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-17T09:29:18.883Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Tag.cs",
-              "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Domains\\Entities\\Tag.cs",
-              "RelativeDocumentMoniker": "Domains\\Entities\\Tag.cs",
-              "ToolTip": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Domains\\Entities\\Tag.cs",
-              "RelativeToolTip": "Domains\\Entities\\Tag.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAYwBQAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-17T14:37:19.31Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UpdateTagDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Modules\\DTO\\Tags\\UpdateTagDTO.cs",
-              "RelativeDocumentMoniker": "Modules\\DTO\\Tags\\UpdateTagDTO.cs",
-              "ToolTip": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Modules\\DTO\\Tags\\UpdateTagDTO.cs",
-              "RelativeToolTip": "Modules\\DTO\\Tags\\UpdateTagDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAwAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-19T09:19:04.889Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TasksController.cs",
-              "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\API3\\Controllers\\TasksController.cs",
-              "RelativeDocumentMoniker": "API3\\Controllers\\TasksController.cs",
-              "ToolTip": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\API3\\Controllers\\TasksController.cs",
-              "RelativeToolTip": "API3\\Controllers\\TasksController.cs",
-              "ViewState": "AQIAALcAAAAAAAAAAAAswKIAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-23T17:06:29.525Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "TaskResponseDTO.cs",
               "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Modules\\DTO\\TaskResponseDTO.cs",
               "RelativeDocumentMoniker": "Modules\\DTO\\TaskResponseDTO.cs",
@@ -437,7 +475,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "AttachmentController.cs",
               "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\API3\\Controllers\\AttachmentController.cs",
               "RelativeDocumentMoniker": "API3\\Controllers\\AttachmentController.cs",
@@ -445,12 +483,11 @@
               "RelativeToolTip": "API3\\Controllers\\AttachmentController.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAABkAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-24T12:22:59.568Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-24T12:22:59.568Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "SeederController.cs",
               "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\API3\\Controllers\\SeederController.cs",
               "RelativeDocumentMoniker": "API3\\Controllers\\SeederController.cs",
@@ -462,7 +499,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\API3\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "API3\\Controllers\\AuthController.cs",
@@ -474,7 +511,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "GroupController.cs",
               "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\API3\\Controllers\\GroupController.cs",
               "RelativeDocumentMoniker": "API3\\Controllers\\GroupController.cs",
@@ -486,7 +523,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "20260625052039_updateCascade.cs",
               "DocumentMoniker": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\DataAccess\\Migrations\\20260625052039_updateCascade.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Downloads\\API3\\API3\\DataAccess\\Migrations\\20260625052039_updateCascade.cs",
@@ -498,7 +535,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "UsersGroupController.cs",
               "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\API3\\Controllers\\UsersGroupController.cs",
               "RelativeDocumentMoniker": "API3\\Controllers\\UsersGroupController.cs",
@@ -510,19 +547,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "UsersController.cs",
-              "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\API3\\Controllers\\UsersController.cs",
-              "RelativeDocumentMoniker": "API3\\Controllers\\UsersController.cs",
-              "ToolTip": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\API3\\Controllers\\UsersController.cs",
-              "RelativeToolTip": "API3\\Controllers\\UsersController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-24T09:45:53.404Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "StickersController.cs",
               "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\API3\\Controllers\\StickersController.cs",
               "RelativeDocumentMoniker": "API3\\Controllers\\StickersController.cs",
@@ -534,7 +559,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 74,
+              "DocumentIndex": 75,
               "Title": "20260625052553_FixCascade.cs",
               "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\DataAccess\\Migrations\\20260625052553_FixCascade.cs",
               "RelativeDocumentMoniker": "DataAccess\\Migrations\\20260625052553_FixCascade.cs",
@@ -546,7 +571,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "20260625052251_FixCascade.cs",
               "DocumentMoniker": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\DataAccess\\Migrations\\20260625052251_FixCascade.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Downloads\\API3\\API3\\DataAccess\\Migrations\\20260625052251_FixCascade.cs",
@@ -558,7 +583,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "20260625052502_FixCascade.cs",
               "DocumentMoniker": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\DataAccess\\Migrations\\20260625052502_FixCascade.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Downloads\\API3\\API3\\DataAccess\\Migrations\\20260625052502_FixCascade.cs",
@@ -570,7 +595,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\DataAccess\\Database\\AppDbContext.cs",
               "RelativeDocumentMoniker": "DataAccess\\Database\\AppDbContext.cs",
@@ -582,7 +607,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "RegisterDTO.cs",
               "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Modules\\DTO\\Auth\\RegisterDTO.cs",
               "RelativeDocumentMoniker": "Modules\\DTO\\Auth\\RegisterDTO.cs",
@@ -594,7 +619,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "CommentController.cs",
               "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\API3\\Controllers\\CommentController.cs",
               "RelativeDocumentMoniker": "API3\\Controllers\\CommentController.cs",
@@ -606,7 +631,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "IAuditService.cs",
               "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Modules\\Interfaces\\IAuditService.cs",
               "RelativeDocumentMoniker": "Modules\\Interfaces\\IAuditService.cs",
@@ -618,7 +643,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "AuditService.cs",
               "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Modules.Implementation\\Services\\AuditService.cs",
               "RelativeDocumentMoniker": "Modules.Implementation\\Services\\AuditService.cs",
@@ -630,7 +655,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": "DeleteGroupsUsersDTO.cs",
               "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Modules\\DTO\\GroupsUsers\\DeleteGroupsUsersDTO.cs",
               "RelativeDocumentMoniker": "Modules\\DTO\\GroupsUsers\\DeleteGroupsUsersDTO.cs",
@@ -642,7 +667,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 30,
               "Title": "Group.cs",
               "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Domains\\Entities\\Group.cs",
               "RelativeDocumentMoniker": "Domains\\Entities\\Group.cs",
@@ -654,7 +679,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 28,
               "Title": "CreateGroupDTO.cs",
               "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Modules\\DTO\\Groups\\CreateGroupDTO.cs",
               "RelativeDocumentMoniker": "Modules\\DTO\\Groups\\CreateGroupDTO.cs",
@@ -666,7 +691,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 73,
+              "DocumentIndex": 74,
               "Title": "20260624142318_UpdateGroupUsers.cs",
               "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\DataAccess\\Migrations\\20260624142318_UpdateGroupUsers.cs",
               "RelativeDocumentMoniker": "DataAccess\\Migrations\\20260624142318_UpdateGroupUsers.cs",
@@ -678,7 +703,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 31,
               "Title": "UsersGroups.cs",
               "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Domains\\Entities\\UsersGroups.cs",
               "RelativeDocumentMoniker": "Domains\\Entities\\UsersGroups.cs",
@@ -690,7 +715,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 29,
               "Title": "AddGroupsUsersDTO.cs",
               "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Modules\\DTO\\GroupsUsers\\AddGroupsUsersDTO.cs",
               "RelativeDocumentMoniker": "Modules\\DTO\\GroupsUsers\\AddGroupsUsersDTO.cs",
@@ -702,7 +727,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 32,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Domains\\Entities\\User.cs",
               "RelativeDocumentMoniker": "Domains\\Entities\\User.cs",
@@ -714,19 +739,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "CreateTaskDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Modules\\DTO\\CreateTaskDTO.cs",
-              "RelativeDocumentMoniker": "Modules\\DTO\\CreateTaskDTO.cs",
-              "ToolTip": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Modules\\DTO\\CreateTaskDTO.cs",
-              "RelativeToolTip": "Modules\\DTO\\CreateTaskDTO.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAA5wAQAAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-14T09:46:23.321Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 33,
               "Title": "ClaimsPrincipalExtensions.cs",
               "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\API3\\Extensions\\ClaimsPrincipalExtensions.cs",
               "RelativeDocumentMoniker": "API3\\Extensions\\ClaimsPrincipalExtensions.cs",
@@ -738,7 +751,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "UpdateTaskDTO.cs",
               "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Modules\\DTO\\UpdateTaskDTO.cs",
               "RelativeDocumentMoniker": "Modules\\DTO\\UpdateTaskDTO.cs",
@@ -750,7 +763,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 35,
               "Title": "LoginDTO.cs",
               "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Modules\\DTO\\Auth\\LoginDTO.cs",
               "RelativeDocumentMoniker": "Modules\\DTO\\Auth\\LoginDTO.cs",
@@ -762,7 +775,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 41,
               "Title": "Sticker.cs",
               "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Domains\\Entities\\Sticker.cs",
               "RelativeDocumentMoniker": "Domains\\Entities\\Sticker.cs",
@@ -774,7 +787,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 36,
               "Title": "Modules.csproj",
               "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Modules\\Modules.csproj",
               "RelativeDocumentMoniker": "Modules\\Modules.csproj",
@@ -786,7 +799,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 37,
               "Title": "TagTasks.cs",
               "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Domains\\Entities\\TagTasks.cs",
               "RelativeDocumentMoniker": "Domains\\Entities\\TagTasks.cs",
@@ -798,7 +811,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 39,
               "Title": "20260623084226_UpdateTag.cs",
               "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\DataAccess\\Migrations\\20260623084226_UpdateTag.cs",
               "RelativeDocumentMoniker": "DataAccess\\Migrations\\20260623084226_UpdateTag.cs",
@@ -810,7 +823,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 38,
               "Title": "20260623073457_InitialCreate.cs",
               "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\DataAccess\\Migrations\\20260623073457_InitialCreate.cs",
               "RelativeDocumentMoniker": "DataAccess\\Migrations\\20260623073457_InitialCreate.cs",
@@ -822,7 +835,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 40,
               "Title": "Category.cs",
               "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Domains\\Entities\\Category.cs",
               "RelativeDocumentMoniker": "Domains\\Entities\\Category.cs",
@@ -834,7 +847,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 42,
               "Title": "Role.cs",
               "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Domains\\Entities\\Role.cs",
               "RelativeDocumentMoniker": "Domains\\Entities\\Role.cs",
@@ -846,7 +859,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 43,
               "Title": "20260623072853_InitialCreate.cs",
               "DocumentMoniker": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\DataAccess\\Migrations\\20260623072853_InitialCreate.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Downloads\\API3\\API3\\DataAccess\\Migrations\\20260623072853_InitialCreate.cs",
@@ -858,7 +871,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 44,
               "Title": "20260623072350_UpdateGroupTasks.cs",
               "DocumentMoniker": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\DataAccess\\Migrations\\20260623072350_UpdateGroupTasks.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Downloads\\API3\\API3\\DataAccess\\Migrations\\20260623072350_UpdateGroupTasks.cs",
@@ -870,7 +883,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 45,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\DataAccess\\Class1.cs",
               "RelativeDocumentMoniker": "DataAccess\\Class1.cs",
@@ -882,7 +895,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 47,
               "Title": "CreateTagDTO.cs",
               "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Modules\\DTO\\Tags\\CreateTagDTO.cs",
               "RelativeDocumentMoniker": "Modules\\DTO\\Tags\\CreateTagDTO.cs",
@@ -894,7 +907,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 48,
               "Title": "CreateCategoryDTO.cs",
               "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Modules\\DTO\\Categories\\CreateCategoryDTO.cs",
               "RelativeDocumentMoniker": "Modules\\DTO\\Categories\\CreateCategoryDTO.cs",
@@ -906,7 +919,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 46,
               "Title": "UpdateCategoryDTO.cs",
               "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Modules\\DTO\\Categories\\UpdateCategoryDTO.cs",
               "RelativeDocumentMoniker": "Modules\\DTO\\Categories\\UpdateCategoryDTO.cs",
@@ -918,7 +931,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 52,
               "Title": "ForgotPasswordDTO.cs",
               "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Modules\\DTO\\Auth\\ForgotPasswordDTO.cs",
               "RelativeDocumentMoniker": "Modules\\DTO\\Auth\\ForgotPasswordDTO.cs",
@@ -930,7 +943,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 49,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\API3\\appsettings.json",
               "RelativeDocumentMoniker": "API3\\appsettings.json",
@@ -942,7 +955,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 53,
               "Title": "API3.csproj",
               "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\API3\\API3.csproj",
               "RelativeDocumentMoniker": "API3\\API3.csproj",
@@ -954,7 +967,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 50,
               "Title": "IEmailService.cs",
               "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Modules\\Interfaces\\IEmailService.cs",
               "RelativeDocumentMoniker": "Modules\\Interfaces\\IEmailService.cs",
@@ -966,7 +979,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 51,
               "Title": "EmailService.cs",
               "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Modules.Implementation\\Services\\EmailService.cs",
               "RelativeDocumentMoniker": "Modules.Implementation\\Services\\EmailService.cs",
@@ -978,7 +991,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 55,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Modules.Implementation\\Class1.cs",
               "RelativeDocumentMoniker": "Modules.Implementation\\Class1.cs",
@@ -990,7 +1003,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 54,
               "Title": "ResetPasswordDTO.cs",
               "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Modules\\DTO\\Auth\\ResetPasswordDTO.cs",
               "RelativeDocumentMoniker": "Modules\\DTO\\Auth\\ResetPasswordDTO.cs",
@@ -1002,7 +1015,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 56,
               "Title": "Domains.csproj",
               "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Domains\\Domains.csproj",
               "RelativeDocumentMoniker": "Domains\\Domains.csproj",
@@ -1014,7 +1027,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 57,
               "Title": "20260620084714_TagTaskUpdate4.cs",
               "DocumentMoniker": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\DataAccess\\Migrations\\20260620084714_TagTaskUpdate4.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Downloads\\API3\\API3\\DataAccess\\Migrations\\20260620084714_TagTaskUpdate4.cs",
@@ -1026,7 +1039,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 58,
               "Title": "CreateTagsTasksDTO.cs",
               "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Modules\\DTO\\Tags\\CreateTagsTasksDTO.cs",
               "RelativeDocumentMoniker": "Modules\\DTO\\Tags\\CreateTagsTasksDTO.cs",
@@ -1038,7 +1051,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 59,
               "Title": "AttachmentResponseDTO.cs",
               "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Modules\\DTO\\Files\\AttachmentResponseDTO.cs",
               "RelativeDocumentMoniker": "Modules\\DTO\\Files\\AttachmentResponseDTO.cs",
@@ -1050,7 +1063,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 60,
               "Title": "CreateStickerDTO.cs",
               "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Modules\\DTO\\Stickers\\CreateStickerDTO.cs",
               "RelativeDocumentMoniker": "Modules\\DTO\\Stickers\\CreateStickerDTO.cs",
@@ -1062,7 +1075,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 61,
               "Title": "MappingProfile.cs",
               "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Modules\\Mapping\\MappingProfile.cs",
               "RelativeDocumentMoniker": "Modules\\Mapping\\MappingProfile.cs",
@@ -1074,7 +1087,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 62,
               "Title": "ItemComment.cs",
               "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Domains\\Entities\\ItemComment.cs",
               "RelativeDocumentMoniker": "Domains\\Entities\\ItemComment.cs",
@@ -1086,7 +1099,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 63,
               "Title": "20260615063316_InitialCreate.cs",
               "DocumentMoniker": "C:\\Users\\Nikola\\Downloads\\API3\\API3\\DataAccess\\Migrations\\20260615063316_InitialCreate.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Downloads\\API3\\API3\\DataAccess\\Migrations\\20260615063316_InitialCreate.cs",
@@ -1098,7 +1111,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 64,
               "Title": "AuditLog.cs",
               "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Domains\\Entities\\AuditLog.cs",
               "RelativeDocumentMoniker": "Domains\\Entities\\AuditLog.cs",
@@ -1110,7 +1123,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 65,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Modules\\Class1.cs",
               "RelativeDocumentMoniker": "Modules\\Class1.cs",
@@ -1122,7 +1135,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 66,
               "Title": "DataAccess.csproj",
               "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\DataAccess\\DataAccess.csproj",
               "RelativeDocumentMoniker": "DataAccess\\DataAccess.csproj",
@@ -1134,7 +1147,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 67,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Domains\\Class1.cs",
               "RelativeDocumentMoniker": "Domains\\Class1.cs",
@@ -1146,7 +1159,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 68,
               "Title": "WeatherForecast.cs",
               "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\API3\\WeatherForecast.cs",
               "RelativeDocumentMoniker": "API3\\WeatherForecast.cs",
@@ -1158,7 +1171,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 69,
               "Title": "CommentResponseDTO.cs",
               "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\Modules\\DTO\\Comments\\CommentResponseDTO.cs",
               "RelativeDocumentMoniker": "Modules\\DTO\\Comments\\CommentResponseDTO.cs",
@@ -1170,7 +1183,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 69,
+              "DocumentIndex": 70,
               "Title": "GlobalExceptionMiddleware.cs",
               "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\API3\\Middleware\\GlobalExceptionMiddleware.cs",
               "RelativeDocumentMoniker": "API3\\Middleware\\GlobalExceptionMiddleware.cs",
@@ -1182,7 +1195,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 70,
+              "DocumentIndex": 71,
               "Title": "API3.http",
               "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\API3\\API3.http",
               "RelativeDocumentMoniker": "API3\\API3.http",
@@ -1194,7 +1207,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 71,
+              "DocumentIndex": 72,
               "Title": "2cccd878-57c6-4191-91a2-75cd4f25577c_Screenshot 2024-12-02 164818.png",
               "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\API3\\wwwroot\\uploads\\2cccd878-57c6-4191-91a2-75cd4f25577c_Screenshot 2024-12-02 164818.png",
               "RelativeDocumentMoniker": "API3\\wwwroot\\uploads\\2cccd878-57c6-4191-91a2-75cd4f25577c_Screenshot 2024-12-02 164818.png",
@@ -1205,7 +1218,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 72,
+              "DocumentIndex": 73,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\API3\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "API3\\Properties\\launchSettings.json",
