@@ -10,7 +10,7 @@ import { OptionsMenu } from '../../OptionsMenu/OptionsMenu';
 import {  useEffect, useRef, useState } from 'react';
 import { useAuth } from '@/app/context/AuthContext';
 import { useScope } from '@/app/context/ScopeContext';
-import { AddFile, CreateTagTaskConnection, deleteOneDeleted, deleteTagTaskConnection, deleteTask, downloadAttachment, getTags, getTasks, updateStatus } from '@/app/api/api';
+import { AddFile, CreateTagTaskConnection, deleteOneDeleted, deleteTagTaskConnection, deleteTask, downloadAttachment, getTags, getTasks, softDeleteTask, updateStatus } from '@/app/api/api';
 import Image from 'next/image';
 import toast from 'react-hot-toast';
 import useGroupState from '@/app/hooks/useGroupState';
@@ -231,7 +231,7 @@ export default function Task({ task, filter, setSelectedTask, selectedTask, refr
           icon={filter !== "Deleted" ? faClose : faTrashAlt}
           onClick={filter !== "Deleted" ? async() => {
             try{
-             const {message}= await deleteTask(task.id);
+             const {message}= await softDeleteTask(task.id);
              toast.success(message);
               refreshTasks();
             }

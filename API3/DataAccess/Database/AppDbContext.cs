@@ -47,6 +47,9 @@ namespace DataAccess.Database
             modelBuilder.Entity<UsersGroups>().HasOne(x => x.Role).WithMany().HasForeignKey(x => x.id_role).OnDelete(DeleteBehavior.NoAction);
             modelBuilder.Entity<UsersGroups>().HasOne(x=>x.User).WithMany().HasForeignKey(x=>x.id_user).OnDelete(DeleteBehavior.Cascade);
             #endregion
+            #region Attachment 
+            modelBuilder.Entity<Attachment>().HasOne(x => x.TaskItem).WithMany(x=>x.Attachments).HasForeignKey(x => x.TaskItemId).OnDelete(DeleteBehavior.Cascade);
+            #endregion
         }
 
         public DbSet<User> Users { get; set; }

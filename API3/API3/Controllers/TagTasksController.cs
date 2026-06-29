@@ -1,4 +1,5 @@
-﻿using DataAccess.Database;
+﻿using API3.Extensions;
+using DataAccess.Database;
 using Domains.Entities;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -32,29 +33,61 @@ namespace API3.Controllers
         [HttpPost]
         public async Task<IActionResult> Post(CreateTagsTasksDTO dto)
         {
-            var userId = int.Parse(User.FindFirst(ClaimTypes.NameIdentifier)!.Value);
-            var taskExists = await _context.Tasks
-    .AnyAsync(x => x.Id == dto.id_task && x.user_id == userId);
+            var userId = User.GetUserId();
 
-            var tagExists = await _context.Tags
-                .AnyAsync(x => x.Id == dto.id_tag && x.User_id == userId);
+            var task = await _context.Tasks
+                .FirstOrDefaultAsync(x => x.Id == dto.id_task);
 
-            if (!taskExists || !tagExists)
+            if (task == null)
+                return NotFound(new { message = "Task not found." });
+
+            var tag = await _context.Tags
+                .FirstOrDefaultAsync(x => x.Id == dto.id_tag);
+
+            if (tag == null)
+                return NotFound(new { message = "Tag not found." });
+
+            if (task.group_id == null)
             {
-                return NotFound("Task or tag not found.");
+                if (task.user_id != userId || tag.User_id != userId)
+                    return Forbid();
             }
-            var TagTaskConneciton = new TagTasks
+            else
+            {
+                var isMember = await _context.UsersGroups.AnyAsync(x =>
+                    x.id_user == userId &&
+                    x.id_group == task.group_id.Value);
+
+                if (!isMember || tag.group_id != task.group_id)
+                    return Forbid();
+            }
+
+            var exists = await _context.TagTasks.AnyAsync(x =>
+                x.id_task == dto.id_task &&
+                x.id_tag == dto.id_tag);
+
+            if (exists)
+            {
+                return BadRequest(new
+                {
+                    message = "This tag is already connected to the task."
+                });
+            }
+
+            var tagTaskConnection = new TagTasks
             {
                 id_task = dto.id_task,
                 id_tag = dto.id_tag,
             };
-            _context.TagTasks.Add(TagTaskConneciton);
+
+            _context.TagTasks.Add(tagTaskConnection);
             await _context.SaveChangesAsync();
 
-
-            return Ok(TagTaskConneciton);
-
-
+            return Ok(new
+            {
+                message = "Tag connected to task successfully.",
+                data = tagTaskConnection
+            });
         }
         [HttpDelete("{id_tag}/{id_task}")]
         public async Task<IActionResult> Delete(int id_tag,int id_task)

@@ -1,6 +1,14 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\API3\\wwwroot\\uploads\\06433644-101e-4d2d-a7ce-b3a036cddace_ChuckTaylor2.png",
+      "PackagePath": "staticwebassets\\uploads\\06433644-101e-4d2d-a7ce-b3a036cddace_ChuckTaylor2.png"
+    },
+    {
+      "Id": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\API3\\wwwroot\\uploads\\293d8ac0-2613-461e-b7f1-ea8280d68356_addGroup.png",
+      "PackagePath": "staticwebassets\\uploads\\293d8ac0-2613-461e-b7f1-ea8280d68356_addGroup.png"
+    },
+    {
       "Id": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\API3\\wwwroot\\uploads\\2cccd878-57c6-4191-91a2-75cd4f25577c_Screenshot 2024-12-02 164818.png",
       "PackagePath": "staticwebassets\\uploads\\2cccd878-57c6-4191-91a2-75cd4f25577c_Screenshot 2024-12-02 164818.png"
     },
@@ -17,6 +25,10 @@
       "PackagePath": "staticwebassets\\uploads\\50a64788-4fa9-4f10-9986-ff9f7c7efe0a_addGroup.png"
     },
     {
+      "Id": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\API3\\wwwroot\\uploads\\60a46f54-230c-4aec-aede-87cc577d765e_ChuckTaylor3.png",
+      "PackagePath": "staticwebassets\\uploads\\60a46f54-230c-4aec-aede-87cc577d765e_ChuckTaylor3.png"
+    },
+    {
       "Id": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\API3\\wwwroot\\uploads\\741f88bc-0c00-4d15-99ec-2d57702a7be6_pegasus.png",
       "PackagePath": "staticwebassets\\uploads\\741f88bc-0c00-4d15-99ec-2d57702a7be6_pegasus.png"
     },
@@ -25,8 +37,28 @@
       "PackagePath": "staticwebassets\\uploads\\7dec82ea-52f4-4225-bb0b-1c376112ee4c_ChuckTaylor3.png"
     },
     {
+      "Id": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\API3\\wwwroot\\uploads\\97a1beea-bd98-4c03-9e6e-b8933ab35de9_CrossTr2.png",
+      "PackagePath": "staticwebassets\\uploads\\97a1beea-bd98-4c03-9e6e-b8933ab35de9_CrossTr2.png"
+    },
+    {
       "Id": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\API3\\wwwroot\\uploads\\b09d8894-f3fa-48e3-b742-db97880bb820_Shoes1.png",
       "PackagePath": "staticwebassets\\uploads\\b09d8894-f3fa-48e3-b742-db97880bb820_Shoes1.png"
+    },
+    {
+      "Id": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\API3\\wwwroot\\uploads\\b7259967-672d-4368-beb9-736d655142d4_5980.jpg",
+      "PackagePath": "staticwebassets\\uploads\\b7259967-672d-4368-beb9-736d655142d4_5980.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\API3\\wwwroot\\uploads\\c0300189-951e-46e1-8021-b27dd4ed21be_CrossTr2.png",
+      "PackagePath": "staticwebassets\\uploads\\c0300189-951e-46e1-8021-b27dd4ed21be_CrossTr2.png"
+    },
+    {
+      "Id": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\API3\\wwwroot\\uploads\\ec12cf4a-f7c8-4d15-8b61-1721d34fc528_addGroup.png",
+      "PackagePath": "staticwebassets\\uploads\\ec12cf4a-f7c8-4d15-8b61-1721d34fc528_addGroup.png"
+    },
+    {
+      "Id": "C:\\Users\\Nikola\\Desktop\\Djura\\React\\Task-Manager - ASP\\API3\\API3\\wwwroot\\uploads\\f36add77-ccb1-4d8c-9bab-59dd0fa836f3_nb-327.png",
+      "PackagePath": "staticwebassets\\uploads\\f36add77-ccb1-4d8c-9bab-59dd0fa836f3_nb-327.png"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.API3.Microsoft.AspNetCore.StaticWebAssets.props",

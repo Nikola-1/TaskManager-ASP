@@ -128,7 +128,7 @@ const token =localStorage.getItem("token");
   const data = await res.json();
 
   if (!res.ok) {
-    throw new Error(data.error);
+    throw new Error(data.message || "Task creation failed");
   }
 
   if (idTag != null) {
@@ -214,60 +214,24 @@ export async function updateTaskContent(
     return data
 
 }
-export async function updateStatus(
-  id:number
-)
-{
-  const task= await findTask(id);
-  let res=null;
+export async function updateStatus(id: number) {
+  const token = localStorage.getItem("token");
 
-  
- const token =localStorage.getItem("token");
-  if(task.completed){
-     res = await fetch(`${API_URL}/api/tasks/${id}`,{
-      method:"PUT",
-      headers:{
-          "Content-type": "application/json",
-          Authorization:`Bearer ${token} `
-      },
-      
-     body:JSON.stringify({
-      name:task.name,
-      content:task.content,
-      deleted:task.deleted,
-      user_id:task.user_id,
-      status:task.status,
-      completed:false
-      
-     })
-    })
-    }
-    else{
-      res = await fetch(`${API_URL}/api/tasks/${id}`,{
-      method:"PUT",
-      headers:{
-          "Content-type": "application/json",
-          Authorization:`Bearer ${token} `
-      },
-      
-     body:JSON.stringify({
-      name:task.name,
-      content:task.content,
-      deleted:task.deleted,
-      user_id:task.user_id,
-      status:task.status,
-      completed:true
-      
-     })
-    })
-    }
-    const data = await res.json();
-   
+  const res = await fetch(`${API_URL}/api/tasks/${id}/completed`, {
+    method: "PATCH",
+    headers: {
+      Authorization: `Bearer ${token}`,
+    },
+  });
 
-    return data
+  const data = await res.json();
 
+  if (!res.ok) {
+    throw new Error(data.message || "Failed to update task status");
+  }
+
+  return data;
 }
-
 export async function deleteOneDeleted(id:number) {
 
  const token =localStorage.getItem("token");
@@ -561,8 +525,9 @@ export async function CreateTagTaskConnection(id_task_param:number,id_tag_param:
       })
     })
      if (!res.ok) {
-    throw new Error("Failed to create task");
-  }
+  const errorData = await res.json();
+  throw new Error(errorData.message || "Failed to create tag task connection");
+}
 
   return res.json();
 }
@@ -822,4 +787,23 @@ export async function Search(search:string){
     throw new Error(await res.text());
   }
     return res.json();
+}
+
+export async function softDeleteTask(id: number) {
+  const token = localStorage.getItem("token");
+
+  const res = await fetch(`${API_URL}/api/tasks/${id}/soft-delete`, {
+    method: "PATCH",
+    headers: {
+      Authorization: `Bearer ${token}`,
+    },
+  });
+
+  const data = await res.json();
+
+  if (!res.ok) {
+    throw new Error(data.message || "Soft delete failed");
+  }
+
+  return data;
 }

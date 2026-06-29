@@ -26,6 +26,14 @@ namespace API3.Controllers
             _mapper = mapper;
         }
 
+        private async Task<bool> IsGroupOwner(int userId, int groupId)
+        {
+            return await _context.UsersGroups.AnyAsync(x =>
+                x.id_user == userId &&
+                x.id_group == groupId &&
+                x.id_role == 2);
+        }
+
         private int? GetCurrentUserId()
         {
             var userIdClaim = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
@@ -43,6 +51,16 @@ namespace API3.Controllers
             var userId = GetCurrentUserId();
             if (userId == null)
                 return Unauthorized();
+            if (dto.group_id != null)
+            {
+                if (!await IsGroupOwner(userId.Value, dto.group_id.Value))
+                {
+                    return StatusCode(403, new
+                    {
+                        message = "Only the group owner can create tasks."
+                    });
+                }
+            }
             var task = new TaskItem
             {
                 name = dto.name,
@@ -160,59 +178,228 @@ namespace API3.Controllers
 
             var userId = GetCurrentUserId();
             var task = await _context.Tasks
-       .Include(x => x.user)
-       .Include(x => x.Comments)
-       .Include(x => x.Attachments)
-       .FirstOrDefaultAsync(x => x.Id == id && x.user_id==userId);
+     .Include(x => x.user)
+     .Include(x => x.Comments)
+     .Include(x => x.Attachments)
+     .FirstOrDefaultAsync(x => x.Id == id);
+
             if (task == null)
-            {
                 return NotFound("Task not found.");
+
+            if (task.group_id == null)
+            {
+                if (task.user_id != userId.Value)
+                    return Forbid();
+            }
+            else
+            {
+                var isMember = await _context.UsersGroups.AnyAsync(x =>
+                    x.id_user == userId.Value &&
+                    x.id_group == task.group_id.Value);
+
+                if (!isMember)
+                    return Forbid();
             }
             return Ok(_mapper.Map<TaskResponseDTO>(task));
+        }
+        [HttpPatch("{id}/completed")]
+        public async Task<IActionResult> ToggleCompleted(int id)
+        {
+            var userId = GetCurrentUserId();
+
+            if (userId == null)
+                return Unauthorized();
+
+            var task = await _context.Tasks.FirstOrDefaultAsync(x => x.Id == id);
+
+            if (task == null)
+                return NotFound(new { message = "Task not found." });
+
+            if (task.group_id == null)
+            {
+                if (task.user_id != userId.Value)
+                    return Forbid();
+            }
+            else
+            {
+                var isMember = await _context.UsersGroups.AnyAsync(x =>
+                    x.id_user == userId.Value &&
+                    x.id_group == task.group_id.Value);
+
+                if (!isMember)
+                    return Forbid();
+            }
+
+            task.Completed = !task.Completed;
+
+            await _context.SaveChangesAsync();
+
+            return Ok(new
+            {
+                message = "Task status updated.",
+                data = task
+            });
+        }
+
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> Delete(int id)
+        {
+            var userId = GetCurrentUserId();
+
+            if (userId == null)
+                return Unauthorized();
+
+            var task = await _context.Tasks.FirstOrDefaultAsync(x => x.Id == id);
+
+            if (task == null)
+            {
+                return NotFound(new
+                {
+                    message = "Task not found."
+                });
+            }
+
+            if (task.group_id == null)
+            {
+                if (task.user_id != userId.Value)
+                    return Forbid();
+            }
+            else
+            {
+                var isOwner = await IsGroupOwner(userId.Value, task.group_id.Value);
+
+                if (!isOwner)
+                {
+                    return StatusCode(403, new
+                    {
+                        message = "Only the group owner can delete tasks."
+                    });
+                }
+            }
+
+            _context.Tasks.Remove(task);
+            await _context.SaveChangesAsync();
+
+            await _auditService.LogAsync(
+                userId.Value,
+                "Delete",
+                "Task",
+                task.Id
+            );
+
+            return Ok(new
+            {
+                message = "Task deleted."
+            });
         }
         [HttpPut("{id}")]
         public async Task<IActionResult> Update(int id, UpdateTaskDTO dto)
         {
             var userId = GetCurrentUserId();
-            var task = await _context.Tasks.FirstOrDefaultAsync(x=>x.Id==id && x.user_id==userId);
+
+            if (userId == null)
+                return Unauthorized();
+
+            var task = await _context.Tasks.FirstOrDefaultAsync(x => x.Id == id);
+
             if (task == null)
+                return NotFound(new { message = "Task not found." });
+
+            if (task.group_id == null)
             {
-                return NotFound("Task ne postoji");
+                if (task.user_id != userId.Value)
+                    return Forbid();
             }
+            else
+            {
+                var isOwner = await IsGroupOwner(userId.Value, task.group_id.Value);
+
+                if (!isOwner)
+                {
+                    return StatusCode(403, new
+                    {
+                        message = "Only the group owner can update tasks."
+                    });
+                }
+            }
+
             task.name = dto.name;
             task.content = dto.content;
             task.Status = dto.Status;
             task.Completed = dto.Completed;
             task.Deleted = dto.Deleted;
+
             await _context.SaveChangesAsync();
+
             await _auditService.LogAsync(
-                GetCurrentUserId(),
+                userId.Value,
                 "Update",
                 "Task",
                 task.Id
-                );
-            return Ok(task);
+            );
+
+            return Ok(new
+            {
+                message = "Task updated successfully.",
+                data = task
+            });
         }
-        
-        [HttpDelete("{id}")]
-        public async Task<IActionResult> Delete(int id)
+        [HttpPatch("{id}/soft-delete")]
+        public async Task<IActionResult> SoftDelete(int id)
         {
             var userId = GetCurrentUserId();
-            var task = await _context.Tasks.FirstOrDefaultAsync(x=>x.Id == id && x.user_id==userId);
+
+            if (userId == null)
+                return Unauthorized();
+
+            var task = await _context.Tasks.FirstOrDefaultAsync(x => x.Id == id);
+            var isOwner = await IsGroupOwner(userId.Value, task.group_id.Value);
+
+            if (!isOwner)
+            {
+                return StatusCode(403, new
+                {
+                    message = "Only the group owner can delete tasks."
+                });
+            }
             if (task == null)
             {
-                return NotFound("Ne postoji izabrani task");
+                return NotFound(new
+                {
+                    message = "Task not found."
+                });
             }
-            _context.Tasks.Remove(task);
+
+            if (task.group_id == null)
+            {
+                if (task.user_id != userId.Value)
+                    return Forbid();
+            }
+            else
+            {
+                var isMember = await _context.UsersGroups.AnyAsync(x =>
+                    x.id_user == userId.Value &&
+                    x.id_group == task.group_id.Value);
+
+                if (!isMember)
+                    return Forbid();
+            }
+
+            task.Deleted = true;
+
             await _context.SaveChangesAsync();
+
             await _auditService.LogAsync(
-                GetCurrentUserId(),
-                "Delete",
+                userId.Value,
+                "SoftDelete",
                 "Task",
                 task.Id
-                );
-            return Ok(new {message = "Task deleted"});
-        }
+            );
 
+            return Ok(new
+            {
+                message = "Task moved to deleted."
+            });
+        }
     }
 }

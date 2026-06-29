@@ -126,7 +126,8 @@ export default function GroupsModal({ isActiveGroup,
         
   }
   if (Mode === "Update") {
-    await createGroup(nameGroup ?? "", ActiveSticker?.sticker_path ?? null);
+    
+    //await createGroup(nameGroup ?? "", ActiveSticker?.sticker_path ?? null);
    
     setActiveGroup(false);
     setNameGroup("");
