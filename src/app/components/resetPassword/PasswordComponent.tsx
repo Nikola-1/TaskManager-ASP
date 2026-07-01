@@ -1,3 +1,6 @@
+import {  useRouter } from "next/navigation";
+import { useEffect, useState } from "react";
+
  interface PasswordComponentProps {
   step: number;
   setStep: React.Dispatch<React.SetStateAction<number>>;
@@ -15,9 +18,16 @@ export default function PasswordComponent(
     setNewPassword
 
     }:PasswordComponentProps){
-   
+        const router = useRouter();
+         const timeout = setTimeout(() => {
+        router.push("/");
+    }, 3000);
+        useEffect(()=>{
+            
+            return () => clearTimeout(timeout);
+        },[])
     
         return(
-            <h1>{email}</h1>
+            <h1>You successfully changed email</h1>
         )
 }
